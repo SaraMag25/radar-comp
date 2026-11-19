@@ -1,4 +1,7 @@
+import hashlib
 import json
+import re
+from datetime import datetime, timezone
 from pathlib import Path
 import feedparser
 import requests
@@ -21,6 +24,11 @@ def save_json(path: Path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def clean_html(text: str) -> str:
+    clean = re.sub(r"<[^>]+>", " ", text or "")
+    return re.sub(r"\s+", " ", clean).strip()
+
+
 def matches_keywords(text: str) -> bool:
     lowered = text.lower()
     return any(kw.lower() in lowered for kw in KEYWORDS)
@@ -31,38 +39,50 @@ def send_notification(title: str, message: str, url: str):
         print(f"[NOTIFICAÇÃO SIMULADA] {title} -> {url}")
         return
 
-    requests.post(
-        f"https://ntfy.sh/{NTFY_TOPIC}",
-        data=message.encode("utf-8"),
-        headers={
-            "Title": title.encode("utf-8"),
-            "Click": url,
-        },
-        timeout=10,
-    )
+    try:
+        requests.post(
+            f"https://ntfy.sh/{NTFY_TOPIC}",
+            data=message.encode("utf-8"),
+            headers={
+                "Title": title.encode("utf-8"),
+                "Click": url,
+            },
+            timeout=10,
+        )
+    except requests.RequestException as exc:
+        print(f"Erro ao enviar notificação: {exc}")
 
 
-def collect():
+def collect() -> int:
     seen = set(load_json(SEEN_FILE, []))
     opportunities = load_json(OPPORTUNITIES_FILE, [])
     new_count = 0
 
     for source in RSS_SOURCES:
-        feed = feedparser.parse(source["url"])
-        for entry in feed.entries:
+        try:
+            feed = feedparser.parse(source["url"])
+        except Exception as exc:
+            print(f"Erro ao ler {source['name']}: {exc}")
+            continue
+
+        for entry in feed.entries[:25]:
             link = entry.get("link", "")
-            title = entry.get("title", "Sem título")
-            summary = entry.get("summary", "")
+            title = clean_html(entry.get("title", "Sem título"))
+            summary = clean_html(entry.get("summary", ""))
 
             if not link or link in seen:
                 continue
 
             if matches_keywords(f"{title} {summary}"):
+                item_id = hashlib.sha256(link.encode("utf-8")).hexdigest()[:12]
                 item = {
+                    "id": item_id,
                     "title": title,
+                    "summary": summary[:180] + ("..." if len(summary) > 180 else ""),
                     "url": link,
                     "source": source["name"],
                     "category": source["category"],
+                    "collected_at": datetime.now(timezone.utc).isoformat(),
                 }
                 opportunities.insert(0, item)
                 seen.add(link)
@@ -74,8 +94,9 @@ def collect():
                 )
 
     save_json(SEEN_FILE, list(seen))
-    save_json(OPPORTUNITIES_FILE, opportunities[:100])
+    save_json(OPPORTUNITIES_FILE, opportunities[:150])
     print(f"Coleta finalizada. {new_count} nova(s) oportunidade(s) encontrada(s).")
+    return new_count
 
 
 if __name__ == "__main__":
