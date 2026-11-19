@@ -20,6 +20,7 @@ const CATEGORIES = [
   { key: 'todos', label: 'Todos' },
   { key: 'edital', label: 'Editais' },
   { key: 'bolsa', label: 'Bolsas' },
+  { key: 'congresso', label: 'Congressos' },
   { key: 'hackathon', label: 'Hackathons' },
   { key: 'vaga', label: 'Vagas' },
   { key: 'artigo', label: 'Artigos' },
@@ -28,6 +29,7 @@ const CATEGORIES = [
 const CATEGORY_COLORS = {
   edital: '#f59e0b',
   bolsa: '#10b981',
+  congresso: '#ec4899',
   hackathon: '#a855f7',
   vaga: '#3b82f6',
   artigo: '#38bdf8',

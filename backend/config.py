@@ -45,6 +45,16 @@ KEYWORDS = [
     "iniciação científica",
     "hackathon",
     "maratona de programação",
+    "congresso",
+    "conference",
+    "simpósio",
+    "simposio",
+    "call for papers",
+    "cfp",
+    "sbc",
+    "ieee",
+    "acm",
+    "workshop",
 ]
 
 # Fontes RSS/Atom
