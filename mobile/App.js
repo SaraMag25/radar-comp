@@ -13,8 +13,8 @@ import {
   View,
 } from 'react-native';
 
-// Altere para o IP da sua máquina na rede local ao testar no celular físico (ex: http://192.168.1.10:8000)
-const API_URL = 'http://localhost:8000';
+const DATA_URL =
+  'https://raw.githubusercontent.com/SaraMag25/radar-comp/main/backend/data/opportunities.json';
 
 const CATEGORIES = [
   { key: 'todos', label: 'Todos' },
@@ -80,11 +80,12 @@ export default function App() {
   const fetchOpportunities = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`${API_URL}/opportunities`);
-      if (!response.ok) throw new Error('API indisponível');
+      const response = await fetch(DATA_URL);
+      if (!response.ok) throw new Error('Dados indisponíveis');
       const data = await response.json();
-      if (Array.isArray(data.items) && data.items.length > 0) {
-        setItems(data.items);
+      const list = Array.isArray(data) ? data : data.items;
+      if (Array.isArray(list) && list.length > 0) {
+        setItems(list);
       }
       setOfflineMode(false);
     } catch {
