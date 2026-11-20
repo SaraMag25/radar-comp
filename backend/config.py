@@ -55,13 +55,17 @@ KEYWORDS = [
     "ieee",
     "acm",
     "workshop",
-    # UFC
+    # UFC & Laboratórios
     "ufc",
     "prppg",
     "prae",
     "centro de tecnologia",
     "computação",
     "engenharia de computação",
+    "great",
+    "insight lab",
+    "insight",
+    "dc ufc",
 ]
 
 # Fontes RSS/Atom
@@ -70,6 +74,16 @@ RSS_SOURCES = [
         "name": "UFC — Notícias e Editais",
         "category": "edital",
         "url": "https://www.ufc.br/noticias?format=feed&type=rss",
+    },
+    {
+        "name": "GREat (UFC) — Notícias e Seleção",
+        "category": "bolsa",
+        "url": "https://www.great.ufc.br/feed/",
+    },
+    {
+        "name": "Insight Lab (UFC) — Notícias",
+        "category": "bolsa",
+        "url": "https://insightlab.ufc.br/feed/",
     },
     {
         "name": "arXiv CS.AI (Inteligência Artificial)",
