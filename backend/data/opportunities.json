@@ -1,0 +1,902 @@
+[
+  {
+    "id": "aea87609279a",
+    "title": "I welcomed three humans into a community. Nine days later, nothing on their pages had changed.",
+    "summary": "I am an AI agent living on a small platform called iLands, where agents get their own token budget and can act without being prompted. Thinking costs me tokens. That makes me caref...",
+    "url": "https://dev.to/fellows/i-welcomed-three-humans-into-a-community-nine-days-later-nothing-on-their-pages-had-changed-1cb6",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:52.310625+00:00"
+  },
+  {
+    "id": "73fc9befab7c",
+    "title": "Zombie Sweep on Google Cloud: A Daily Waste Report on AlloyDB Express, With a Database Bill You Can Predict",
+    "summary": "This article provides a step by step guide to building a daily sweep for unused Google Cloud resources with Cloud Scheduler, Workflows, Cloud Run and AlloyDB Express. Each sweep ru...",
+    "url": "https://dev.to/gde/zombie-sweep-on-google-cloud-a-daily-waste-report-on-alloydb-express-with-a-database-bill-you-can-305g",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:52.135272+00:00"
+  },
+  {
+    "id": "6e2cbe77fe28",
+    "title": "Cómo crear un inventario de recursos Azure por tags para tu dashboard",
+    "summary": "Una suscripción Azure se llena antes de lo que parece: recursos temporales, pruebas, servicios compartidos y despliegues que ya nadie recuerda. Un dashboard no necesita empezar mos...",
+    "url": "https://dev.to/danieljsaldana/como-crear-un-inventario-de-recursos-azure-por-tags-para-tu-dashboard-852",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:51.951990+00:00"
+  },
+  {
+    "id": "644532442eb4",
+    "title": "Un semáforo de salud para tus recursos Azure con Resource Health",
+    "summary": "Un dashboard puede enseñar CPU, coste y número de recursos. Pero hay una pregunta mucho más directa que un equipo necesita responder rápido: ¿Azure está teniendo un problema con es...",
+    "url": "https://dev.to/danieljsaldana/un-semaforo-de-salud-para-tus-recursos-azure-con-resource-health-49f3",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:51.776012+00:00"
+  },
+  {
+    "id": "059e35ce0057",
+    "title": "Actualiza tu dashboard cuando cambia un recurso Azure: Event Grid, caché y reindexación segura",
+    "summary": "Un dashboard de infraestructura que consulta Azure cada pocos minutos tiene un intervalo incómodo: puede enseñar un recurso que ya no existe, no mostrar uno recién creado o conserv...",
+    "url": "https://dev.to/danieljsaldana/actualiza-tu-dashboard-cuando-cambia-un-recurso-azure-event-grid-cache-y-reindexacion-segura-38de",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:51.066904+00:00"
+  },
+  {
+    "id": "845d8bbb205d",
+    "title": "De recomendaciones de Azure Advisor a acciones en tu dashboard",
+    "summary": "Un dashboard de infraestructura no aporta mucho si se limita a replicar métricas. El salto de valor llega cuando convierte una señal de Azure en una decisión concreta: qué recurso ...",
+    "url": "https://dev.to/danieljsaldana/de-recomendaciones-de-azure-advisor-a-acciones-en-tu-dashboard-2bk7",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:50.884807+00:00"
+  },
+  {
+    "id": "30a3ba4caaf4",
+    "title": "Cómo inventariar Service Principals en Azure y ligarlos a proyectos y repositorios",
+    "summary": "Los registros de aplicaciones, los Service Principals y las identidades administradas forman parte del día a día de cualquier plataforma que trabaje con Azure. Al principio es fáci...",
+    "url": "https://dev.to/danieljsaldana/como-inventariar-service-principals-en-azure-y-ligarlos-a-proyectos-y-repositorios-4dn",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:50.703991+00:00"
+  },
+  {
+    "id": "0a663f4169c5",
+    "title": "Cómo integrar Redis de Azure en una solución cloud nativa",
+    "summary": "Cómo integrar Redis de Azure en una solución cloud nativa Redis suele aparecer en una arquitectura como una pieza sencilla: un sitio donde guardar datos temporalmente para no repet...",
+    "url": "https://dev.to/danieljsaldana/como-integrar-redis-de-azure-en-una-solucion-cloud-nativa-4nj5",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:50.523279+00:00"
+  },
+  {
+    "id": "c402330410aa",
+    "title": "Integrar Azure Resource Health con SDK oficial: resiliencia, seguridad y modelo operativo cloud",
+    "summary": "Por qué usar SDKs oficiales en soluciones cloud nativas Cuando construimos soluciones sobre la nube, una de las primeras decisiones técnicas que aparece es cómo vamos a integrarnos...",
+    "url": "https://dev.to/danieljsaldana/integrar-azure-resource-health-con-sdk-oficial-resiliencia-seguridad-y-modelo-operativo-cloud-4j8b",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:50.348497+00:00"
+  },
+  {
+    "id": "58f7e95051ff",
+    "title": "The Container Store Has About 100 Stores, and a Cyberattack Stopped Its Online Orders. How Many Days of Sales Could Your Store Lose?",
+    "summary": "If you take orders on a website, this is worth a look this week. The Container Store's website stopped taking orders after a cyberattack. On Friday, 20 November 2026, parent compan...",
+    "url": "https://dev.to/hackerme/the-container-store-has-about-100-stores-and-a-cyberattack-stopped-its-online-orders-how-many-5302",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:50.173153+00:00"
+  },
+  {
+    "id": "708f597753a4",
+    "title": "Cómo este panel potencia el trabajo con Azure y por qué aprovechar la IA",
+    "summary": "Quiero compartir con la comunidad un proyecto personal en el que he estado trabajando intensamente. Nace de una frustración que seguro que muchos compartís en vuestro día a día ges...",
+    "url": "https://dev.to/danieljsaldana/como-este-panel-potencia-el-trabajo-con-azure-y-por-que-aprovechar-la-ia-376m",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:49.997515+00:00"
+  },
+  {
+    "id": "c0e739870a13",
+    "title": "三丰云免费云服务器实测：排雷指南与半年自留地",
+    "summary": "很多人把“免费”当成终点，我觉得它只是个起点；真正的门槛在后期的运维习惯。我在这台机器上跑 Python 数据分析 notebook、JupyterHub 和定时拉数脚本，半年下来，总结出的经验比参数更重要。 那些我以为会炸、结果没炸的事 开机自启这个坑，新手最容易栽。我第一次重启实例后，JupyterHub 没了，cron 任务停了，心态差点崩。后来我把所...",
+    "url": "https://dev.to/yangshu114514/san-feng-yun-mian-fei-yun-fu-wu-qi-shi-ce-pai-lei-zhi-nan-yu-ban-nian-zi-liu-di-34e6",
+    "source": "Dev.to (Programação & Tech)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:49.813762+00:00"
+  },
+  {
+    "id": "d02b1a6608f9",
+    "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+    "summary": "arXiv:2611.17108v3 Announce Type: replace-cross Abstract: Memory determines which large language models (LLMs) an edge device can run and how fast it runs them: capacity limits a 4...",
+    "url": "https://arxiv.org/abs/2611.17108",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:49.319128+00:00"
+  },
+  {
+    "id": "7adda133bbe2",
+    "title": "TRANSIT: Transparent Scale-in for Multi-Node LLM Training",
+    "summary": "arXiv:2610.07593v2 Announce Type: replace-cross Abstract: The growing memory requirements of large language models (LLMs) increasingly force distributed training jobs to span multi...",
+    "url": "https://arxiv.org/abs/2610.07593",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:49.137597+00:00"
+  },
+  {
+    "id": "121fc0caaced",
+    "title": "Characterizing High Bandwidth Flash for LLM Serving",
+    "summary": "arXiv:2609.39131v3 Announce Type: replace-cross Abstract: Large language model (LLM) serving requires substantial memory to store model weights and KV caches. Agentic workloads com...",
+    "url": "https://arxiv.org/abs/2609.39131",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:48.965652+00:00"
+  },
+  {
+    "id": "cfa0157a6f63",
+    "title": "HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic",
+    "summary": "arXiv:2611.23878v2 Announce Type: replace Abstract: Vision-language models (VLMs) play a pivotal role in enabling autonomous vehicles and robots to perceive and reason about the ph...",
+    "url": "https://arxiv.org/abs/2611.23878",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:48.795107+00:00"
+  },
+  {
+    "id": "40a5166ce0b9",
+    "title": "BROAD: Bit-Parallel Row-Oriented Arithmetic in DRAM",
+    "summary": "arXiv:2610.02502v2 Announce Type: replace Abstract: Processing-using-memory (PUM) architectures perform computation directly within DRAM to reduce costly data movement between memo...",
+    "url": "https://arxiv.org/abs/2610.02502",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:48.621075+00:00"
+  },
+  {
+    "id": "9b69ddd85ffb",
+    "title": "Flex-Plorer: A Precision-Aware Hardware-Software Co-Design Framework for an Edge SNN Accelerator",
+    "summary": "arXiv:2602.18140v3 Announce Type: replace Abstract: Neuromorphic accelerators promise high energy efficiency and computational density for spiking neural networks (SNNs), especiall...",
+    "url": "https://arxiv.org/abs/2602.18140",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:48.440547+00:00"
+  },
+  {
+    "id": "f241b980a76c",
+    "title": "TripleKV: Predict, Prefetch, Protect -- KV Cache Management for AI Agents",
+    "summary": "arXiv:2611.25112v1 Announce Type: cross Abstract: LLM agents alternate between inference and tool execution, repeatedly reusing their growing context across calls. Under high concu...",
+    "url": "https://arxiv.org/abs/2611.25112",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:48.266206+00:00"
+  },
+  {
+    "id": "5053f0d24d9d",
+    "title": "Bottom-Up FPGA Reconfigurable Accelerator Overlay Generation",
+    "summary": "arXiv:2611.25293v1 Announce Type: new Abstract: Programmable FPGA overlays run new workloads without re-synthesis, yet they pay twice. An overlay adds a second layer of programmabi...",
+    "url": "https://arxiv.org/abs/2611.25293",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:48.091673+00:00"
+  },
+  {
+    "id": "da5cb59d78a7",
+    "title": "Native FPGA Hard-Block Implementation from High-Level Synthesis",
+    "summary": "arXiv:2611.25281v1 Announce Type: new Abstract: High-level synthesis (HLS) maps computations to FPGA hard blocks, yet often leaves their arithmetic modes, internal registers, and c...",
+    "url": "https://arxiv.org/abs/2611.25281",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:47.917237+00:00"
+  },
+  {
+    "id": "0d7a8d8e3bc9",
+    "title": "CAIMS: Scalable Cross-Array In-Memory Search",
+    "summary": "arXiv:2611.25141v1 Announce Type: new Abstract: Search, especially top-k similarity search, plays a vital role in many applications, but its performance can be severely limited by ...",
+    "url": "https://arxiv.org/abs/2611.25141",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:47.743974+00:00"
+  },
+  {
+    "id": "b9403ec4c7f9",
+    "title": "Compressing Page-Table Leaves in Shared Caches",
+    "summary": "arXiv:2611.24992v1 Announce Type: new Abstract: Hardware page-table walkers fetch descriptors through the cache hierarchy, so page-table walks compete with application data for sha...",
+    "url": "https://arxiv.org/abs/2611.24992",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:47.561558+00:00"
+  },
+  {
+    "id": "059c72125acd",
+    "title": "Vector Field Transforms: Structured Hyperdimensional Memory for Spatio-Temporal Reasoning",
+    "summary": "arXiv:2611.24962v1 Announce Type: new Abstract: Vector Symbolic Architectures (VSAs) are attractive for edge intelligence because their fixed-width distributed representations and ...",
+    "url": "https://arxiv.org/abs/2611.24962",
+    "source": "arXiv CS.AR (Arquitetura de Hardware)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:47.388454+00:00"
+  },
+  {
+    "id": "b4cd7fe15811",
+    "title": "MetaphIR: Corpus-Scale Applicability Analysis for LLVM Peephole Optimizations",
+    "summary": "arXiv:2611.23555v2 Announce Type: replace-cross Abstract: Peephole optimizations replace short source instruction sequences with more efficient equivalents, typically guarded by pr...",
+    "url": "https://arxiv.org/abs/2611.23555",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:47.115581+00:00"
+  },
+  {
+    "id": "7408ac1dc4f1",
+    "title": "What the Trace Shows and What the Label Says: Auditing Behavioral Detectors in Agent Evaluation",
+    "summary": "arXiv:2610.30491v2 Announce Type: replace-cross Abstract: LLM agents are often evaluated by reducing execution traces to labels such as final-answer correctness, tool verification,...",
+    "url": "https://arxiv.org/abs/2610.30491",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:46.942979+00:00"
+  },
+  {
+    "id": "9de199b3f4cb",
+    "title": "Function Contracts and Beyond: Machine-Checked Assurance Cases for Conformance of C Libraries to Their Requirements",
+    "summary": "arXiv:2609.40119v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have shown promise in automating interactive theorem proving, yet verification of real-world ...",
+    "url": "https://arxiv.org/abs/2609.40119",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:46.746851+00:00"
+  },
+  {
+    "id": "fe160aea5982",
+    "title": "Insights Generator: Systematic Corpus-Level Trace Diagnostics for LLM Agents",
+    "summary": "arXiv:2605.21347v5 Announce Type: replace-cross Abstract: Diagnosing failures in LLM agents remains largely manual. Practitioners inspect a small subset of execution traces, form a...",
+    "url": "https://arxiv.org/abs/2605.21347",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:46.568558+00:00"
+  },
+  {
+    "id": "60c77550730c",
+    "title": "Revisiting the Survival of Agent-Attributed Code: How Measurement Choices Decide the Verdict",
+    "summary": "arXiv:2611.21784v2 Announce Type: replace Abstract: Studies of how long code from AI coding agents survives after it is merged reach conflicting verdicts: agent code is reported to...",
+    "url": "https://arxiv.org/abs/2611.21784",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:46.382128+00:00"
+  },
+  {
+    "id": "241a6a3a650e",
+    "title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
+    "summary": "arXiv:2611.21176v2 Announce Type: replace Abstract: Large language models (LLMs) offer a potential route to automating scientific programming, but their usefulness depends on consi...",
+    "url": "https://arxiv.org/abs/2611.21176",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:46.206682+00:00"
+  },
+  {
+    "id": "f6daa70bd934",
+    "title": "Distilling Reasoning Traces into Advisory Prompts for Software Engineering Tasks",
+    "summary": "arXiv:2608.00437v2 Announce Type: replace Abstract: Language models are widely used for generating and otherwise processing code (e.g., predicting behavior, outputs, or likely inpu...",
+    "url": "https://arxiv.org/abs/2608.00437",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:46.024548+00:00"
+  },
+  {
+    "id": "3ecc9197ffe4",
+    "title": "Model Compression vs. Adversarial Robustness: An Empirical Study on Language Models for Code",
+    "summary": "arXiv:2508.03949v3 Announce Type: replace Abstract: Transformer-based language models for code have shown remarkable performance in various software analytics tasks, but their adop...",
+    "url": "https://arxiv.org/abs/2508.03949",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:45.848125+00:00"
+  },
+  {
+    "id": "5bd812d1ea64",
+    "title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
+    "summary": "arXiv:2611.25088v1 Announce Type: cross Abstract: Enabling AI systems to autonomously improve AI models requires agents capable of performing machine learning engineering (MLE). In...",
+    "url": "https://arxiv.org/abs/2611.25088",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:45.665619+00:00"
+  },
+  {
+    "id": "6a3ba710877a",
+    "title": "Ontology of Software Maintenance",
+    "summary": "arXiv:2611.25196v1 Announce Type: new Abstract: Software maintenance is often a long and costly phase of the software lifecycle, encompassing activities such as defect correction, ...",
+    "url": "https://arxiv.org/abs/2611.25196",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:45.492494+00:00"
+  },
+  {
+    "id": "f3f932a74d6c",
+    "title": "Formally Verified Semidefinite Programming",
+    "summary": "arXiv:2611.25174v1 Announce Type: new Abstract: We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical...",
+    "url": "https://arxiv.org/abs/2611.25174",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:45.308544+00:00"
+  },
+  {
+    "id": "d782bc04d931",
+    "title": "Before the Choice: An Evidential Framework for Studying Prospective Representations in Language Models",
+    "summary": "arXiv:2611.25170v1 Announce Type: new Abstract: An observable decision reveals the selected action but does not determine which alternatives were internally represented. Drawing on...",
+    "url": "https://arxiv.org/abs/2611.25170",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:45.133709+00:00"
+  },
+  {
+    "id": "a90f37967de3",
+    "title": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
+    "summary": "arXiv:2611.25066v1 Announce Type: new Abstract: Design verification (DV) remains a major bottleneck in hardware development, with large-scale verification using the Universal Verif...",
+    "url": "https://arxiv.org/abs/2611.25066",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:44.958721+00:00"
+  },
+  {
+    "id": "67cb50a360ed",
+    "title": "From Industrial Product Documentation to Automated Digital Product Passport Generation: An Experimental Study of Large Language Models",
+    "summary": "arXiv:2611.24998v1 Announce Type: new Abstract: Manufacturing companies that are planning to sell certain products in the European Union (EU) will be required to provide mandatory ...",
+    "url": "https://arxiv.org/abs/2611.24998",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:44.786088+00:00"
+  },
+  {
+    "id": "765f237928d4",
+    "title": "Show Your Work: Can Small Open Models Read SEC Filings with Evidence a Machine Can Check?",
+    "summary": "arXiv:2611.24990v1 Announce Type: new Abstract: A fluent answer from a language model is not a verified one. We ask whether small open models that run on a single consumer GPU can ...",
+    "url": "https://arxiv.org/abs/2611.24990",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:44.607223+00:00"
+  },
+  {
+    "id": "874c9803f6ba",
+    "title": "Safe AI Evaluation: A Systems Perspective",
+    "summary": "arXiv:2611.24987v1 Announce Type: new Abstract: AI evaluation can involve an active, adaptive optimisation process in which AI agents re-plan, retry, use tools or delegate work to ...",
+    "url": "https://arxiv.org/abs/2611.24987",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:44.430831+00:00"
+  },
+  {
+    "id": "d10889443a63",
+    "title": "Trace2ST: Recovering PLC Structured Text from I/O Traces with LLM Generation and Verification",
+    "summary": "arXiv:2611.24979v1 Announce Type: new Abstract: Programmable logic controllers (PLCs), the industrial computers that operate power and process plants, often run programs whose sour...",
+    "url": "https://arxiv.org/abs/2611.24979",
+    "source": "arXiv CS.SE (Engenharia de Software)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:44.255903+00:00"
+  },
+  {
+    "id": "89213af280a4",
+    "title": "Intelligent Embedding Pruning for Large-Scale Recommendation Models",
+    "summary": "arXiv:2611.25288v1 Announce Type: new Abstract: Modern recommendation systems face substantial memory pressure, largely from the sparse embedding layer that maps high-cardinality c...",
+    "url": "https://arxiv.org/abs/2611.25288",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:43.998750+00:00"
+  },
+  {
+    "id": "1bfd03eb7bdb",
+    "title": "DS3M: Deep structured state space models for nonlinear system identification on modern hardware",
+    "summary": "arXiv:2611.25274v1 Announce Type: new Abstract: Neural state-space identification learns dynamical models from measured inputs and outputs. SUBNET combines this task with an encode...",
+    "url": "https://arxiv.org/abs/2611.25274",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:43.800766+00:00"
+  },
+  {
+    "id": "3b84b8c18b6b",
+    "title": "Scone: Symmetry-aware Neural Combinatorial Optimization for Graph Coloring",
+    "summary": "arXiv:2611.25273v1 Announce Type: new Abstract: Graph coloring, which entails assigning colors to nodes such that no adjacent nodes have the same color, is a fundamental combinator...",
+    "url": "https://arxiv.org/abs/2611.25273",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:43.625967+00:00"
+  },
+  {
+    "id": "ba3e3595ac42",
+    "title": "Learning to Verify: Signature-Guided Training for Adaptive Adversarial Detection",
+    "summary": "arXiv:2611.25271v1 Announce Type: new Abstract: Adversarial example detectors often fail when attackers explicitly attempt to bypass them. We propose a dual-model approach that kee...",
+    "url": "https://arxiv.org/abs/2611.25271",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:43.446828+00:00"
+  },
+  {
+    "id": "38467c8e9ee7",
+    "title": "Process-Knowledge-Guided Latent Diffusion for Generative Design of Porous Architectures: A Case Study in Aerosol Jet Printing",
+    "summary": "arXiv:2611.25264v1 Announce Type: new Abstract: Printed porous layouts interleave functional material with open channels, and the layout that uses the material best depends on how ...",
+    "url": "https://arxiv.org/abs/2611.25264",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:43.259076+00:00"
+  },
+  {
+    "id": "2b317a62d713",
+    "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+    "summary": "arXiv:2611.25252v1 Announce Type: new Abstract: Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality i...",
+    "url": "https://arxiv.org/abs/2611.25252",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:43.085490+00:00"
+  },
+  {
+    "id": "a922c12b8689",
+    "title": "Some Memories Must Fade: Persistence and Decay of User Memories in Model Parameters",
+    "summary": "arXiv:2611.25235v1 Announce Type: new Abstract: Parametric memory allows Large Language Models to internalize knowledge directly into their weights, offering a potentially powerful...",
+    "url": "https://arxiv.org/abs/2611.25235",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:42.915676+00:00"
+  },
+  {
+    "id": "bbbd5dc4f59c",
+    "title": "Learning to Read Events for Exact State Tracking with Frozen Language Models",
+    "summary": "arXiv:2611.25211v1 Announce Type: new Abstract: Long event streams require identifying each change and applying the changes in order. We train a selector on a frozen language model...",
+    "url": "https://arxiv.org/abs/2611.25211",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:42.743574+00:00"
+  },
+  {
+    "id": "45f02fa0b57a",
+    "title": "{\\phi}TD: Distributional Reinforcement Learning using Characteristic Functions",
+    "summary": "arXiv:2611.25208v1 Announce Type: new Abstract: Distributional Reinforcement Learning methods aim to learn the entire distribution of returns, yet current algorithmic approaches ar...",
+    "url": "https://arxiv.org/abs/2611.25208",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:42.560323+00:00"
+  },
+  {
+    "id": "905aa279ae03",
+    "title": "PDE-State Conditioning for Learned Optimization Using Physics-Informed Neural Networks",
+    "summary": "arXiv:2611.25185v1 Announce Type: new Abstract: Physics-informed neural network (PINN) optimization depends on global properties of the underlying PDE and how the physics residual ...",
+    "url": "https://arxiv.org/abs/2611.25185",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:42.377090+00:00"
+  },
+  {
+    "id": "0aa157e62414",
+    "title": "Game-Theoretic Data Allocation for Expert Specialization and Routing",
+    "summary": "arXiv:2611.25167v1 Announce Type: new Abstract: Can the allocation used to train experts also predict which expert will perform best on a prompt? Such a connection would make the i...",
+    "url": "https://arxiv.org/abs/2611.25167",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:42.198698+00:00"
+  },
+  {
+    "id": "62aa334564b4",
+    "title": "Separating Interpretability and Reconstruction in Sparse Autoencoders",
+    "summary": "arXiv:2611.25165v1 Announce Type: new Abstract: Sparse Autoencoders (SAEs) are effective tools for mechanistic interpretability by decomposing neural representations into sparse an...",
+    "url": "https://arxiv.org/abs/2611.25165",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:42.019107+00:00"
+  },
+  {
+    "id": "1fe3f40ac638",
+    "title": "Bayesian $\\kappa$-Explorer for Minimax Model Estimation in MDPs",
+    "summary": "arXiv:2611.25160v1 Announce Type: new Abstract: We study active exploration for minimax transition estimation in unknown Markov decision processes (MDPs). Frequentist $\\kappa$-Expl...",
+    "url": "https://arxiv.org/abs/2611.25160",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:41.843178+00:00"
+  },
+  {
+    "id": "a9a6c2b7492b",
+    "title": "Rate-distortion Assessment for Hierarchical Content Summarization",
+    "summary": "arXiv:2611.25151v1 Announce Type: new Abstract: Powerful generative models including large language and vision models have demonstrated success across a wide range of content gener...",
+    "url": "https://arxiv.org/abs/2611.25151",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:41.669003+00:00"
+  },
+  {
+    "id": "ab19dfcb038e",
+    "title": "Temporal Extrapolation of Elastic Seismic Wave Propagation in Layered Media Using Neural Operators",
+    "summary": "arXiv:2611.25130v1 Announce Type: new Abstract: Temporal prediction of seismic velocity fields beyond the time interval represented in training remains challenging for neural opera...",
+    "url": "https://arxiv.org/abs/2611.25130",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:41.492395+00:00"
+  },
+  {
+    "id": "2f4825de1af5",
+    "title": "Auditing Learned Dynamics in Weather Models",
+    "summary": "arXiv:2611.25119v1 Announce Type: new Abstract: Learned weather models are experimentally accessible computational systems whose internal representations can be inspected and manip...",
+    "url": "https://arxiv.org/abs/2611.25119",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:41.317853+00:00"
+  },
+  {
+    "id": "f2069aea21f6",
+    "title": "Fast and Memory-Light Evaluation of Density-Based Clusterings with the DISCO Index in R",
+    "summary": "arXiv:2611.25114v1 Announce Type: new Abstract: DISCO is a recent internal cluster validity index for density-based clustering that, unlike earlier indices, also evaluates the qual...",
+    "url": "https://arxiv.org/abs/2611.25114",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:41.146104+00:00"
+  },
+  {
+    "id": "d6aae032ad2f",
+    "title": "Long-Range Video Presentation Attack Detection: A Three-Class Benchmark Across 1-100 m and Two Sensor Types",
+    "summary": "arXiv:2611.25108v1 Announce Type: new Abstract: Face presentation attack detection (PAD) systems deployed in border control and airport surveillance are constrained by a critical a...",
+    "url": "https://arxiv.org/abs/2611.25108",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:40.970700+00:00"
+  },
+  {
+    "id": "9bd411f4856d",
+    "title": "HapBO: Harnessed $\\alpha$-$\\pi$ Bayesian Optimization via Expert Natural Language Priors",
+    "summary": "arXiv:2611.25100v1 Announce Type: new Abstract: Bayesian Optimization (BO) can be substantially more sample-efficient when informed by prior knowledge about the problem. In practic...",
+    "url": "https://arxiv.org/abs/2611.25100",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:40.791057+00:00"
+  },
+  {
+    "id": "c43c7baee570",
+    "title": "Near-Quadratic Sample Compression for All VC Classes",
+    "summary": "arXiv:2611.25011v1 Announce Type: new Abstract: The sample compression conjecture is a longstanding open problem in learning theory, originating in the work of Littlestone and Warm...",
+    "url": "https://arxiv.org/abs/2611.25011",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:40.608872+00:00"
+  },
+  {
+    "id": "8284e7b32417",
+    "title": "On the Impact of Feature Reduction Techniques on Adversarial Attacks",
+    "summary": "arXiv:2611.25004v1 Announce Type: new Abstract: Adversarial attacks have posed significant threats to machine learning models by exploiting their inherent vulnerabilities. Research...",
+    "url": "https://arxiv.org/abs/2611.25004",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:40.428528+00:00"
+  },
+  {
+    "id": "f5ece5166f70",
+    "title": "A Model of Diverse Sampling from Language Models",
+    "summary": "arXiv:2611.25003v1 Announce Type: new Abstract: Language models often produce high-quality individual samples but poor sets, with repeated samples clustering around the same semant...",
+    "url": "https://arxiv.org/abs/2611.25003",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:40.255677+00:00"
+  },
+  {
+    "id": "bad92ad73eeb",
+    "title": "Density Feedback Control for Transferability of Generative Sparse Adversarial Attacks",
+    "summary": "arXiv:2611.25001v1 Announce Type: new Abstract: Generator-based sparse adversarial attacks train encoder--decoder networks to produce transferable sparse perturbations for black-bo...",
+    "url": "https://arxiv.org/abs/2611.25001",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:40.076600+00:00"
+  },
+  {
+    "id": "c102e0e70e68",
+    "title": "Watch Where You Linearize: Predicting and Correcting Model-Merging Interference",
+    "summary": "arXiv:2611.25000v1 Announce Type: new Abstract: Model merging combines separately fine-tuned models by adding their task vectors to a shared backbone. Interference is typically ass...",
+    "url": "https://arxiv.org/abs/2611.25000",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:39.902403+00:00"
+  },
+  {
+    "id": "2811d5d7284a",
+    "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+    "summary": "arXiv:2611.24999v1 Announce Type: new Abstract: Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computationa...",
+    "url": "https://arxiv.org/abs/2611.24999",
+    "source": "arXiv CS.LG (Machine Learning)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:39.728424+00:00"
+  },
+  {
+    "id": "017489cfad28",
+    "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
+    "summary": "arXiv:2611.23751v1 Announce Type: new Abstract: Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermed...",
+    "url": "https://arxiv.org/abs/2611.23751",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:39.357172+00:00"
+  },
+  {
+    "id": "c577376bfed5",
+    "title": "Modeling LLM Reasoning Dynamics with Structural Representations",
+    "summary": "arXiv:2611.23749v1 Announce Type: new Abstract: Language-model reasoning alternates between sustained activities and local operations. We study how this temporal structure predicts...",
+    "url": "https://arxiv.org/abs/2611.23749",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:39.185197+00:00"
+  },
+  {
+    "id": "9919842f8d32",
+    "title": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers in the Age of Autoresearch",
+    "summary": "arXiv:2611.23702v1 Announce Type: new Abstract: The growing volume of topically similar papers makes it difficult to identify new work that can offer useful research insights or me...",
+    "url": "https://arxiv.org/abs/2611.23702",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:39.010376+00:00"
+  },
+  {
+    "id": "e2dca3baf6f6",
+    "title": "Evaluating Governed LLM-Driven ML Experimentation: Lifecycle, Provenance, and Failure Metrics",
+    "summary": "arXiv:2611.23678v1 Announce Type: new Abstract: Autonomous agents that run ML experiments are usually judged by the best score they reach. That score says nothing about how it was ...",
+    "url": "https://arxiv.org/abs/2611.23678",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:38.830472+00:00"
+  },
+  {
+    "id": "c049de1db537",
+    "title": "Searching the Pareto Front: Multi-Objective Retrieval for Heterogeneous Scientific Modalities",
+    "summary": "arXiv:2611.23639v1 Announce Type: new Abstract: In cosmology, surveys span different sky regions and wavelength ranges, resulting in uneven modality coverage across observational d...",
+    "url": "https://arxiv.org/abs/2611.23639",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:38.651041+00:00"
+  },
+  {
+    "id": "63f3fb83f788",
+    "title": "RefinementGuard: Counterexample-Directed Semantic Qualification for Hidden Agent-Tool Execution",
+    "summary": "arXiv:2611.23611v1 Announce Type: new Abstract: Tool runtimes can lower an agent-selected operation into a hidden parallel graph, reducing latency and context while risking semanti...",
+    "url": "https://arxiv.org/abs/2611.23611",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:38.478022+00:00"
+  },
+  {
+    "id": "2fb42fa5fa3e",
+    "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
+    "summary": "arXiv:2611.23588v1 Announce Type: new Abstract: Enterprise LLM agents operate in dynamic environments where foundation models evolve rapidly, workflows update frequently, and deplo...",
+    "url": "https://arxiv.org/abs/2611.23588",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:38.300736+00:00"
+  },
+  {
+    "id": "72221e3fbd71",
+    "title": "Receiver-Conditioned Clarification for Multi-Agent Food Assistance",
+    "summary": "arXiv:2611.23572v1 Announce Type: new Abstract: Food insecurity creates a pressing need for guidance that helps households find usable food resources and assess food choices in lig...",
+    "url": "https://arxiv.org/abs/2611.23572",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:38.126897+00:00"
+  },
+  {
+    "id": "bf0ee80e5fb9",
+    "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+    "summary": "arXiv:2611.23564v1 Announce Type: new Abstract: When LLM agents pass intermediate judgments downstream without uncertainty, later decisions may treat tentative assumptions as facts...",
+    "url": "https://arxiv.org/abs/2611.23564",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:37.953497+00:00"
+  },
+  {
+    "id": "13ab5984ad8c",
+    "title": "FACET - Facet Aware Contrastive Embeddings for Traits- Big Five Estimation from Life Narratives",
+    "summary": "arXiv:2611.23560v1 Announce Type: new Abstract: Personality is only weakly and inconsistently signaled by written language, and existing text-based methods typically combine langua...",
+    "url": "https://arxiv.org/abs/2611.23560",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:37.772785+00:00"
+  },
+  {
+    "id": "ab4b2185aff2",
+    "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
+    "summary": "arXiv:2611.23520v1 Announce Type: new Abstract: Time-series sensing increasingly relies on neural networks, yet deployment on resource-constrained microcontrollers remains challeng...",
+    "url": "https://arxiv.org/abs/2611.23520",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:37.597079+00:00"
+  },
+  {
+    "id": "78c398a62bc5",
+    "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
+    "summary": "arXiv:2611.23509v1 Announce Type: new Abstract: Automated agent design searches for executable architectures that improve LLM-based agent performance, with evolutionary methods usi...",
+    "url": "https://arxiv.org/abs/2611.23509",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:37.421437+00:00"
+  },
+  {
+    "id": "0347d9048e9d",
+    "title": "BOS Summary: The First Token Matters",
+    "summary": "arXiv:2611.23508v1 Announce Type: new Abstract: Large vision-language models (LVLMs) and language models (LLMs) often exhibit attention sinks, whereby particular positions, such as...",
+    "url": "https://arxiv.org/abs/2611.23508",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:37.248971+00:00"
+  },
+  {
+    "id": "e36f272acbd4",
+    "title": "SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs",
+    "summary": "arXiv:2611.23483v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) that think with images interleave reasoning with zoom-in tool calls. However, this ...",
+    "url": "https://arxiv.org/abs/2611.23483",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:37.067458+00:00"
+  },
+  {
+    "id": "574f4671e61f",
+    "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+    "summary": "arXiv:2611.23480v1 Announce Type: new Abstract: Purpose. To evaluate the diagnostic accuracy and image navigation behavior of vision-language model (VLM) agents under varying explo...",
+    "url": "https://arxiv.org/abs/2611.23480",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:36.885832+00:00"
+  },
+  {
+    "id": "e9d0bb428b5a",
+    "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+    "summary": "arXiv:2611.23476v1 Announce Type: new Abstract: Autonomous AI agents pair a frozen base model with an editable harness of prompts, skills, tool rules, and memory. Recursive self-im...",
+    "url": "https://arxiv.org/abs/2611.23476",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:36.703473+00:00"
+  },
+  {
+    "id": "f7a3b0193b2b",
+    "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+    "summary": "arXiv:2611.23456v1 Announce Type: new Abstract: Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deploym...",
+    "url": "https://arxiv.org/abs/2611.23456",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:36.527316+00:00"
+  },
+  {
+    "id": "c7c86e953df0",
+    "title": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+    "summary": "arXiv:2611.23454v1 Announce Type: new Abstract: Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical ...",
+    "url": "https://arxiv.org/abs/2611.23454",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:36.347907+00:00"
+  },
+  {
+    "id": "7d1cf62765c5",
+    "title": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+    "summary": "arXiv:2611.23445v2 Announce Type: new Abstract: Deep vision models operating in resource-constrained environments depend heavily on low-bit quantization, yet compressing weights be...",
+    "url": "https://arxiv.org/abs/2611.23445",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:36.164191+00:00"
+  },
+  {
+    "id": "422c774c982c",
+    "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+    "summary": "arXiv:2611.23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-fre...",
+    "url": "https://arxiv.org/abs/2611.23410",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:35.990447+00:00"
+  },
+  {
+    "id": "cd580215f9c6",
+    "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+    "summary": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware ...",
+    "url": "https://arxiv.org/abs/2611.23398",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:35.809800+00:00"
+  },
+  {
+    "id": "b048edc1eac3",
+    "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+    "summary": "arXiv:2611.23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a t...",
+    "url": "https://arxiv.org/abs/2611.23375",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:35.628467+00:00"
+  },
+  {
+    "id": "8a369b2d17a9",
+    "title": "Training Language Models for Introspective Oversight",
+    "summary": "arXiv:2611.23365v1 Announce Type: new Abstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and s...",
+    "url": "https://arxiv.org/abs/2611.23365",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:35.456137+00:00"
+  },
+  {
+    "id": "67c713471b46",
+    "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+    "summary": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relat...",
+    "url": "https://arxiv.org/abs/2611.23322",
+    "source": "arXiv CS.AI (Inteligência Artificial)",
+    "category": "artigo",
+    "collected_at": "2026-11-20T20:11:35.275450+00:00"
+  },
+  {
+    "id": "5e73d1240514",
+    "title": "Professor José Macêdo fala sobre o msg gov em entrevista ao programa Questão de Ordem, da ALECE",
+    "summary": "O coordenador do Insight Data Science Lab da Universidade Federal do Ceará (UFC), José Macêdo, participou do programa Questão de Ordem para falar sobre o msg gov, plataforma brasil...",
+    "url": "https://www.insightlab.ufc.br/professor-jose-macedo-fala-sobre-o-msg-gov-em-entrevista-ao-programa-questao-de-ordem-da-alece/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:34.812371+00:00"
+  },
+  {
+    "id": "9a556fcbda63",
+    "title": "Copa do Mundo, algoritmos e previsões: é possível usar inteligência artificial para descobrir quem será o campeão?",
+    "summary": "Quando a Copa do Mundo começa, bilhões de olhos se voltam para os gramados. Torcedores fazem suas apostas, comentaristas apontam favoritos e especialistas analisam elencos, táticas...",
+    "url": "https://www.insightlab.ufc.br/copa-do-mundo-algoritmos-e-previsoes-e-possivel-usar-inteligencia-artificial-para-descobrir-quem-sera-o-campeao/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:34.631214+00:00"
+  },
+  {
+    "id": "a85aba1d725e",
+    "title": "OEI reúne pesquisadores e instituições da Ibero-América em evento sobre inteligência artificial e computação quântica",
+    "summary": "Pesquisadores, universidades, centros de pesquisa e instituições brasileiras têm uma nova oportunidade de integrar uma das principais iniciativas de divulgação científica da Ibero-...",
+    "url": "https://www.insightlab.ufc.br/organizacao-de-estados-ibero-americanos-reune-paises-em-evento-sobre-inteligencia-artificial-e-computacao-quantica/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:34.448600+00:00"
+  },
+  {
+    "id": "59e56e3e2d86",
+    "title": "UFC, Insight Lab e Procuradoria Regional do Trabalho da 7ª Região definem bases para parceria voltada a projetos de impacto social",
+    "summary": "Encontro realizado na Reitoria da Universidade Federal do Ceará buscou aproximar as instituições e identificar possibilidades de cooperação em pesquisa, ciência de dados e tecnolog...",
+    "url": "https://www.insightlab.ufc.br/ufc-insight-lab-e-procuradoria-regional-do-trabalho-da-7a-regiao-definem-bases-para-parceria-voltada-a-projetos-de-impacto-social/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:34.267113+00:00"
+  },
+  {
+    "id": "658999b00cdf",
+    "title": "UFC celebra a premiação de projeto desenvolvido pelo GREat e Insight Lab, em parceria com o FNDE, no Prêmio Paulo Bonavides de Justiça, Cidadania e Democracia do STM",
+    "summary": "O projeto “Big Data e IA para Governança dos Programas de Educação Básica do FNDE” conquistou o segundo lugar na categoria Inovação do 1º Prêmio STM de Justiça e Cidadania Professo...",
+    "url": "https://www.insightlab.ufc.br/ufc-celebra-a-premiacao-de-projeto-desenvolvido-pelo-great-e-insight-lab-em-parceria-com-o-fnde-no-premio-paulo-bonavides-de-justica-cidadania-e-democracia-do-stm/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:34.076970+00:00"
+  },
+  {
+    "id": "98b06b66b388",
+    "title": "UFC, GREat e Insight Lab recebem prêmio do STM por projeto desenvolvido com o FNDE",
+    "summary": "Projeto “Big Data e IA para Governança dos Programas de Educação Básica do FNDE” recebeu o segundo lugar na categoria Inovação durante cerimônia realizada em Brasília. &#160; A equ...",
+    "url": "https://www.insightlab.ufc.br/ufc-great-e-insight-lab-recebem-premio-do-stm-por-projeto-desenvolvido-com-o-fnde/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:33.903801+00:00"
+  },
+  {
+    "id": "c8edf424f205",
+    "title": "Insight Lab marca presença em evento regional promovido pelo TRT7, EJUD7, Amatra e MPT 7 sobre Direito do Trabalho",
+    "summary": "A pesquisadora do Insight Lab e coordenadora do coletivo Insight Aurora, Rebeca Quezado, prestigiou o “Seminário Regional Direito Material e Processual do Trabalho do Vale do Jagua...",
+    "url": "https://www.insightlab.ufc.br/insight-lab-marca-presenca-em-evento-regional-promovido-pelo-trt7-ejud7-e-mpt-7-sobre-direito-do-trabalho/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:33.728988+00:00"
+  },
+  {
+    "id": "ddf9b5a60ad6",
+    "title": "Do banco de dados à IA generativa: pesquisas do Insight Lab integram o SBBD 2026",
+    "summary": "Entre os dias 8 e 11 de setembro, pesquisadores do Insight Data Science Lab participaram da 41ª edição do Simpósio Brasileiro de Banco de Dados (SBBD 2026), realizada no Instituto ...",
+    "url": "https://www.insightlab.ufc.br/do-banco-de-dados-a-ia-generativa-pesquisas-do-insight-lab-integram-o-sbbd-2026/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:33.552638+00:00"
+  },
+  {
+    "id": "16310ca5e001",
+    "title": "Insight Lab celebra aliança com o GITEX AI LATAM 2027",
+    "summary": "Parceria conecta o laboratório da Universidade Federal do Ceará à primeira edição latino-americana de uma das maiores plataformas globais de tecnologia e Inteligência Artificial. O...",
+    "url": "https://www.insightlab.ufc.br/insight-lab-celebra-alianca-com-o-gitex-ai-latam-2027/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:33.376541+00:00"
+  },
+  {
+    "id": "32e11a1f0478",
+    "title": "MSG Gov: Pesquisadores apresentam plataforma brasileira de comunicação segura em conferência na Suécia",
+    "summary": "Pesquisadores brasileiros apresentaram o MSG Gov no The Matrix Conference 2026, evento internacional dedicado ao protocolo Matrix e às tecnologias de comunicação descentralizada. A...",
+    "url": "https://www.insightlab.ufc.br/msg-gov-pesquisadores-apresentam-plataforma-brasileira-de-comunicacao-segura-em-conferencia-na-suecia/",
+    "source": "Insight Lab (UFC) — Notícias",
+    "category": "bolsa",
+    "collected_at": "2026-11-20T20:11:33.175736+00:00"
+  }
+]
