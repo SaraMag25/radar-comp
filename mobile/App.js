@@ -80,7 +80,7 @@ export default function App() {
   const fetchOpportunities = async () => {
     setLoading(true);
     try {
-      const response = await fetch(DATA_URL);
+      const response = await fetch(`${DATA_URL}?t=${Date.now()}`);
       if (!response.ok) throw new Error('Dados indisponíveis');
       const data = await response.json();
       const list = Array.isArray(data) ? data : data.items;
@@ -91,17 +91,6 @@ export default function App() {
     } catch {
       setOfflineMode(true);
     } finally {
-      setLoading(false);
-    }
-  };
-
-  const triggerCollect = async () => {
-    setLoading(true);
-    try {
-      await fetch(`${API_URL}/collect`, { method: 'POST' });
-      await fetchOpportunities();
-    } catch {
-      setOfflineMode(true);
       setLoading(false);
     }
   };
@@ -130,14 +119,16 @@ export default function App() {
         <View>
           <Text style={styles.header}>Radar Comp</Text>
           <Text style={styles.subtitle}>
-            {offlineMode ? 'Modo demonstração (API offline)' : `${items.length} oportunidades`}
+            {offlineMode
+              ? 'Modo demonstração (dados indisponíveis)'
+              : `${items.length} oportunidades`}
           </Text>
         </View>
-        <TouchableOpacity style={styles.collectBtn} onPress={triggerCollect} disabled={loading}>
+        <TouchableOpacity style={styles.collectBtn} onPress={fetchOpportunities} disabled={loading}>
           {loading ? (
             <ActivityIndicator size="small" color="#0f172a" />
           ) : (
-            <Text style={styles.collectBtnText}>Coletar</Text>
+            <Text style={styles.collectBtnText}>Atualizar</Text>
           )}
         </TouchableOpacity>
       </View>

@@ -1,0 +1,14 @@
+# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# Python
+backend/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / Editor
+.DS_Store
