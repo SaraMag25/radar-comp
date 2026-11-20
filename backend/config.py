@@ -55,10 +55,22 @@ KEYWORDS = [
     "ieee",
     "acm",
     "workshop",
+    # UFC
+    "ufc",
+    "prppg",
+    "prae",
+    "centro de tecnologia",
+    "computação",
+    "engenharia de computação",
 ]
 
 # Fontes RSS/Atom
 RSS_SOURCES = [
+    {
+        "name": "UFC — Notícias e Editais",
+        "category": "edital",
+        "url": "https://www.ufc.br/noticias?format=feed&type=rss",
+    },
     {
         "name": "arXiv CS.AI (Inteligência Artificial)",
         "category": "artigo",
