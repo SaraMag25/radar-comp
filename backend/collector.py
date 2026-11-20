@@ -6,16 +6,16 @@ from pathlib import Path
 import feedparser
 import requests
 
-from config import KEYWORDS, NTFY_TOPIC, SOURCES
+from config import ACTION_SIGNALS, NEWS_REJECT_SIGNALS, NTFY_TOPIC, SOURCES
 
 DATA_DIR = Path(__file__).parent / "data"
 SEEN_FILE = DATA_DIR / "seen.json"
 OPPORTUNITIES_FILE = DATA_DIR / "opportunities.json"
 
 HEADERS = {
-    "User-Agent": "RadarComp/2.0 (+https://github.com/SaraMag25/radar-comp)"
+    "User-Agent": "RadarComp/2.1 (+https://github.com/SaraMag25/radar-comp)"
 }
-MAX_PER_CATEGORY = 25
+MAX_PER_CATEGORY = 15
 
 
 def load_json(path: Path, default):
@@ -34,13 +34,38 @@ def clean_html(text: str) -> str:
     return re.sub(r"\s+", " ", clean).strip()
 
 
-def matches_keywords(text: str) -> bool:
-    lowered = text.lower()
-    return any(kw.lower() in lowered for kw in KEYWORDS)
-
-
 def make_id(url: str) -> str:
     return hashlib.sha256(url.encode("utf-8")).hexdigest()[:12]
+
+
+def is_actionable_opportunity(text: str) -> bool:
+    lowered = text.lower()
+    if any(reject in lowered for reject in NEWS_REJECT_SIGNALS):
+        return False
+    return any(sig in lowered for sig in ACTION_SIGNALS)
+
+
+def classify_opportunity(title: str, summary: str, default_category: str) -> str:
+    text = f"{title} {summary}".lower()
+    if any(k in text for k in ["hackathon"]):
+        return "hackathons"
+    if any(k in text for k in ["competição", "competicao", "maratona", "desafio de inovação", "challenge"]):
+        return "competicoes"
+    if any(k in text for k in ["estágio", "estagio", "internship", "intern ", "trainee", "vaga"]):
+        return "estagios"
+    if any(k in text for k in ["curso", "bootcamp", "capacitação", "capacitacao", "formação", "trilha"]):
+        return "capacitacoes"
+    if any(k in text for k in ["congresso", "simpósio", "simposio", "workshop", "call for papers", "cfp", "submissão"]):
+        return "congressos"
+    if any(k in text for k in ["edital", "chamada pública", "chamada publica"]):
+        return "editais"
+    if any(k in text for k in ["bolsa", "pibic", "pibiti", "scholarship", "fellowship"]):
+        return "bolsas"
+    if any(k in text for k in ["inovação aberta", "open innovation", "programa de talentos", "aceleração"]):
+        return "empresas"
+    if any(k in text for k in ["extensão", "extensao", "iniciação científica", "pesquisa"]):
+        return "pesquisa"
+    return default_category
 
 
 def infer_modality(text: str, default: str = "não informada") -> str:
@@ -58,7 +83,7 @@ def infer_free(text: str, default=None):
     t = text.lower()
     if any(w in t for w in ["gratuito", "gratuita", "grátis", "free", "sem custo"]):
         return True
-    if any(w in t for w in ["taxa de inscrição", "paid", "pago"]):
+    if any(w in t for w in ["taxa de inscrição", "pago"]):
         return False
     return default
 
@@ -76,6 +101,7 @@ def build_item(
     url: str,
     summary: str,
     source: dict,
+    category: str,
     organization: str = None,
     eligibility_summary: str = "Não informado na fonte — verifique o link oficial.",
     any_university=None,
@@ -93,8 +119,8 @@ def build_item(
         "id": make_id(url),
         "title": title,
         "organization": organization or source.get("organization", source["name"]),
-        "category": source["category"],
-        "summary": summary[:260] + ("..." if len(summary) > 260 else ""),
+        "category": category,
+        "summary": summary[:220] + ("..." if len(summary) > 220 else ""),
         "url": url,
         "source": source["name"],
         "action_label": action_label or source.get("action_label", "Ver oportunidade"),
@@ -122,7 +148,7 @@ def fetch_devpost(source: dict) -> list[dict]:
     resp.raise_for_status()
     data = resp.json()
     items = []
-    for h in data.get("hackathons", [])[:20]:
+    for h in data.get("hackathons", [])[:15]:
         url = h.get("url", "")
         title = clean_html(h.get("title", ""))
         if not url or not title:
@@ -130,8 +156,8 @@ def fetch_devpost(source: dict) -> list[dict]:
         loc_info = h.get("displayed_location", {}) or {}
         loc_text = loc_info.get("location", "Online")
         modality = "online" if "online" in loc_text.lower() else "presencial"
-        prize = clean_html(h.get("prize_amount", "")) or "Prêmios / certificados (ver edital)"
-        themes = ", ".join(t.get("name", "") for t in h.get("themes", [])[:4] if t.get("name"))
+        prize = clean_html(h.get("prize_amount", "")) or "Ver premiação no edital"
+        themes = ", ".join(t.get("name", "") for t in h.get("themes", [])[:3] if t.get("name"))
         summary = f"Hackathon aberto ({loc_text}). Temas: {themes or 'Tecnologia e Inovação'}."
         items.append(
             build_item(
@@ -139,8 +165,9 @@ def fetch_devpost(source: dict) -> list[dict]:
                 url=url,
                 summary=summary,
                 source=source,
+                category="hackathons",
                 organization=h.get("organization_name") or "Devpost",
-                eligibility_summary="Aberto ao público (verifique regras de idade/país no link oficial).",
+                eligibility_summary="Aberto ao público (verifique regras no link oficial).",
                 any_university=True,
                 free=True,
                 remuneration=True,
@@ -159,25 +186,24 @@ def fetch_remoteok(source: dict) -> list[dict]:
     resp.raise_for_status()
     data = resp.json()
     items = []
-    for job in data[1:25]:
+    for job in data[1:16]:
         url = job.get("url", "")
         title = clean_html(job.get("position", ""))
         if not url or not title:
             continue
         company = clean_html(job.get("company", "")) or "Empresa remota"
-        tags = ", ".join(job.get("tags", [])[:5])
+        tags = ", ".join(job.get("tags", [])[:4])
         desc = clean_html(job.get("description", ""))
-        if source.get("filter_keywords") and not matches_keywords(f"{title} {tags} {desc}"):
-            continue
         loc = clean_html(job.get("location", "")) or "Remoto"
         items.append(
             build_item(
                 title=title,
                 url=url,
-                summary=f"{company} — Tags: {tags}. {desc}" if tags else desc,
+                summary=f"{company} — {tags}. {desc}" if tags else desc,
                 source=source,
+                category="estagios",
                 organization=company,
-                eligibility_summary="Vaga remota; verifique requisitos técnicos e fuso/país.",
+                eligibility_summary="Vaga remota; verifique requisitos no link oficial.",
                 any_university=True,
                 free=True,
                 remuneration=True,
@@ -195,15 +221,13 @@ def fetch_remotive(source: dict) -> list[dict]:
     resp.raise_for_status()
     data = resp.json()
     items = []
-    for job in data.get("jobs", [])[:25]:
+    for job in data.get("jobs", [])[:15]:
         url = job.get("url", "")
         title = clean_html(job.get("title", ""))
         if not url or not title:
             continue
         company = clean_html(job.get("company_name", "")) or "Empresa remota"
         desc = clean_html(job.get("description", ""))
-        if source.get("filter_keywords") and not matches_keywords(f"{title} {desc}"):
-            continue
         loc = clean_html(job.get("candidate_required_location", "")) or "Remoto"
         items.append(
             build_item(
@@ -211,8 +235,9 @@ def fetch_remotive(source: dict) -> list[dict]:
                 url=url,
                 summary=f"{company} ({loc}). {desc}",
                 source=source,
+                category="estagios",
                 organization=company,
-                eligibility_summary=f"Restrição geográfica: {loc}. Verifique requisitos no link.",
+                eligibility_summary=f"Localização exigida: {loc}.",
                 any_university=True,
                 free=True,
                 remuneration=True,
@@ -237,15 +262,17 @@ def fetch_rss(source: dict) -> list[dict]:
         if not link or not title:
             continue
         text_blob = f"{title} {summary}"
-        if source.get("filter_keywords") and not matches_keywords(text_blob):
+        if source.get("strict_action_filter", True) and not is_actionable_opportunity(text_blob):
             continue
+        category = classify_opportunity(title, summary, source["default_category"])
         items.append(
             build_item(
                 title=title,
                 url=link,
                 summary=summary or "Confira os detalhes completos no link oficial.",
                 source=source,
-                eligibility_summary="Não informado no feed — consulte o edital/chamada oficial.",
+                category=category,
+                eligibility_summary="Verifique os critérios no link oficial.",
                 any_university=None,
                 free=infer_free(text_blob),
                 remuneration=infer_remuneration(text_blob),
@@ -276,9 +303,7 @@ def send_notification(title: str, message: str, url: str):
 
 def collect() -> int:
     seen = set(load_json(SEEN_FILE, []))
-    existing = load_json(OPPORTUNITIES_FILE, [])
-    # Mantém apenas itens já no novo formato (com organization) para limpar feed antigo só de artigos
-    opportunities = [item for item in existing if isinstance(item, dict) and "organization" in item]
+    opportunities = []
     new_count = 0
 
     fetchers = {
@@ -299,29 +324,32 @@ def collect() -> int:
             continue
 
         for item in fetched:
-            if item["url"] in seen:
-                continue
-            opportunities.insert(0, item)
-            seen.add(item["url"])
-            new_count += 1
-            send_notification(
-                title=f"[{item['category'].upper()}] {item['organization']}",
-                message=item["title"],
-                url=item["url"],
-            )
+            opportunities.append(item)
+            if item["url"] not in seen:
+                seen.add(item["url"])
+                new_count += 1
+                send_notification(
+                    title=f"[{item['category'].upper()}] {item['organization']}",
+                    message=item["title"],
+                    url=item["url"],
+                )
 
-    # Equilibra por categoria para nenhuma dominar
-    balanced = []
+    # Deduplica por URL e equilibra por categoria
+    unique = []
+    urls_seen = set()
     counts = {}
     for item in opportunities:
+        if item["url"] in urls_seen:
+            continue
         cat = item.get("category", "outros")
         if counts.get(cat, 0) < MAX_PER_CATEGORY:
-            balanced.append(item)
+            unique.append(item)
+            urls_seen.add(item["url"])
             counts[cat] = counts.get(cat, 0) + 1
 
     save_json(SEEN_FILE, list(seen))
-    save_json(OPPORTUNITIES_FILE, balanced[:150])
-    print(f"Coleta finalizada. {new_count} nova(s) oportunidade(s) encontrada(s). Total salvo: {len(balanced[:150])}")
+    save_json(OPPORTUNITIES_FILE, unique[:120])
+    print(f"Coleta finalizada. {new_count} nova(s). Total salvo: {len(unique[:120])}")
     return new_count
 
 

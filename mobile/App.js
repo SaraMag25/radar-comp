@@ -17,50 +17,29 @@ const DATA_URL =
   'https://raw.githubusercontent.com/SaraMag25/radar-comp/main/backend/data/opportunities.json';
 
 const CATEGORIES = [
-  { key: 'todos', label: 'Todos' },
-  { key: 'bolsas', label: 'Bolsas e Acadêmico' },
-  { key: 'congressos', label: 'Congressos e Eventos' },
-  { key: 'hackathons', label: 'Hackathons e Competições' },
-  { key: 'empresas', label: 'Empresas e Inovação' },
-  { key: 'cursos', label: 'Cursos e Capacitações' },
-  { key: 'estagios', label: 'Estágios e Carreira' },
+  { key: 'todos', label: 'Todas' },
+  { key: 'bolsas', label: 'Bolsas' },
+  { key: 'editais', label: 'Editais' },
+  { key: 'congressos', label: 'Congressos' },
+  { key: 'hackathons', label: 'Hackathons' },
+  { key: 'competicoes', label: 'Competições' },
+  { key: 'empresas', label: 'Programas de empresas' },
+  { key: 'estagios', label: 'Estágios' },
+  { key: 'capacitacoes', label: 'Capacitações' },
+  { key: 'pesquisa', label: 'Pesquisa e extensão' },
 ];
 
-const CATEGORY_COLORS = {
-  bolsas: '#10b981',
-  congressos: '#ec4899',
-  hackathons: '#a855f7',
-  empresas: '#f59e0b',
-  cursos: '#06b6d4',
-  estagios: '#3b82f6',
+const CATEGORY_META = {
+  bolsas: { label: 'BOLSA', color: '#10b981' },
+  editais: { label: 'EDITAL', color: '#f59e0b' },
+  congressos: { label: 'CONGRESSO', color: '#ec4899' },
+  hackathons: { label: 'HACKATHON', color: '#a855f7' },
+  competicoes: { label: 'COMPETIÇÃO', color: '#fb7185' },
+  empresas: { label: 'EMPRESAS', color: '#f97316' },
+  estagios: { label: 'ESTÁGIO', color: '#3b82f6' },
+  capacitacoes: { label: 'CAPACITAÇÃO', color: '#06b6d4' },
+  pesquisa: { label: 'PESQUISA', color: '#22c55e' },
 };
-
-const SAMPLE_DATA = [
-  {
-    id: 'sample-1',
-    title: 'Edital de Iniciação Científica e Tecnológica (PIBIC/PIBITI)',
-    organization: 'Universidades Públicas / CNPq',
-    category: 'bolsas',
-    summary: 'Bolsas de pesquisa para estudantes de graduação desenvolverem projetos com orientação.',
-    url: 'https://www.gov.br/cnpq',
-    action_label: 'Ver oportunidade',
-    eligibility: {
-      summary: 'Estudantes de graduação regularmente matriculados (verifique edital da instituição).',
-      any_university: false,
-      free: true,
-      remuneration: true,
-      benefits: 'Bolsa mensal + certificado',
-    },
-    modality: 'híbrida',
-    location: 'Brasil',
-    scope: 'brasil',
-    area: 'Pesquisa e Tecnologia',
-    deadline: null,
-    status: 'aberta',
-    language: 'pt',
-    last_verified_at: null,
-  },
-];
 
 async function translateTextToPt(text) {
   if (!text) return '';
@@ -74,22 +53,18 @@ async function translateTextToPt(text) {
 }
 
 export default function App() {
-  const [items, setItems] = useState(SAMPLE_DATA);
+  const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('todos');
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(false);
-  const [offlineMode, setOfflineMode] = useState(true);
+  const [offlineMode, setOfflineMode] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
 
-  // Filtros avançados
   const [scopeFilter, setScopeFilter] = useState('todos');
   const [modalityFilter, setModalityFilter] = useState('todos');
   const [onlyFree, setOnlyFree] = useState(false);
   const [onlyPaid, setOnlyPaid] = useState(false);
-  const [onlyAnyUni, setOnlyAnyUni] = useState(false);
-  const [onlyOpen, setOnlyOpen] = useState(false);
 
-  // Traduções sob demanda por ID
   const [translations, setTranslations] = useState({});
   const [translatingId, setTranslatingId] = useState(null);
 
@@ -100,9 +75,7 @@ export default function App() {
       if (!response.ok) throw new Error('Dados indisponíveis');
       const data = await response.json();
       const list = Array.isArray(data) ? data : data.items;
-      if (Array.isArray(list) && list.length > 0) {
-        setItems(list);
-      }
+      setItems(Array.isArray(list) ? list : []);
       setOfflineMode(false);
     } catch {
       setOfflineMode(true);
@@ -127,21 +100,13 @@ export default function App() {
 
     setTranslatingId(item.id);
     try {
-      const [titlePt, summaryPt, eligPt, benefitsPt] = await Promise.all([
+      const [titlePt, summaryPt] = await Promise.all([
         translateTextToPt(item.title),
         translateTextToPt(item.summary),
-        translateTextToPt(item.eligibility?.summary || ''),
-        translateTextToPt(item.eligibility?.benefits || ''),
       ]);
       setTranslations((prev) => ({
         ...prev,
-        [item.id]: {
-          active: true,
-          title: titlePt,
-          summary: summaryPt,
-          eligibility: eligPt,
-          benefits: benefitsPt,
-        },
+        [item.id]: { active: true, title: titlePt, summary: summaryPt },
       }));
     } catch {
       // mantém original se falhar
@@ -158,78 +123,65 @@ export default function App() {
       if (modalityFilter !== 'todos' && item.modality !== modalityFilter) return false;
       if (onlyFree && item.eligibility?.free !== true) return false;
       if (onlyPaid && item.eligibility?.remuneration !== true) return false;
-      if (onlyAnyUni && item.eligibility?.any_university !== true) return false;
-      if (onlyOpen && item.status !== 'aberta') return false;
 
       if (!q) return true;
       return (
         (item.title || '').toLowerCase().includes(q) ||
         (item.summary || '').toLowerCase().includes(q) ||
         (item.organization || '').toLowerCase().includes(q) ||
-        (item.location || '').toLowerCase().includes(q) ||
-        (item.area || '').toLowerCase().includes(q)
+        (item.location || '').toLowerCase().includes(q)
       );
     });
-  }, [
-    items,
-    selectedCategory,
-    search,
-    scopeFilter,
-    modalityFilter,
-    onlyFree,
-    onlyPaid,
-    onlyAnyUni,
-    onlyOpen,
-  ]);
-
-  const formatDate = (iso) => {
-    if (!iso) return 'Não informada';
-    try {
-      return new Date(iso).toLocaleDateString('pt-BR');
-    } catch {
-      return iso;
-    }
-  };
+  }, [items, selectedCategory, search, scopeFilter, modalityFilter, onlyFree, onlyPaid]);
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.headerRow}>
-        <View>
-          <Text style={styles.header}>Radar Comp</Text>
-          <Text style={styles.subtitle}>
-            {offlineMode
-              ? 'Modo demonstração (dados indisponíveis)'
-              : `${filteredItems.length} de ${items.length} oportunidades`}
-          </Text>
+    <SafeAreaView style={styles.safeArea}>
+      <View style={styles.pageWrapper}>
+        <View style={styles.headerRow}>
+          <View>
+            <Text style={styles.headerTitle}>Radar Comp</Text>
+            <Text style={styles.headerCount}>
+              {offlineMode
+                ? 'Sem conexão com os dados'
+                : `${filteredItems.length} oportunidade${filteredItems.length === 1 ? '' : 's'}`}
+            </Text>
+          </View>
+          <View style={styles.headerActions}>
+            <TouchableOpacity
+              style={[styles.iconBtn, showFilters && styles.iconBtnActive]}
+              onPress={() => setShowFilters((v) => !v)}
+            >
+              <Text style={styles.iconBtnText}>Filtros</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.refreshBtn}
+              onPress={fetchOpportunities}
+              disabled={loading}
+            >
+              {loading ? (
+                <ActivityIndicator size="small" color="#0f172a" />
+              ) : (
+                <Text style={styles.refreshBtnText}>Atualizar</Text>
+              )}
+            </TouchableOpacity>
+          </View>
         </View>
-        <View style={styles.headerActions}>
-          <TouchableOpacity
-            style={[styles.filterToggleBtn, showFilters && styles.filterToggleBtnActive]}
-            onPress={() => setShowFilters((v) => !v)}
+
+        <TextInput
+          style={styles.searchInput}
+          placeholder="Buscar por bolsa, hackathon, empresa, cidade..."
+          placeholderTextColor="#64748b"
+          value={search}
+          onChangeText={setSearch}
+        />
+
+        {showFilters ? (
+          <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            style={styles.filtersScroll}
+            contentContainerStyle={styles.filtersContent}
           >
-            <Text style={styles.filterToggleText}>Filtros</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.collectBtn} onPress={fetchOpportunities} disabled={loading}>
-            {loading ? (
-              <ActivityIndicator size="small" color="#0f172a" />
-            ) : (
-              <Text style={styles.collectBtnText}>Atualizar</Text>
-            )}
-          </TouchableOpacity>
-        </View>
-      </View>
-
-      <TextInput
-        style={styles.searchInput}
-        placeholder="Buscar por hackathon, bolsa, empresa, cidade..."
-        placeholderTextColor="#64748b"
-        value={search}
-        onChangeText={setSearch}
-      />
-
-      {showFilters ? (
-        <View style={styles.filtersBox}>
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.filterRow}>
             {['todos', 'brasil', 'internacional'].map((val) => (
               <TouchableOpacity
                 key={val}
@@ -237,7 +189,7 @@ export default function App() {
                 onPress={() => setScopeFilter(val)}
               >
                 <Text style={[styles.chipText, scopeFilter === val && styles.chipTextActive]}>
-                  {val === 'todos' ? 'Escopo: Todos' : val === 'brasil' ? 'Brasil' : 'Internacional'}
+                  {val === 'todos' ? 'Todos os locais' : val === 'brasil' ? 'Brasil' : 'Internacional'}
                 </Text>
               </TouchableOpacity>
             ))}
@@ -252,8 +204,6 @@ export default function App() {
                 </Text>
               </TouchableOpacity>
             ))}
-          </ScrollView>
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.filterRow}>
             <TouchableOpacity
               style={[styles.chip, onlyFree && styles.chipActive]}
               onPress={() => setOnlyFree((v) => !v)}
@@ -266,231 +216,238 @@ export default function App() {
             >
               <Text style={[styles.chipText, onlyPaid && styles.chipTextActive]}>Com bolsa/prêmio</Text>
             </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.chip, onlyAnyUni && styles.chipActive]}
-              onPress={() => setOnlyAnyUni((v) => !v)}
-            >
-              <Text style={[styles.chipText, onlyAnyUni && styles.chipTextActive]}>
-                Qualquer universidade
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.chip, onlyOpen && styles.chipActive]}
-              onPress={() => setOnlyOpen((v) => !v)}
-            >
-              <Text style={[styles.chipText, onlyOpen && styles.chipTextActive]}>Inscrições abertas</Text>
-            </TouchableOpacity>
           </ScrollView>
-        </View>
-      ) : null}
+        ) : null}
 
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        style={styles.tabsContainer}
-        contentContainerStyle={styles.tabsContent}
-      >
-        {CATEGORIES.map((cat) => {
-          const active = selectedCategory === cat.key;
-          return (
-            <TouchableOpacity
-              key={cat.key}
-              style={[styles.tab, active && styles.tabActive]}
-              onPress={() => setSelectedCategory(cat.key)}
-            >
-              <Text style={[styles.tabText, active && styles.tabTextActive]}>{cat.label}</Text>
-            </TouchableOpacity>
-          );
-        })}
-      </ScrollView>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          style={styles.tabsScroll}
+          contentContainerStyle={styles.tabsContent}
+        >
+          {CATEGORIES.map((cat) => {
+            const active = selectedCategory === cat.key;
+            return (
+              <TouchableOpacity
+                key={cat.key}
+                style={[styles.tab, active && styles.tabActive]}
+                onPress={() => setSelectedCategory(cat.key)}
+              >
+                <Text style={[styles.tabText, active && styles.tabTextActive]}>{cat.label}</Text>
+              </TouchableOpacity>
+            );
+          })}
+        </ScrollView>
 
-      <FlatList
-        data={filteredItems}
-        keyExtractor={(item) => item.id}
-        refreshControl={
-          <RefreshControl refreshing={loading} onRefresh={fetchOpportunities} tintColor="#38bdf8" />
-        }
-        ListEmptyComponent={
-          <Text style={styles.emptyText}>Nenhuma oportunidade encontrada para esse filtro.</Text>
-        }
-        renderItem={({ item }) => {
-          const badgeColor = CATEGORY_COLORS[item.category] || '#38bdf8';
-          const tr = translations[item.id];
-          const isTranslated = Boolean(tr?.active);
-          const displayTitle = isTranslated ? tr.title : item.title;
-          const displaySummary = isTranslated ? tr.summary : item.summary;
-          const displayElig = isTranslated
-            ? tr.eligibility
-            : item.eligibility?.summary || 'Elegibilidade não informada — verifique no site oficial.';
-          const displayBenefits = isTranslated
-            ? tr.benefits
-            : item.eligibility?.benefits || 'Não informado';
+        <FlatList
+          data={filteredItems}
+          keyExtractor={(item) => item.id}
+          contentContainerStyle={styles.listContent}
+          refreshControl={
+            <RefreshControl refreshing={loading} onRefresh={fetchOpportunities} tintColor="#38bdf8" />
+          }
+          ListEmptyComponent={
+            <Text style={styles.emptyText}>
+              {loading
+                ? 'Carregando oportunidades...'
+                : 'Nenhuma oportunidade encontrada para essa categoria ou filtro.'}
+            </Text>
+          }
+          renderItem={({ item }) => {
+            const meta = CATEGORY_META[item.category] || {
+              label: (item.category || 'OPORTUNIDADE').toUpperCase(),
+              color: '#38bdf8',
+            };
+            const tr = translations[item.id];
+            const isTranslated = Boolean(tr?.active);
 
-          return (
-            <View style={styles.card}>
-              <View style={styles.badgeRow}>
-                <Text style={[styles.badge, { color: badgeColor }]}>
-                  {(item.category || '').toUpperCase()}
-                </Text>
-                <Text style={styles.source}>{item.organization || item.source}</Text>
-              </View>
-
-              <Text style={styles.title}>{displayTitle}</Text>
-              {displaySummary ? <Text style={styles.summary}>{displaySummary}</Text> : null}
-
-              <View style={styles.metaBox}>
-                <Text style={styles.metaLine}>
-                  <Text style={styles.metaLabel}>Quem pode: </Text>
-                  {displayElig}
-                </Text>
-                <Text style={styles.metaLine}>
-                  <Text style={styles.metaLabel}>Benefícios: </Text>
-                  {displayBenefits}
-                </Text>
-                <Text style={styles.metaLine}>
-                  <Text style={styles.metaLabel}>Modalidade / Local: </Text>
-                  {item.modality || 'não informada'} · {item.location || 'Não informado'}
-                </Text>
-                {item.deadline ? (
-                  <Text style={styles.metaLine}>
-                    <Text style={styles.metaLabel}>Prazo: </Text>
-                    {item.deadline}
+            return (
+              <View style={styles.card}>
+                <View style={styles.cardTopRow}>
+                  <View style={[styles.badgePill, { backgroundColor: `${meta.color}22` }]}>
+                    <Text style={[styles.badgeText, { color: meta.color }]}>{meta.label}</Text>
+                  </View>
+                  <Text style={styles.orgText} numberOfLines={1}>
+                    {item.organization || item.source}
                   </Text>
-                ) : null}
-                <Text style={styles.verifiedText}>
-                  Última verificação: {formatDate(item.last_verified_at || item.collected_at)}
+                </View>
+
+                <Text style={styles.cardTitle} numberOfLines={2}>
+                  {isTranslated ? tr.title : item.title}
                 </Text>
-              </View>
 
-              <View style={styles.cardActions}>
-                {item.language && item.language !== 'pt' ? (
-                  <TouchableOpacity
-                    style={styles.translateBtn}
-                    onPress={() => handleToggleTranslate(item)}
-                    disabled={translatingId === item.id}
-                  >
-                    <Text style={styles.translateBtnText}>
-                      {translatingId === item.id
-                        ? 'Traduzindo...'
-                        : isTranslated
-                          ? 'Ver original'
-                          : 'Traduzir para português'}
+                <Text style={styles.cardSummary} numberOfLines={2}>
+                  {isTranslated ? tr.summary : item.summary}
+                </Text>
+
+                <View style={styles.cardBottomRow}>
+                  <View style={styles.tagsRow}>
+                    <Text style={styles.metaPill}>
+                      {item.modality || 'online'} · {item.location || 'Não informado'}
                     </Text>
-                  </TouchableOpacity>
-                ) : (
-                  <View />
-                )}
+                    {item.deadline ? (
+                      <Text style={styles.deadlinePill}>Prazo: {item.deadline}</Text>
+                    ) : null}
+                  </View>
 
-                <TouchableOpacity
-                  style={styles.ctaBtn}
-                  onPress={() => Linking.openURL(item.url)}
-                >
-                  <Text style={styles.ctaBtnText}>{item.action_label || 'Ver oportunidade'}</Text>
-                </TouchableOpacity>
+                  <View style={styles.actionsRow}>
+                    {item.language && item.language !== 'pt' ? (
+                      <TouchableOpacity
+                        style={styles.translateBtn}
+                        onPress={() => handleToggleTranslate(item)}
+                        disabled={translatingId === item.id}
+                      >
+                        <Text style={styles.translateBtnText}>
+                          {translatingId === item.id
+                            ? '...'
+                            : isTranslated
+                              ? 'Original'
+                              : 'Traduzir'}
+                        </Text>
+                      </TouchableOpacity>
+                    ) : null}
+                    <TouchableOpacity
+                      style={styles.ctaBtn}
+                      onPress={() => Linking.openURL(item.url)}
+                    >
+                      <Text style={styles.ctaBtnText}>{item.action_label || 'Ver'}</Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
               </View>
-            </View>
-          );
-        }}
-      />
+            );
+          }}
+        />
+      </View>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a', paddingHorizontal: 16, paddingTop: 12 },
+  safeArea: { flex: 1, backgroundColor: '#0b1120' },
+  pageWrapper: {
+    flex: 1,
+    width: '100%',
+    maxWidth: 760,
+    alignSelf: 'center',
+    paddingHorizontal: 16,
+    paddingTop: 10,
+  },
   headerRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 12,
-    marginTop: 4,
   },
-  header: { color: '#f8fafc', fontSize: 24, fontWeight: 'bold' },
-  subtitle: { color: '#94a3b8', fontSize: 12, marginTop: 2 },
+  headerTitle: { color: '#f8fafc', fontSize: 22, fontWeight: '800', letterSpacing: -0.3 },
+  headerCount: { color: '#94a3b8', fontSize: 12, marginTop: 2 },
   headerActions: { flexDirection: 'row', gap: 8, alignItems: 'center' },
-  filterToggleBtn: {
+  iconBtn: {
     backgroundColor: '#1e293b',
     paddingHorizontal: 12,
-    paddingVertical: 8,
-    borderRadius: 8,
+    paddingVertical: 7,
+    borderRadius: 10,
     borderWidth: 1,
     borderColor: '#334155',
   },
-  filterToggleBtnActive: { borderColor: '#38bdf8' },
-  filterToggleText: { color: '#e2e8f0', fontSize: 13, fontWeight: '600' },
-  collectBtn: {
+  iconBtnActive: { borderColor: '#38bdf8' },
+  iconBtnText: { color: '#e2e8f0', fontSize: 12, fontWeight: '600' },
+  refreshBtn: {
     backgroundColor: '#38bdf8',
     paddingHorizontal: 14,
-    paddingVertical: 8,
-    borderRadius: 8,
-    minWidth: 74,
+    paddingVertical: 7,
+    borderRadius: 10,
+    minWidth: 76,
     alignItems: 'center',
   },
-  collectBtnText: { color: '#0f172a', fontWeight: 'bold', fontSize: 13 },
+  refreshBtnText: { color: '#0f172a', fontWeight: '700', fontSize: 12 },
   searchInput: {
-    backgroundColor: '#1e293b',
+    backgroundColor: '#151f32',
     color: '#f8fafc',
-    paddingHorizontal: 12,
+    paddingHorizontal: 14,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: 12,
     fontSize: 14,
+    borderWidth: 1,
+    borderColor: '#1e293b',
     marginBottom: 10,
   },
-  filtersBox: { marginBottom: 10, gap: 6 },
-  filterRow: { gap: 6, paddingVertical: 2 },
+  filtersScroll: { maxHeight: 36, marginBottom: 10 },
+  filtersContent: { gap: 8, alignItems: 'center' },
   chip: {
-    backgroundColor: '#1e293b',
-    paddingHorizontal: 10,
-    paddingVertical: 5,
-    borderRadius: 14,
+    backgroundColor: '#151f32',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 16,
     borderWidth: 1,
     borderColor: '#334155',
   },
   chipActive: { backgroundColor: '#0284c7', borderColor: '#38bdf8' },
   chipText: { color: '#94a3b8', fontSize: 12 },
   chipTextActive: { color: '#f8fafc', fontWeight: '600' },
-  tabsContainer: { maxHeight: 42, marginBottom: 12 },
-  tabsContent: { gap: 8, alignItems: 'center' },
+  tabsScroll: { maxHeight: 40, marginBottom: 12 },
+  tabsContent: { gap: 8, alignItems: 'center', paddingRight: 16 },
   tab: {
-    backgroundColor: '#1e293b',
+    backgroundColor: '#151f32',
     paddingHorizontal: 14,
     paddingVertical: 7,
     borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#1e293b',
   },
-  tabActive: { backgroundColor: '#38bdf8' },
+  tabActive: { backgroundColor: '#38bdf8', borderColor: '#38bdf8' },
   tabText: { color: '#94a3b8', fontSize: 13, fontWeight: '600' },
   tabTextActive: { color: '#0f172a' },
-  card: { backgroundColor: '#1e293b', padding: 14, borderRadius: 12, marginBottom: 12 },
-  badgeRow: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 6, gap: 8 },
-  badge: { fontSize: 11, fontWeight: 'bold' },
-  source: { color: '#94a3b8', fontSize: 12, flexShrink: 1, textAlign: 'right' },
-  title: { color: '#f1f5f9', fontSize: 15, fontWeight: '700', marginBottom: 4 },
-  summary: { color: '#cbd5e1', fontSize: 13, lineHeight: 18, marginBottom: 8 },
-  metaBox: {
-    backgroundColor: '#0f172a',
-    padding: 10,
-    borderRadius: 8,
-    gap: 3,
+  listContent: { paddingBottom: 24 },
+  card: {
+    backgroundColor: '#151f32',
+    padding: 14,
+    borderRadius: 14,
     marginBottom: 10,
+    borderWidth: 1,
+    borderColor: '#1e293b',
   },
-  metaLine: { color: '#cbd5e1', fontSize: 12, lineHeight: 16 },
-  metaLabel: { color: '#94a3b8', fontWeight: '600' },
-  verifiedText: { color: '#64748b', fontSize: 11, marginTop: 2 },
-  cardActions: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  cardTopRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 8,
+    gap: 10,
+  },
+  badgePill: { paddingHorizontal: 8, paddingVertical: 3, borderRadius: 6 },
+  badgeText: { fontSize: 10, fontWeight: '800', letterSpacing: 0.4 },
+  orgText: { color: '#94a3b8', fontSize: 12, flexShrink: 1, textAlign: 'right' },
+  cardTitle: { color: '#f8fafc', fontSize: 15, fontWeight: '700', lineHeight: 20, marginBottom: 4 },
+  cardSummary: { color: '#cbd5e1', fontSize: 13, lineHeight: 18, marginBottom: 10 },
+  cardBottomRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    gap: 8,
+    flexWrap: 'wrap',
+  },
+  tagsRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 6, flex: 1 },
+  metaPill: { color: '#94a3b8', fontSize: 11 },
+  deadlinePill: {
+    color: '#fbbf24',
+    fontSize: 11,
+    fontWeight: '600',
+  },
+  actionsRow: { flexDirection: 'row', gap: 6, alignItems: 'center' },
   translateBtn: {
     paddingHorizontal: 10,
-    paddingVertical: 6,
+    paddingVertical: 5,
     borderRadius: 8,
     borderWidth: 1,
     borderColor: '#334155',
   },
-  translateBtnText: { color: '#38bdf8', fontSize: 12, fontWeight: '600' },
+  translateBtnText: { color: '#38bdf8', fontSize: 11, fontWeight: '600' },
   ctaBtn: {
     backgroundColor: '#38bdf8',
     paddingHorizontal: 12,
-    paddingVertical: 7,
+    paddingVertical: 6,
     borderRadius: 8,
   },
-  ctaBtnText: { color: '#0f172a', fontSize: 12, fontWeight: 'bold' },
+  ctaBtnText: { color: '#0f172a', fontSize: 12, fontWeight: '700' },
   emptyText: { color: '#64748b', textAlign: 'center', marginTop: 40, fontSize: 14 },
 });
