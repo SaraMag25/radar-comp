@@ -1,7 +1,7 @@
 # Configurações pessoais do Radar Comp
 
 # Tópico do ntfy.sh (altere para um nome único seu)
-NTFY_TOPIC = "radar-comp-pessoal-altere-aqui"
+NTFY_TOPIC = "radar-comp-2026"
 
 # Palavras-chave de interesse (Engenharia de Computação, Programação, IA, Faculdade)
 KEYWORDS = [
