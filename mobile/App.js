@@ -3,9 +3,11 @@ import {
   ActivityIndicator,
   FlatList,
   Linking,
+  Platform,
   RefreshControl,
   SafeAreaView,
   ScrollView,
+  StatusBar,
   StyleSheet,
   Text,
   TextInput,
@@ -382,7 +384,11 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: '#f8fafc' },
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#f8fafc',
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight || 12 : 0,
+  },
   headerBar: {
     backgroundColor: '#ffffff',
     borderBottomWidth: 1,
@@ -396,9 +402,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     alignSelf: 'center',
+    flexWrap: 'wrap',
+    gap: 10,
   },
   containerWide: { maxWidth: 1120 },
-  brandRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  brandRow: { flexDirection: 'row', alignItems: 'center', gap: 10, flexShrink: 1 },
   logoDot: {
     width: 12,
     height: 12,
@@ -463,8 +471,8 @@ const styles = StyleSheet.create({
     gap: 8,
     marginBottom: 16,
   },
-  tabsScroll: { maxHeight: 42, marginBottom: 14 },
-  tabsScrollContent: { gap: 8, alignItems: 'center', paddingRight: 16 },
+  tabsScroll: { flexGrow: 0, marginBottom: 14 },
+  tabsScrollContent: { gap: 8, alignItems: 'center', paddingVertical: 4, paddingRight: 16 },
   tab: {
     backgroundColor: '#ffffff',
     paddingHorizontal: 14,
