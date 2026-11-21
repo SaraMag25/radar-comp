@@ -22,8 +22,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.846920+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.846920+00:00"
+    "collected_at": "2026-11-21T14:16:34.967903+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.967903+00:00"
   },
   {
     "id": "16542760171e",
@@ -48,8 +48,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.847216+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.847216+00:00"
+    "collected_at": "2026-11-21T14:16:34.968137+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.968137+00:00"
   },
   {
     "id": "da2346baee53",
@@ -74,8 +74,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.847484+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.847484+00:00"
+    "collected_at": "2026-11-21T14:16:34.968311+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.968311+00:00"
   },
   {
     "id": "531bb439fc34",
@@ -100,8 +100,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.847754+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.847754+00:00"
+    "collected_at": "2026-11-21T14:16:34.968513+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.968513+00:00"
   },
   {
     "id": "452b7275a7a3",
@@ -126,8 +126,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.847955+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.847955+00:00"
+    "collected_at": "2026-11-21T14:16:34.968653+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.968653+00:00"
   },
   {
     "id": "c8d4274b813f",
@@ -152,8 +152,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.848197+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.848197+00:00"
+    "collected_at": "2026-11-21T14:16:34.968821+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.968821+00:00"
   },
   {
     "id": "d28fe3b6fd39",
@@ -178,8 +178,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.848470+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.848470+00:00"
+    "collected_at": "2026-11-21T14:16:34.969012+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.969012+00:00"
   },
   {
     "id": "2e2ce310aecf",
@@ -204,8 +204,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.848693+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.848693+00:00"
+    "collected_at": "2026-11-21T14:16:34.969162+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.969162+00:00"
   },
   {
     "id": "8fd5488f101e",
@@ -230,8 +230,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.849092+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.849092+00:00"
+    "collected_at": "2026-11-21T14:16:34.969438+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.969438+00:00"
   },
   {
     "id": "bbc40f662e09",
@@ -256,8 +256,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:31.849309+00:00",
-    "last_verified_at": "2026-11-21T05:45:31.849309+00:00"
+    "collected_at": "2026-11-21T14:16:34.969586+00:00",
+    "last_verified_at": "2026-11-21T14:16:34.969586+00:00"
   },
   {
     "id": "3f86935f37a2",
@@ -282,34 +282,8 @@
     "deadline": "Oct 30 - Dec 04, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.618909+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.618909+00:00"
-  },
-  {
-    "id": "e9a14855afdb",
-    "title": "Codegeist 2026: Build with context. Ship with confidence.",
-    "organization": "Atlassian",
-    "category": "hackathons",
-    "summary": "Hackathon aberto (Online). Temas: Machine Learning/AI, Enterprise, Productivity.",
-    "url": "https://codegeist2026.devpost.com/",
-    "source": "Devpost",
-    "action_label": "Inscrever-se",
-    "eligibility": {
-      "summary": "Aberto ao público (verifique regras no link oficial).",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "$ 120,000"
-    },
-    "modality": "online",
-    "location": "Online",
-    "scope": "internacional",
-    "area": "Tecnologia e Inovação",
-    "deadline": "Oct 27 - Dec 22, 2026",
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:36.618964+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.618964+00:00"
+    "collected_at": "2026-11-21T14:16:41.067248+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067248+00:00"
   },
   {
     "id": "5ac5a3136af2",
@@ -334,8 +308,34 @@
     "deadline": "Nov 11 - 30, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.618987+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.618987+00:00"
+    "collected_at": "2026-11-21T14:16:41.067296+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067296+00:00"
+  },
+  {
+    "id": "e9a14855afdb",
+    "title": "Codegeist 2026: Build with context. Ship with confidence.",
+    "organization": "Atlassian",
+    "category": "hackathons",
+    "summary": "Hackathon aberto (Online). Temas: Machine Learning/AI, Enterprise, Productivity.",
+    "url": "https://codegeist2026.devpost.com/",
+    "source": "Devpost",
+    "action_label": "Inscrever-se",
+    "eligibility": {
+      "summary": "Aberto ao público (verifique regras no link oficial).",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "$ 120,000"
+    },
+    "modality": "online",
+    "location": "Online",
+    "scope": "internacional",
+    "area": "Tecnologia e Inovação",
+    "deadline": "Oct 27 - Dec 22, 2026",
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:41.067319+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067319+00:00"
   },
   {
     "id": "1cf9ceb17d79",
@@ -360,8 +360,8 @@
     "deadline": "Nov 02 - Dec 15, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.619009+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.619009+00:00"
+    "collected_at": "2026-11-21T14:16:41.067336+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067336+00:00"
   },
   {
     "id": "86cec2aeb206",
@@ -386,8 +386,8 @@
     "deadline": "Nov 11 - Dec 08, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.619035+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.619035+00:00"
+    "collected_at": "2026-11-21T14:16:41.067358+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067358+00:00"
   },
   {
     "id": "eb978b30c33f",
@@ -412,8 +412,8 @@
     "deadline": "Nov 10 - Dec 07, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.619056+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.619056+00:00"
+    "collected_at": "2026-11-21T14:16:41.067375+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067375+00:00"
   },
   {
     "id": "4b113a63db84",
@@ -438,8 +438,8 @@
     "deadline": "Nov 11, 2026 - Jan 11, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.619078+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.619078+00:00"
+    "collected_at": "2026-11-21T14:16:41.067392+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067392+00:00"
   },
   {
     "id": "dc4a7a9f8460",
@@ -464,8 +464,8 @@
     "deadline": "Oct 20 - Dec 21, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.619110+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.619110+00:00"
+    "collected_at": "2026-11-21T14:16:41.067413+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067413+00:00"
   },
   {
     "id": "074a65c6a224",
@@ -490,8 +490,8 @@
     "deadline": "Nov 17, 2026 - Jan 12, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.619138+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.619138+00:00"
+    "collected_at": "2026-11-21T14:16:41.067434+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.067434+00:00"
   },
   {
     "id": "1fea5bfed971",
@@ -516,8 +516,34 @@
     "deadline": "08/12/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.874878+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.874878+00:00"
+    "collected_at": "2026-11-21T14:16:41.436356+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.436356+00:00"
+  },
+  {
+    "id": "040f72854f08",
+    "title": "ICPC 2026 Online Challenge 2 powered by Huawei",
+    "organization": "Codeforces",
+    "category": "competicoes",
+    "summary": "Competição de programação competitiva (IOI).",
+    "url": "https://codeforces.com/contest/2291",
+    "source": "Codeforces",
+    "action_label": "Participar",
+    "eligibility": {
+      "summary": "Aberto a qualquer participante com conta no Codeforces.",
+      "any_university": true,
+      "free": true,
+      "remuneration": false,
+      "benefits": "Ranking / experiência em algoritmos"
+    },
+    "modality": "online",
+    "location": "Online",
+    "scope": "internacional",
+    "area": "Programação Competitiva",
+    "deadline": "08/12/2026 11:00 UTC",
+    "status": "UPCOMING",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:41.436399+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.436399+00:00"
   },
   {
     "id": "7ee9a05fec1e",
@@ -542,8 +568,8 @@
     "deadline": "01/12/2026 14:30 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.874923+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.874923+00:00"
+    "collected_at": "2026-11-21T14:16:41.436413+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.436413+00:00"
   },
   {
     "id": "3dd5af867c81",
@@ -568,8 +594,8 @@
     "deadline": "22/11/2026 09:05 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.874944+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.874944+00:00"
+    "collected_at": "2026-11-21T14:16:41.436427+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.436427+00:00"
   },
   {
     "id": "6064a0fa92f9",
@@ -594,8 +620,8 @@
     "deadline": "21/11/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.874960+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.874960+00:00"
+    "collected_at": "2026-11-21T14:16:41.436438+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.436438+00:00"
   },
   {
     "id": "a632d2f08ddc",
@@ -620,8 +646,8 @@
     "deadline": "21/11/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:36.874976+00:00",
-    "last_verified_at": "2026-11-21T05:45:36.874976+00:00"
+    "collected_at": "2026-11-21T14:16:41.436450+00:00",
+    "last_verified_at": "2026-11-21T14:16:41.436450+00:00"
   },
   {
     "id": "c44f54057f0c",
@@ -646,8 +672,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.078426+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.078426+00:00"
+    "collected_at": "2026-11-21T14:16:42.020899+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.020899+00:00"
   },
   {
     "id": "3462cba5027c",
@@ -672,8 +698,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.078529+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.078529+00:00"
+    "collected_at": "2026-11-21T14:16:42.020996+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.020996+00:00"
   },
   {
     "id": "6d79e2e11c14",
@@ -698,8 +724,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.078613+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.078613+00:00"
+    "collected_at": "2026-11-21T14:16:42.021059+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021059+00:00"
   },
   {
     "id": "85699fdbe08f",
@@ -724,8 +750,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.078717+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.078717+00:00"
+    "collected_at": "2026-11-21T14:16:42.021136+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021136+00:00"
   },
   {
     "id": "fa2fa876aad3",
@@ -750,8 +776,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.078785+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.078785+00:00"
+    "collected_at": "2026-11-21T14:16:42.021189+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021189+00:00"
   },
   {
     "id": "b26a3010d429",
@@ -776,8 +802,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.078937+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.078937+00:00"
+    "collected_at": "2026-11-21T14:16:42.021247+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021247+00:00"
   },
   {
     "id": "ec87bb40db5f",
@@ -802,8 +828,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079018+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079018+00:00"
+    "collected_at": "2026-11-21T14:16:42.021303+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021303+00:00"
   },
   {
     "id": "f54a955fc58a",
@@ -828,8 +854,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079106+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079106+00:00"
+    "collected_at": "2026-11-21T14:16:42.021369+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021369+00:00"
   },
   {
     "id": "8b62ebb4ed35",
@@ -854,8 +880,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079181+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079181+00:00"
+    "collected_at": "2026-11-21T14:16:42.021427+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021427+00:00"
   },
   {
     "id": "0247a13a964b",
@@ -880,8 +906,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079251+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079251+00:00"
+    "collected_at": "2026-11-21T14:16:42.021477+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021477+00:00"
   },
   {
     "id": "ce76c1448604",
@@ -906,8 +932,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079353+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079353+00:00"
+    "collected_at": "2026-11-21T14:16:42.021542+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021542+00:00"
   },
   {
     "id": "dcba4d0cb540",
@@ -932,8 +958,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079440+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079440+00:00"
+    "collected_at": "2026-11-21T14:16:42.021606+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021606+00:00"
   },
   {
     "id": "8f8e44c9da6d",
@@ -958,8 +984,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079516+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079516+00:00"
+    "collected_at": "2026-11-21T14:16:42.021662+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021662+00:00"
   },
   {
     "id": "753315ab070e",
@@ -984,8 +1010,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079596+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079596+00:00"
+    "collected_at": "2026-11-21T14:16:42.021722+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021722+00:00"
   },
   {
     "id": "632d93c386b1",
@@ -1010,8 +1036,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:37.079660+00:00",
-    "last_verified_at": "2026-11-21T05:45:37.079660+00:00"
+    "collected_at": "2026-11-21T14:16:42.021771+00:00",
+    "last_verified_at": "2026-11-21T14:16:42.021771+00:00"
   },
   {
     "id": "85b6192db757",
@@ -1036,16 +1062,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T05:45:39.188900+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.188900+00:00"
+    "collected_at": "2026-11-21T14:16:43.835897+00:00",
+    "last_verified_at": "2026-11-21T14:16:43.835897+00:00"
   },
   {
-    "id": "0b897cd237d2",
-    "title": "Intake and Discharge Clinician",
-    "organization": "Talkspace",
+    "id": "1217a4cfa63a",
+    "title": "Senior Manager, Product Analytics (Growth)",
+    "organization": "iFIT",
     "category": "estagios",
-    "summary": "Talkspace — other. At Talkspace, we are committed to fostering a diverse, equitable, inclusive, and belonging-centered workplace where everyone can thrive while making a difference in mental health. Want to help over two...",
-    "url": "https://remoteOK.com/remote-jobs/remote-intake-and-discharge-clinician-talkspace-1137888",
+    "summary": "iFIT — marketing. iFITâs vision is to create the world's most holistic health and fitness platform, integrating all elements of health - physical fitness, mental health, nutrition and active recovery - into a seamless ...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-product-analytics-growth-ifit-1137912",
     "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1062,42 +1088,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:39.631198+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.631198+00:00"
+    "collected_at": "2026-11-21T14:16:44.319180+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.319180+00:00"
   },
   {
-    "id": "96cfff5c01af",
-    "title": "Senior DevOps Engineer II - Europe",
-    "organization": "Storyblok",
+    "id": "a5a43106924f",
+    "title": "Inside Sales Specialist-Temp",
+    "organization": "Natera",
     "category": "estagios",
-    "summary": "Storyblok — product. Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, ap...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-ii-europe-storyblok-1137887",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "Worldwide",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.632186+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.632186+00:00"
-  },
-  {
-    "id": "05325d3d55ba",
-    "title": "Sr. Product Manager",
-    "organization": "6sense",
-    "category": "estagios",
-    "summary": "6sense — product. Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.Â We envision a future where companies, teams and people reach their full potential. Our People: People are t...",
-    "url": "https://remoteOK.com/remote-jobs/remote-sr-product-manager-6sense-1137886",
+    "summary": "Natera — sales. Patient Outreach and Support Specialist Â Position Summary : Nateraâs portfolio of innovative molecular and genetic testing solutions helps patients and providers make informed healthcare decisions thro...",
+    "url": "https://remoteOK.com/remote-jobs/remote-inside-sales-specialist-temp-natera-1137911",
     "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1114,146 +1114,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:39.633164+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.633164+00:00"
+    "collected_at": "2026-11-21T14:16:44.319932+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.319932+00:00"
   },
   {
-    "id": "0fb2b6a883b1",
-    "title": "Senior Director of Product Management (R14361)",
-    "organization": "Oportun",
-    "category": "estagios",
-    "summary": "Oportun — product. Who We Are Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Op...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-director-of-product-management-r14361-oportun-1137885",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.634317+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.634317+00:00"
-  },
-  {
-    "id": "5571e78728df",
-    "title": "Director, Sales",
-    "organization": "Ping Identity",
-    "category": "estagios",
-    "summary": "Ping Identity — devops. About Ping Identity:Â At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just somethi...",
-    "url": "https://remoteOK.com/remote-jobs/remote-director-sales-ping-identity-1137884",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.635383+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.635383+00:00"
-  },
-  {
-    "id": "8ee9833527ae",
-    "title": "Technical Chief of Staff to the CTO",
-    "organization": "Clover Health",
-    "category": "estagios",
-    "summary": "Clover Health — exec. At Clover, the Business Enablement team leads our technological advancement while ensuring robust security and compliance. We deliver user-friendly corporate applications, manage complex data ecosys...",
-    "url": "https://remoteOK.com/remote-jobs/remote-technical-chief-of-staff-to-the-cto-clover-health-1137883",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.636448+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.636448+00:00"
-  },
-  {
-    "id": "af27b5e424d3",
-    "title": "Per Diem Digital Clinician | MD/DO (CA license)",
-    "organization": "Galileo",
-    "category": "estagios",
-    "summary": "Galileo — other. About Us Galileo is a team-based medical practice working to improve the quality and affordability of health care for all. Operating across 50 states, Galileo offers high-touch, data-driven, multi-specia...",
-    "url": "https://remoteOK.com/remote-jobs/remote-per-diem-digital-clinician-md-do-ca-license-galileo-1137882",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.637116+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.637116+00:00"
-  },
-  {
-    "id": "ab421143f20e",
-    "title": "Per Diem Digital Clinician | NP (CA license)",
-    "organization": "Galileo",
-    "category": "estagios",
-    "summary": "Galileo — other. About Us Galileo is a team-based medical practice working to improve the quality and affordability of health care for all. Operating across 50 states, Galileo offers high-touch, data-driven, multi-specia...",
-    "url": "https://remoteOK.com/remote-jobs/remote-per-diem-digital-clinician-np-ca-license-galileo-1137881",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.637810+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.637810+00:00"
-  },
-  {
-    "id": "58b797752d16",
-    "title": "Compliance Officer/MLRO",
+    "id": "aaf3b432fb12",
+    "title": "SEA P2P Business Development Specialist",
     "organization": "Bybit",
     "category": "estagios",
-    "summary": "Bybit — product. About Us Established in 2018, Bybit is one of the worldâs leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Pow...",
-    "url": "https://remoteOK.com/remote-jobs/remote-compliance-officer-mlro-bybit-1137880",
+    "summary": "Bybit — sales. About Us Established in 2018, Bybit is one of the worldâs leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Power...",
+    "url": "https://remoteOK.com/remote-jobs/remote-sea-p2p-business-development-specialist-bybit-1137910",
     "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1270,146 +1140,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:39.639199+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.639199+00:00"
+    "collected_at": "2026-11-21T14:16:44.320408+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.320408+00:00"
   },
   {
-    "id": "d22726cf4c51",
-    "title": "Manager, Business Risk and AI Automation",
-    "organization": "Reddit",
+    "id": "b9ec95f91cd7",
+    "title": "Customer Success Manager",
+    "organization": "Salsify",
     "category": "estagios",
-    "summary": "Reddit — exec. Reddit is a community of communities. Itâs built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, a...",
-    "url": "https://remoteOK.com/remote-jobs/remote-manager-business-risk-and-ai-automation-reddit-1137879",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.640032+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.640032+00:00"
-  },
-  {
-    "id": "2c365bf1413f",
-    "title": "Compensation Manager",
-    "organization": "6sense",
-    "category": "estagios",
-    "summary": "6sense — exec. Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.Â We envision a future where companies, teams and people reach their full potential. Our People: People are the ...",
-    "url": "https://remoteOK.com/remote-jobs/remote-compensation-manager-6sense-1137878",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.641024+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.641024+00:00"
-  },
-  {
-    "id": "95b0f7b8dda2",
-    "title": "PreSales Solutions Engineer",
-    "organization": "Sumo Logic",
-    "category": "estagios",
-    "summary": "Sumo Logic — devops. As a Sales Engineer , you will be the primary technical resource for our Account Executive team. You will share your product and technical expertise through presentations, product demonstrations, and...",
-    "url": "https://remoteOK.com/remote-jobs/remote-presales-solutions-engineer-sumo-logic-1137877",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.641728+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.641728+00:00"
-  },
-  {
-    "id": "2d14b2a934b3",
-    "title": "P2P Regional Operations - Africa",
-    "organization": "Bybit",
-    "category": "estagios",
-    "summary": "Bybit — product. About Us Established in 2018, Bybit is one of the worldâs leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Pow...",
-    "url": "https://remoteOK.com/remote-jobs/remote-p2p-regional-operations-africa-bybit-1137876",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "Africa",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.642532+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.642532+00:00"
-  },
-  {
-    "id": "7264f2543206",
-    "title": "International People Ops Analyst, Benefits",
-    "organization": "Cribl",
-    "category": "estagios",
-    "summary": "Cribl — exec. Join the company thatâs building the telemetry infrastructure for the AI era. At Cribl, we partner with IT and Security teams at many of the worldâs biggest enterprises, including half of the Fortune 10...",
-    "url": "https://remoteOK.com/remote-jobs/remote-international-people-ops-analyst-benefits-cribl-1137875",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:39.643263+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.643263+00:00"
-  },
-  {
-    "id": "f73eef4dfca1",
-    "title": "Senior Atlassian Cloud Administrator",
-    "organization": "Dropbox",
-    "category": "estagios",
-    "summary": "Dropbox — devops. Role Description As a Senior Atlassian Cloud Engineer at Dropbox, you will design, build, and evolve the platforms that help our employees collaborate and get support. With a focus on Jira Service Manag...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-atlassian-cloud-administrator-dropbox-1137874",
+    "summary": "Salsify — customer support. Come join a company who is a key leader in the industry scaling the next core commerce infrastructure and on the path from $100M to $500M! Founded in 2012, Salsify helps brand manufacturers, d...",
+    "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-salsify-1137909",
     "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1426,224 +1166,302 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:39.643889+00:00",
-    "last_verified_at": "2026-11-21T05:45:39.643889+00:00"
+    "collected_at": "2026-11-21T14:16:44.321162+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.321162+00:00"
   },
   {
-    "id": "c7d42e998feb",
-    "title": "Celonis: Account Executive - Public Sector Germany - Defense (Bundeswehr)",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote, Germany Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living dig...",
-    "url": "https://weworkremotely.com/remote-jobs/celonis-account-executive-public-sector-germany-defense-bundeswehr",
-    "source": "We Work Remotely",
+    "id": "dfe0c40b2b03",
+    "title": "Technical Architect",
+    "organization": "Dropbox",
+    "category": "estagios",
+    "summary": "Dropbox — customer support. Role Description As a Technical Architect at Dropbox, you will help enterprise customers translate business goals and complex technical requirements into practical solution architectures. You ...",
+    "url": "https://remoteOK.com/remote-jobs/remote-technical-architect-dropbox-1137908",
+    "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:41.217257+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.217257+00:00"
-  },
-  {
-    "id": "891c880e7a4f",
-    "title": "Celonis: Account Executive - Cross Industries",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote, Switzerland Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living...",
-    "url": "https://weworkremotely.com/remote-jobs/celonis-account-executive-cross-industries",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:41.220073+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.220073+00:00"
-  },
-  {
-    "id": "53765d24cd85",
-    "title": "Postscript: Senior Software Engineer, Full Stack (80% backend)",
-    "organization": "We Work Remotely",
-    "category": "capacitacoes",
-    "summary": "Headquarters: Remote Postscript is the AI-powered, all-in-one retention platform trusted by 20,000+ Shopify brands, including Brooklinen, Ruggable, True Classic, and Dr. Squatch. Our mission is to maximize the lifetime v...",
-    "url": "https://weworkremotely.com/remote-jobs/postscript-senior-software-engineer-full-stack-80-backend",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
       "remuneration": true,
-      "benefits": "Ver chamada oficial"
+      "benefits": "Remuneração (ver vaga)"
     },
     "modality": "online",
-    "location": "Internacional",
+    "location": "Europe",
     "scope": "internacional",
-    "area": "Tecnologia",
+    "area": "Desenvolvimento e Tech",
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:41.220997+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.220997+00:00"
+    "collected_at": "2026-11-21T14:16:44.321608+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.321608+00:00"
   },
   {
-    "id": "4319de8776ae",
-    "title": "Cockroach Labs: Account Executive, DACH",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote, Germany &nbsp; Category-defining tech. Career-defining work. For more than a decade, Cockroach Labs has built database technology trusted to power some of the world's most mission-critical applicati...",
-    "url": "https://weworkremotely.com/remote-jobs/cockroach-labs-account-executive-dach",
-    "source": "We Work Remotely",
+    "id": "cb6e74ff4115",
+    "title": "Global Tax Manager",
+    "organization": "Ensono",
+    "category": "estagios",
+    "summary": "Ensono — customer support. At Ensono, our Purpose is to be a relentless ally, disrupting the status quo and unleashing our clients to Do Great Things! We enable our clients to achieve key business outcomes that reshape h...",
+    "url": "https://remoteOK.com/remote-jobs/remote-global-tax-manager-ensono-1137907",
+    "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:41.221780+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.221780+00:00"
-  },
-  {
-    "id": "7b7a2e202b02",
-    "title": "BeyondTrust: Lead-to-Cash Business Partner",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote United States BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility...",
-    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-lead-to-cash-business-partner",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-21T05:45:41.224211+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.224211+00:00"
-  },
-  {
-    "id": "125b17d4c91c",
-    "title": "SeekOut: Senior Product Designer (Remote)",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote What is SeekOut? &nbsp; SeekOut is a leader in AI-driven talent optimization, helping organizations recruit, reskill, and redeploy talent with AI-driven solutions. SeekOut transforms how companies bu...",
-    "url": "https://weworkremotely.com/remote-jobs/seekout-senior-product-designer-remote",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
       "remuneration": true,
-      "benefits": "Ver chamada oficial"
+      "benefits": "Remuneração (ver vaga)"
     },
     "modality": "online",
-    "location": "Internacional",
+    "location": "US Only",
     "scope": "internacional",
-    "area": "Tecnologia",
+    "area": "Desenvolvimento e Tech",
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:41.225221+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.225221+00:00"
+    "collected_at": "2026-11-21T14:16:44.322211+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.322211+00:00"
   },
   {
-    "id": "a448679cb9e3",
-    "title": "Bybit: Compliance Officer/MLRO",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Pakistan - Remote About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and...",
-    "url": "https://weworkremotely.com/remote-jobs/bybit-compliance-officer-mlro",
-    "source": "We Work Remotely",
+    "id": "e3c00ffab3a5",
+    "title": "Senior Sales Engineer",
+    "organization": "Natera",
+    "category": "estagios",
+    "summary": "Natera — customer support. Position Summary âÂ Â Â Â Â Â Lead technical aspects of pre-sales and customer discovery conversations, focusing on EHR integrated digital engagement solutions and clinical care pathway optim...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-sales-engineer-natera-1137906",
+    "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
     },
     "modality": "online",
-    "location": "Internacional",
+    "location": "US Only",
     "scope": "internacional",
-    "area": "Tecnologia",
+    "area": "Desenvolvimento e Tech",
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:41.227009+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.227009+00:00"
+    "collected_at": "2026-11-21T14:16:44.322895+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.322895+00:00"
   },
   {
-    "id": "885b4273d451",
-    "title": "BeyondTrust: Field & Partner Marketing Manager, Public Sector",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote Unites States | Atlanta, Austin, Boston, Chicago, Dallas, Denver, Phoenix BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through ...",
-    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-field-partner-marketing-manager-public-sector",
-    "source": "We Work Remotely",
+    "id": "599cc5a51a59",
+    "title": "Senior Associate, Finance and Accounting Operations",
+    "organization": "Ensono",
+    "category": "estagios",
+    "summary": "Ensono — customer support. At Ensono, our Purpose is to be a relentless ally, disrupting the status quo and unleashing our clients to Do Great Things! We enable our clients to achieve key business outcomes that reshape h...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-associate-finance-and-accounting-operations-ensono-1137905",
+    "source": "RemoteOK",
     "action_label": "Candidatar-se",
     "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
     },
     "modality": "online",
-    "location": "Internacional",
+    "location": "Latin America",
     "scope": "internacional",
-    "area": "Tecnologia",
+    "area": "Desenvolvimento e Tech",
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:41.227913+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.227913+00:00"
+    "collected_at": "2026-11-21T14:16:44.323492+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.323492+00:00"
   },
   {
-    "id": "a8927dfebe75",
-    "title": "Sezzle: Customer Service Agent",
+    "id": "3be5ac9268ab",
+    "title": "Data Strategy Operations Manager",
+    "organization": "Abnormal",
+    "category": "estagios",
+    "summary": "Abnormal — exec. About the Role As the Data Strategy and Operations Manager at Abnormal AI, you will own our go-to-market data quality strategy and serve as the steward of data across Salesforce and the systems around it...",
+    "url": "https://remoteOK.com/remote-jobs/remote-data-strategy-operations-manager-abnormal-1137903",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:44.324015+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.324015+00:00"
+  },
+  {
+    "id": "e4ff8f63788d",
+    "title": "Sr Sales Ops Analyst",
+    "organization": "BeyondTrust",
+    "category": "estagios",
+    "summary": "BeyondTrust — devops. BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and ...",
+    "url": "https://remoteOK.com/remote-jobs/remote-sr-sales-ops-analyst-beyondtrust-1137902",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:44.324605+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.324605+00:00"
+  },
+  {
+    "id": "4173c372efff",
+    "title": "Art Director",
+    "organization": "Abnormal",
+    "category": "estagios",
+    "summary": "Abnormal — devops. About the Role Abnormal is built to look and feel like nothing else in security: precision-engineered, a little rebellious, and a few steps ahead of now. We protect more than 5,000 customers, including...",
+    "url": "https://remoteOK.com/remote-jobs/remote-art-director-abnormal-1137901",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:44.325226+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.325226+00:00"
+  },
+  {
+    "id": "045f33f14500",
+    "title": "Senior Product Architect",
+    "organization": "Storyblok",
+    "category": "estagios",
+    "summary": "Storyblok — product. Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, ap...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-product-architect-storyblok-1137900",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Worldwide",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:44.325617+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.325617+00:00"
+  },
+  {
+    "id": "ec30c1d65b77",
+    "title": "Senior Customer Marketing Manager",
+    "organization": "Bitwarden",
+    "category": "estagios",
+    "summary": "Bitwarden — product. Senior Customer Marketing Manager Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share s...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-customer-marketing-manager-bitwarden-1137899",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:44.326162+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.326162+00:00"
+  },
+  {
+    "id": "3e22f837588d",
+    "title": "Security Analyst - Governance, Risk, and Compliance",
+    "organization": "LaunchDarkly",
+    "category": "estagios",
+    "summary": "LaunchDarkly — devops. About the Job: LaunchDarkly's Governance, Risk, and Compliance team is hiring a Security Analyst III to facilitate the definition, implementation, and operation of security and privacy programs at ...",
+    "url": "https://remoteOK.com/remote-jobs/remote-security-analyst-governance-risk-and-compliance-launchdarkly-1137898",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:44.326737+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.326737+00:00"
+  },
+  {
+    "id": "22988d5a27ac",
+    "title": "Staff Security Engineer - AppSec",
+    "organization": "6sense",
+    "category": "estagios",
+    "summary": "6sense — devops. Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.Â We envision a future where companies, teams and people reach their full potential. Our People: People are th...",
+    "url": "https://remoteOK.com/remote-jobs/remote-staff-security-engineer-appsec-6sense-1137897",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:44.327437+00:00",
+    "last_verified_at": "2026-11-21T14:16:44.327437+00:00"
+  },
+  {
+    "id": "16203a20ceaa",
+    "title": "Okta: Regional Sales Manager (Bay Area)",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Colombia, Remote This is a remote position for candidates based in Bogota, Colombia. About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experienc...",
-    "url": "https://weworkremotely.com/remote-jobs/sezzle-customer-service-agent",
+    "summary": "Headquarters: California Remote Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to ...",
+    "url": "https://weworkremotely.com/remote-jobs/okta-regional-sales-manager-bay-area",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1660,16 +1478,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:41.234587+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.234587+00:00"
+    "collected_at": "2026-11-21T14:16:46.758388+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.758388+00:00"
   },
   {
-    "id": "122b2744fdbf",
-    "title": "Sezzle: A.I. Engineering Intern (Remote)",
+    "id": "13a89972ce66",
+    "title": "Okta: Enterprise Account Executive, West",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Türkiye, Remote About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest...",
-    "url": "https://weworkremotely.com/remote-jobs/sezzle-a-i-engineering-intern-remote",
+    "summary": "Headquarters: California Remote Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to ...",
+    "url": "https://weworkremotely.com/remote-jobs/okta-enterprise-account-executive-west",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1686,16 +1504,42 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:41.236760+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.236760+00:00"
+    "collected_at": "2026-11-21T14:16:46.759078+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.759078+00:00"
   },
   {
-    "id": "522053510449",
-    "title": "Talkspace: Care Coordinator Manager",
+    "id": "9a9d4c6ed3b8",
+    "title": "Wrike: Senior Product Builder - Talent Pool",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: New York, NY (Remote) At Talkspace, we are committed to fostering a diverse, equitable, inclusive, and belonging-centered workplace where everyone can thrive while making a difference in mental health. Want...",
-    "url": "https://weworkremotely.com/remote-jobs/talkspace-care-coordinator-manager",
+    "summary": "Headquarters: European Union - Remote Wrike is the most powerful work management platform. Built for teams and organizations looking to collaborate, create, and exceed every day, Wrike brings everyone and all work into a...",
+    "url": "https://weworkremotely.com/remote-jobs/wrike-senior-product-builder-talent-pool",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:46.759985+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.759985+00:00"
+  },
+  {
+    "id": "3bc66bec954c",
+    "title": "Wrike: Senior Director, Growth & Demand Marketing",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: US - Remote Wrike is the most powerful work management platform. Built for teams and organizations looking to collaborate, create, and exceed every day, Wrike brings everyone and all work into a single plac...",
+    "url": "https://weworkremotely.com/remote-jobs/wrike-senior-director-growth-demand-marketing",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1712,7 +1556,137 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T05:45:41.239430+00:00",
-    "last_verified_at": "2026-11-21T05:45:41.239430+00:00"
+    "collected_at": "2026-11-21T14:16:46.761032+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.761032+00:00"
+  },
+  {
+    "id": "610eea35a1eb",
+    "title": "Upstart: Director, Internal Communications",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: United States | Remote About Upstart At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimen...",
+    "url": "https://weworkremotely.com/remote-jobs/upstart-director-internal-communications",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": null,
+      "remuneration": true,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:46.767938+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.767938+00:00"
+  },
+  {
+    "id": "779e271e3e72",
+    "title": "Ping Identity: Account Executive (New Logo Hunter)",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: AUS - Melbourne - Remote About Ping Identity:&nbsp; At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And i...",
+    "url": "https://weworkremotely.com/remote-jobs/ping-identity-account-executive-new-logo-hunter",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:46.771317+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.771317+00:00"
+  },
+  {
+    "id": "e49a1b7b9d49",
+    "title": "Smartsheet: Software Engineer I (Remote Eligible)",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By o...",
+    "url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-i-remote-eligible",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:46.771992+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.771992+00:00"
+  },
+  {
+    "id": "e98de89eca59",
+    "title": "ZoomInfo Technologies LLC: Principal Product Manager, Person Data",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: Bethesda, Maryland, United States; Remote; Vancouver, Washington, United States; Waltham, Massachusetts, United States ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do...",
+    "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-product-manager-person-data",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": null,
+      "remuneration": true,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:46.772733+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.772733+00:00"
+  },
+  {
+    "id": "886eb86001b8",
+    "title": "Smartsheet: Software Engineer II - Full Stack (Remote Eligible)",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By o...",
+    "url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-ii-full-stack-remote-eligible",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T14:16:46.773358+00:00",
+    "last_verified_at": "2026-11-21T14:16:46.773358+00:00"
   }
 ]
