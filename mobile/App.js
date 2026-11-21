@@ -10,6 +10,7 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
+  useWindowDimensions,
   View,
 } from 'react-native';
 
@@ -24,21 +25,27 @@ const CATEGORIES = [
   { key: 'hackathons', label: 'Hackathons' },
   { key: 'competicoes', label: 'Competições' },
   { key: 'empresas', label: 'Programas de empresas' },
+  { key: 'pesquisa', label: 'Pesquisa' },
   { key: 'estagios', label: 'Estágios' },
   { key: 'capacitacoes', label: 'Capacitações' },
-  { key: 'pesquisa', label: 'Pesquisa e extensão' },
 ];
 
 const CATEGORY_META = {
-  bolsas: { label: 'BOLSA', color: '#10b981' },
-  editais: { label: 'EDITAL', color: '#f59e0b' },
-  congressos: { label: 'CONGRESSO', color: '#ec4899' },
-  hackathons: { label: 'HACKATHON', color: '#a855f7' },
-  competicoes: { label: 'COMPETIÇÃO', color: '#fb7185' },
-  empresas: { label: 'EMPRESAS', color: '#f97316' },
-  estagios: { label: 'ESTÁGIO', color: '#3b82f6' },
-  capacitacoes: { label: 'CAPACITAÇÃO', color: '#06b6d4' },
-  pesquisa: { label: 'PESQUISA', color: '#22c55e' },
+  bolsas: { label: 'Bolsas', color: '#047857', bg: '#ecfdf5' },
+  editais: { label: 'Editais', color: '#b45309', bg: '#fffbeb' },
+  congressos: { label: 'Congressos', color: '#be185d', bg: '#fdf2f8' },
+  hackathons: { label: 'Hackathons', color: '#6d28d9', bg: '#f5f3ff' },
+  competicoes: { label: 'Competições', color: '#be123c', bg: '#fff1f2' },
+  empresas: { label: 'Empresas', color: '#c2410c', bg: '#fff7ed' },
+  pesquisa: { label: 'Pesquisa', color: '#15803d', bg: '#f0fdf4' },
+  estagios: { label: 'Estágios', color: '#1d4ed8', bg: '#eff6ff' },
+  capacitacoes: { label: 'Capacitações', color: '#0e7490', bg: '#ecfeff' },
+};
+
+const STATUS_META = {
+  OPEN: { label: 'Inscrições abertas', color: '#15803d', bg: '#dcfce7' },
+  UPCOMING: { label: 'Em breve', color: '#1d4ed8', bg: '#dbeafe' },
+  CLOSED: { label: 'Encerrada', color: '#64748b', bg: '#f1f5f9' },
 };
 
 async function translateTextToPt(text) {
@@ -53,6 +60,9 @@ async function translateTextToPt(text) {
 }
 
 export default function App() {
+  const { width } = useWindowDimensions();
+  const isWide = width >= 768;
+
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('todos');
   const [search, setSearch] = useState('');
@@ -129,6 +139,7 @@ export default function App() {
         (item.title || '').toLowerCase().includes(q) ||
         (item.summary || '').toLowerCase().includes(q) ||
         (item.organization || '').toLowerCase().includes(q) ||
+        (item.area || '').toLowerCase().includes(q) ||
         (item.location || '').toLowerCase().includes(q)
       );
     });
@@ -136,161 +147,206 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <View style={styles.pageWrapper}>
-        <View style={styles.headerRow}>
-          <View>
-            <Text style={styles.headerTitle}>Radar Comp</Text>
-            <Text style={styles.headerCount}>
-              {offlineMode
-                ? 'Sem conexão com os dados'
-                : `${filteredItems.length} oportunidade${filteredItems.length === 1 ? '' : 's'}`}
-            </Text>
+      <View style={styles.headerBar}>
+        <View style={[styles.headerInner, isWide && styles.containerWide]}>
+          <View style={styles.brandRow}>
+            <View style={styles.logoDot} />
+            <View>
+              <Text style={styles.brandTitle}>Radar Comp</Text>
+              <Text style={styles.brandSubtitle}>
+                {offlineMode
+                  ? 'Sem conexão com os dados'
+                  : `${filteredItems.length} oportunidade${filteredItems.length === 1 ? '' : 's'} disponíve${filteredItems.length === 1 ? 'l' : 'is'}`}
+              </Text>
+            </View>
           </View>
+
           <View style={styles.headerActions}>
             <TouchableOpacity
-              style={[styles.iconBtn, showFilters && styles.iconBtnActive]}
+              style={[styles.secondaryBtn, showFilters && styles.secondaryBtnActive]}
               onPress={() => setShowFilters((v) => !v)}
             >
-              <Text style={styles.iconBtnText}>Filtros</Text>
+              <Text style={[styles.secondaryBtnText, showFilters && styles.secondaryBtnTextActive]}>
+                Filtros
+              </Text>
             </TouchableOpacity>
             <TouchableOpacity
-              style={styles.refreshBtn}
+              style={styles.primaryBtn}
               onPress={fetchOpportunities}
               disabled={loading}
             >
               {loading ? (
-                <ActivityIndicator size="small" color="#0f172a" />
+                <ActivityIndicator size="small" color="#ffffff" />
               ) : (
-                <Text style={styles.refreshBtnText}>Atualizar</Text>
+                <Text style={styles.primaryBtnText}>Atualizar</Text>
               )}
             </TouchableOpacity>
           </View>
         </View>
+      </View>
 
+      <View style={[styles.mainContainer, isWide && styles.containerWide]}>
         <TextInput
           style={styles.searchInput}
-          placeholder="Buscar por bolsa, hackathon, empresa, cidade..."
-          placeholderTextColor="#64748b"
+          placeholder="Buscar por oportunidade, empresa, universidade, área ou cidade..."
+          placeholderTextColor="#94a3b8"
           value={search}
           onChangeText={setSearch}
         />
 
         {showFilters ? (
+          <View style={styles.filtersPanel}>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.filtersRow}>
+              {['todos', 'brasil', 'internacional'].map((val) => (
+                <TouchableOpacity
+                  key={val}
+                  style={[styles.chip, scopeFilter === val && styles.chipActive]}
+                  onPress={() => setScopeFilter(val)}
+                >
+                  <Text style={[styles.chipText, scopeFilter === val && styles.chipTextActive]}>
+                    {val === 'todos' ? 'Todos os locais' : val === 'brasil' ? 'Brasil' : 'Internacional'}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+              {['online', 'presencial', 'híbrida'].map((mod) => (
+                <TouchableOpacity
+                  key={mod}
+                  style={[styles.chip, modalityFilter === mod && styles.chipActive]}
+                  onPress={() => setModalityFilter(modalityFilter === mod ? 'todos' : mod)}
+                >
+                  <Text style={[styles.chipText, modalityFilter === mod && styles.chipTextActive]}>
+                    {mod.charAt(0).toUpperCase() + mod.slice(1)}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+              <TouchableOpacity
+                style={[styles.chip, onlyFree && styles.chipActive]}
+                onPress={() => setOnlyFree((v) => !v)}
+              >
+                <Text style={[styles.chipText, onlyFree && styles.chipTextActive]}>Gratuito</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[styles.chip, onlyPaid && styles.chipActive]}
+                onPress={() => setOnlyPaid((v) => !v)}
+              >
+                <Text style={[styles.chipText, onlyPaid && styles.chipTextActive]}>Com bolsa/prêmio</Text>
+              </TouchableOpacity>
+            </ScrollView>
+          </View>
+        ) : null}
+
+        {isWide ? (
+          <View style={styles.tabsWrap}>
+            {CATEGORIES.map((cat) => {
+              const active = selectedCategory === cat.key;
+              return (
+                <TouchableOpacity
+                  key={cat.key}
+                  style={[styles.tab, active && styles.tabActive]}
+                  onPress={() => setSelectedCategory(cat.key)}
+                >
+                  <Text style={[styles.tabText, active && styles.tabTextActive]}>{cat.label}</Text>
+                </TouchableOpacity>
+              );
+            })}
+          </View>
+        ) : (
           <ScrollView
             horizontal
             showsHorizontalScrollIndicator={false}
-            style={styles.filtersScroll}
-            contentContainerStyle={styles.filtersContent}
+            style={styles.tabsScroll}
+            contentContainerStyle={styles.tabsScrollContent}
           >
-            {['todos', 'brasil', 'internacional'].map((val) => (
-              <TouchableOpacity
-                key={val}
-                style={[styles.chip, scopeFilter === val && styles.chipActive]}
-                onPress={() => setScopeFilter(val)}
-              >
-                <Text style={[styles.chipText, scopeFilter === val && styles.chipTextActive]}>
-                  {val === 'todos' ? 'Todos os locais' : val === 'brasil' ? 'Brasil' : 'Internacional'}
-                </Text>
-              </TouchableOpacity>
-            ))}
-            {['online', 'presencial', 'híbrida'].map((mod) => (
-              <TouchableOpacity
-                key={mod}
-                style={[styles.chip, modalityFilter === mod && styles.chipActive]}
-                onPress={() => setModalityFilter(modalityFilter === mod ? 'todos' : mod)}
-              >
-                <Text style={[styles.chipText, modalityFilter === mod && styles.chipTextActive]}>
-                  {mod}
-                </Text>
-              </TouchableOpacity>
-            ))}
-            <TouchableOpacity
-              style={[styles.chip, onlyFree && styles.chipActive]}
-              onPress={() => setOnlyFree((v) => !v)}
-            >
-              <Text style={[styles.chipText, onlyFree && styles.chipTextActive]}>Gratuito</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.chip, onlyPaid && styles.chipActive]}
-              onPress={() => setOnlyPaid((v) => !v)}
-            >
-              <Text style={[styles.chipText, onlyPaid && styles.chipTextActive]}>Com bolsa/prêmio</Text>
-            </TouchableOpacity>
+            {CATEGORIES.map((cat) => {
+              const active = selectedCategory === cat.key;
+              return (
+                <TouchableOpacity
+                  key={cat.key}
+                  style={[styles.tab, active && styles.tabActive]}
+                  onPress={() => setSelectedCategory(cat.key)}
+                >
+                  <Text style={[styles.tabText, active && styles.tabTextActive]}>{cat.label}</Text>
+                </TouchableOpacity>
+              );
+            })}
           </ScrollView>
-        ) : null}
-
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          style={styles.tabsScroll}
-          contentContainerStyle={styles.tabsContent}
-        >
-          {CATEGORIES.map((cat) => {
-            const active = selectedCategory === cat.key;
-            return (
-              <TouchableOpacity
-                key={cat.key}
-                style={[styles.tab, active && styles.tabActive]}
-                onPress={() => setSelectedCategory(cat.key)}
-              >
-                <Text style={[styles.tabText, active && styles.tabTextActive]}>{cat.label}</Text>
-              </TouchableOpacity>
-            );
-          })}
-        </ScrollView>
+        )}
 
         <FlatList
+          key={isWide ? 'grid-2' : 'list-1'}
           data={filteredItems}
+          numColumns={isWide ? 2 : 1}
+          columnWrapperStyle={isWide ? styles.gridRow : undefined}
           keyExtractor={(item) => item.id}
           contentContainerStyle={styles.listContent}
           refreshControl={
-            <RefreshControl refreshing={loading} onRefresh={fetchOpportunities} tintColor="#38bdf8" />
+            <RefreshControl refreshing={loading} onRefresh={fetchOpportunities} tintColor="#2563eb" />
           }
           ListEmptyComponent={
-            <Text style={styles.emptyText}>
-              {loading
-                ? 'Carregando oportunidades...'
-                : 'Nenhuma oportunidade encontrada para essa categoria ou filtro.'}
-            </Text>
+            <View style={styles.emptyBox}>
+              <Text style={styles.emptyTitle}>Nenhuma oportunidade encontrada</Text>
+              <Text style={styles.emptySubtitle}>
+                {loading
+                  ? 'Buscando oportunidades...'
+                  : 'Tente alterar a categoria, os filtros ou o termo de busca.'}
+              </Text>
+            </View>
           }
           renderItem={({ item }) => {
-            const meta = CATEGORY_META[item.category] || {
-              label: (item.category || 'OPORTUNIDADE').toUpperCase(),
-              color: '#38bdf8',
+            const catMeta = CATEGORY_META[item.category] || {
+              label: item.category || 'Oportunidade',
+              color: '#1d4ed8',
+              bg: '#eff6ff',
             };
+            const stMeta = STATUS_META[item.status] || STATUS_META.OPEN;
             const tr = translations[item.id];
             const isTranslated = Boolean(tr?.active);
+            const displayTitle = isTranslated ? tr.title : item.title;
+            const displaySummary = isTranslated ? tr.summary : item.summary;
 
             return (
-              <View style={styles.card}>
-                <View style={styles.cardTopRow}>
-                  <View style={[styles.badgePill, { backgroundColor: `${meta.color}22` }]}>
-                    <Text style={[styles.badgeText, { color: meta.color }]}>{meta.label}</Text>
+              <View style={[styles.card, isWide && styles.cardGrid]}>
+                <View style={styles.cardHeader}>
+                  <View style={[styles.catBadge, { backgroundColor: catMeta.bg }]}>
+                    <Text style={[styles.catBadgeText, { color: catMeta.color }]}>
+                      {catMeta.label}
+                    </Text>
                   </View>
-                  <Text style={styles.orgText} numberOfLines={1}>
-                    {item.organization || item.source}
-                  </Text>
+                  <View style={[styles.statusBadge, { backgroundColor: stMeta.bg }]}>
+                    <Text style={[styles.statusBadgeText, { color: stMeta.color }]}>
+                      {stMeta.label}
+                    </Text>
+                  </View>
                 </View>
 
+                <Text style={styles.orgText} numberOfLines={1}>
+                  {item.organization || item.source}
+                </Text>
+
                 <Text style={styles.cardTitle} numberOfLines={2}>
-                  {isTranslated ? tr.title : item.title}
+                  {displayTitle}
                 </Text>
 
-                <Text style={styles.cardSummary} numberOfLines={2}>
-                  {isTranslated ? tr.summary : item.summary}
-                </Text>
+                {displaySummary ? (
+                  <Text style={styles.cardSummary} numberOfLines={3}>
+                    {displaySummary}
+                  </Text>
+                ) : null}
 
-                <View style={styles.cardBottomRow}>
-                  <View style={styles.tagsRow}>
-                    <Text style={styles.metaPill}>
-                      {item.modality || 'online'} · {item.location || 'Não informado'}
+                <View style={styles.cardFooter}>
+                  <View style={styles.metaGroup}>
+                    <Text style={styles.metaText}>
+                      {item.modality && item.modality !== 'não informada'
+                        ? `${item.modality} · `
+                        : ''}
+                      {item.location || 'Local não informado'}
                     </Text>
                     {item.deadline ? (
-                      <Text style={styles.deadlinePill}>Prazo: {item.deadline}</Text>
+                      <Text style={styles.deadlineText}>Prazo: {item.deadline}</Text>
                     ) : null}
                   </View>
 
-                  <View style={styles.actionsRow}>
+                  <View style={styles.cardActions}>
                     {item.language && item.language !== 'pt' ? (
                       <TouchableOpacity
                         style={styles.translateBtn}
@@ -299,7 +355,7 @@ export default function App() {
                       >
                         <Text style={styles.translateBtnText}>
                           {translatingId === item.id
-                            ? '...'
+                            ? 'Traduzindo...'
                             : isTranslated
                               ? 'Original'
                               : 'Traduzir'}
@@ -310,7 +366,9 @@ export default function App() {
                       style={styles.ctaBtn}
                       onPress={() => Linking.openURL(item.url)}
                     >
-                      <Text style={styles.ctaBtnText}>{item.action_label || 'Ver'}</Text>
+                      <Text style={styles.ctaBtnText}>
+                        {item.action_label || 'Ver oportunidade'}
+                      </Text>
                     </TouchableOpacity>
                   </View>
                 </View>
@@ -324,109 +382,155 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: '#090d16' },
-  pageWrapper: {
+  safeArea: { flex: 1, backgroundColor: '#f8fafc' },
+  headerBar: {
+    backgroundColor: '#ffffff',
+    borderBottomWidth: 1,
+    borderBottomColor: '#e2e8f0',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+  },
+  headerInner: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    alignSelf: 'center',
+  },
+  containerWide: { maxWidth: 1120 },
+  brandRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  logoDot: {
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    backgroundColor: '#2563eb',
+  },
+  brandTitle: { color: '#0f172a', fontSize: 20, fontWeight: '700' },
+  brandSubtitle: { color: '#64748b', fontSize: 12, marginTop: 1 },
+  headerActions: { flexDirection: 'row', gap: 8, alignItems: 'center' },
+  secondaryBtn: {
+    backgroundColor: '#f1f5f9',
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 8,
+  },
+  secondaryBtnActive: { backgroundColor: '#dbeafe' },
+  secondaryBtnText: { color: '#334155', fontSize: 13, fontWeight: '600' },
+  secondaryBtnTextActive: { color: '#1d4ed8' },
+  primaryBtn: {
+    backgroundColor: '#2563eb',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 8,
+    minWidth: 84,
+    alignItems: 'center',
+  },
+  primaryBtnText: { color: '#ffffff', fontSize: 13, fontWeight: '600' },
+  mainContainer: {
     flex: 1,
     width: '100%',
-    maxWidth: 740,
     alignSelf: 'center',
-    paddingHorizontal: 18,
-    paddingTop: 14,
+    paddingHorizontal: 16,
+    paddingTop: 16,
   },
-  headerRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 14,
-  },
-  headerTitle: { color: '#f8fafc', fontSize: 21, fontWeight: '700', letterSpacing: -0.4 },
-  headerCount: { color: '#64748b', fontSize: 12, marginTop: 2 },
-  headerActions: { flexDirection: 'row', gap: 8, alignItems: 'center' },
-  iconBtn: {
-    paddingHorizontal: 11,
-    paddingVertical: 6,
-    borderRadius: 8,
-    backgroundColor: '#111827',
-  },
-  iconBtnActive: { backgroundColor: '#1e293b' },
-  iconBtnText: { color: '#cbd5e1', fontSize: 12, fontWeight: '500' },
-  refreshBtn: {
-    backgroundColor: '#e2e8f0',
-    paddingHorizontal: 13,
-    paddingVertical: 6,
-    borderRadius: 8,
-    minWidth: 72,
-    alignItems: 'center',
-  },
-  refreshBtnText: { color: '#0f172a', fontWeight: '600', fontSize: 12 },
   searchInput: {
-    backgroundColor: '#111827',
-    color: '#f8fafc',
-    paddingHorizontal: 14,
-    paddingVertical: 10,
+    backgroundColor: '#ffffff',
+    color: '#0f172a',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
     borderRadius: 10,
     fontSize: 14,
+    borderWidth: 1,
+    borderColor: '#e2e8f0',
     marginBottom: 12,
   },
-  filtersScroll: { maxHeight: 34, marginBottom: 12 },
-  filtersContent: { gap: 8, alignItems: 'center' },
+  filtersPanel: { marginBottom: 12 },
+  filtersRow: { gap: 8, paddingVertical: 2 },
   chip: {
-    backgroundColor: '#111827',
-    paddingHorizontal: 11,
-    paddingVertical: 5,
-    borderRadius: 14,
-  },
-  chipActive: { backgroundColor: '#1e3a5f' },
-  chipText: { color: '#94a3b8', fontSize: 12 },
-  chipTextActive: { color: '#e0f2fe', fontWeight: '600' },
-  tabsScroll: { maxHeight: 38, marginBottom: 14 },
-  tabsContent: { gap: 6, alignItems: 'center', paddingRight: 16 },
-  tab: {
+    backgroundColor: '#ffffff',
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 8,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#e2e8f0',
   },
-  tabActive: { backgroundColor: '#1e293b' },
-  tabText: { color: '#64748b', fontSize: 13, fontWeight: '500' },
-  tabTextActive: { color: '#f8fafc', fontWeight: '600' },
-  listContent: { paddingBottom: 28 },
+  chipActive: { backgroundColor: '#eff6ff', borderColor: '#2563eb' },
+  chipText: { color: '#475569', fontSize: 12, fontWeight: '500' },
+  chipTextActive: { color: '#1d4ed8', fontWeight: '600' },
+  tabsWrap: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+    marginBottom: 16,
+  },
+  tabsScroll: { maxHeight: 42, marginBottom: 14 },
+  tabsScrollContent: { gap: 8, alignItems: 'center', paddingRight: 16 },
+  tab: {
+    backgroundColor: '#ffffff',
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#e2e8f0',
+  },
+  tabActive: { backgroundColor: '#2563eb', borderColor: '#2563eb' },
+  tabText: { color: '#475569', fontSize: 13, fontWeight: '500' },
+  tabTextActive: { color: '#ffffff', fontWeight: '600' },
+  listContent: { paddingBottom: 32 },
+  gridRow: { gap: 14 },
   card: {
-    backgroundColor: '#111827',
-    padding: 16,
+    backgroundColor: '#ffffff',
+    padding: 18,
     borderRadius: 12,
-    marginBottom: 10,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#e2e8f0',
   },
-  cardTopRow: {
+  cardGrid: { flex: 1 },
+  cardHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 8,
-    gap: 10,
+    marginBottom: 10,
+    gap: 8,
   },
-  badgePill: { paddingHorizontal: 8, paddingVertical: 2, borderRadius: 5 },
-  badgeText: { fontSize: 10, fontWeight: '700', letterSpacing: 0.4 },
-  orgText: { color: '#64748b', fontSize: 12, flexShrink: 1, textAlign: 'right' },
-  cardTitle: { color: '#f1f5f9', fontSize: 15, fontWeight: '600', lineHeight: 21, marginBottom: 4 },
-  cardSummary: { color: '#94a3b8', fontSize: 13, lineHeight: 18, marginBottom: 12 },
-  cardBottomRow: {
+  catBadge: { paddingHorizontal: 10, paddingVertical: 4, borderRadius: 6 },
+  catBadgeText: { fontSize: 11, fontWeight: '700' },
+  statusBadge: { paddingHorizontal: 8, paddingVertical: 3, borderRadius: 6 },
+  statusBadgeText: { fontSize: 11, fontWeight: '600' },
+  orgText: { color: '#64748b', fontSize: 12, fontWeight: '500', marginBottom: 4 },
+  cardTitle: { color: '#0f172a', fontSize: 16, fontWeight: '700', lineHeight: 22, marginBottom: 6 },
+  cardSummary: { color: '#475569', fontSize: 13, lineHeight: 19, marginBottom: 14 },
+  cardFooter: {
+    marginTop: 'auto',
+    paddingTop: 10,
+    borderTopWidth: 1,
+    borderTopColor: '#f1f5f9',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     gap: 8,
     flexWrap: 'wrap',
   },
-  tagsRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, flex: 1 },
-  metaPill: { color: '#64748b', fontSize: 11 },
-  deadlinePill: { color: '#d97706', fontSize: 11, fontWeight: '600' },
-  actionsRow: { flexDirection: 'row', gap: 8, alignItems: 'center' },
-  translateBtn: { paddingHorizontal: 8, paddingVertical: 5 },
-  translateBtnText: { color: '#38bdf8', fontSize: 12, fontWeight: '500' },
-  ctaBtn: {
-    backgroundColor: '#1e293b',
-    paddingHorizontal: 12,
+  metaGroup: { flex: 1, gap: 2 },
+  metaText: { color: '#64748b', fontSize: 12 },
+  deadlineText: { color: '#b45309', fontSize: 12, fontWeight: '600' },
+  cardActions: { flexDirection: 'row', gap: 8, alignItems: 'center' },
+  translateBtn: {
+    paddingHorizontal: 10,
     paddingVertical: 6,
-    borderRadius: 7,
+    borderRadius: 8,
+    backgroundColor: '#f1f5f9',
   },
-  ctaBtnText: { color: '#f8fafc', fontSize: 12, fontWeight: '600' },
-  emptyText: { color: '#64748b', textAlign: 'center', marginTop: 48, fontSize: 14 },
+  translateBtnText: { color: '#334155', fontSize: 12, fontWeight: '600' },
+  ctaBtn: {
+    backgroundColor: '#2563eb',
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+    borderRadius: 8,
+  },
+  ctaBtnText: { color: '#ffffff', fontSize: 12, fontWeight: '600' },
+  emptyBox: { alignItems: 'center', marginTop: 48, paddingHorizontal: 16 },
+  emptyTitle: { color: '#0f172a', fontSize: 16, fontWeight: '600', marginBottom: 4 },
+  emptySubtitle: { color: '#64748b', fontSize: 13, textAlign: 'center' },
 });
