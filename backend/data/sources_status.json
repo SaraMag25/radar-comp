@@ -1,0 +1,708 @@
+{
+  "last_run": "2026-11-21T00:40:38.060955+00:00",
+  "total_sources": 89,
+  "active_sources": 11,
+  "sources": [
+    {
+      "name": "IFCE — Portal de Editais",
+      "status": "ok",
+      "found_count": 15,
+      "approved_count": 15,
+      "error": null
+    },
+    {
+      "name": "GREat (UFC)",
+      "status": "ok",
+      "found_count": 10,
+      "approved_count": 0,
+      "error": null
+    },
+    {
+      "name": "Insight Lab (UFC)",
+      "status": "ok",
+      "found_count": 10,
+      "approved_count": 0,
+      "error": null
+    },
+    {
+      "name": "FAPESP",
+      "status": "ok",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null
+    },
+    {
+      "name": "LESC (UFC)",
+      "status": "unavailable",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Servidor recusou conexão (Connection refused em 2026-11-20)."
+    },
+    {
+      "name": "CNPq",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "CAPES",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "FUNCAP",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UFC",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UFPE",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UFRN",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "USP",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UNICAMP",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UFMG",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UnB",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "FACEPE",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "FAPERJ",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "FAPEMIG",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "FAPESC",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Devpost",
+      "status": "ok",
+      "found_count": 9,
+      "approved_count": 9,
+      "error": null
+    },
+    {
+      "name": "Codeforces",
+      "status": "ok",
+      "found_count": 5,
+      "approved_count": 5,
+      "error": null
+    },
+    {
+      "name": "Major League Hacking",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "NASA Space Apps Challenge",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Hackathon.com",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "HackerEarth",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Kaggle",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "DrivenData",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Topcoder",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "CodeChef",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "ICPC",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Imagine Cup",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "GitHub Game Off",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "WikiCFP",
+      "status": "ok",
+      "found_count": 20,
+      "approved_count": 20,
+      "error": null
+    },
+    {
+      "name": "SBC",
+      "status": "ok",
+      "found_count": 10,
+      "approved_count": 1,
+      "error": null
+    },
+    {
+      "name": "IEEE",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "ACM",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "OpenReview",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "ICLR",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "NeurIPS",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "ICML",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "AAAI",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Springer Conferences",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Elsevier Conferences",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "EasyChair",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "NTL Events",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Grupo Boticário",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Pague Menos",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Natura",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Petrobras",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Banco do Brasil",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Itaú",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Nubank",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "iFood",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Mercado Livre",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Microsoft",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Google",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "IBM",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Oracle",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "AWS",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Siemens",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Embrapii",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Sebrae",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Softex",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Instituto Atlântico",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "CESAR",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "RemoteOK",
+      "status": "ok",
+      "found_count": 15,
+      "approved_count": 15,
+      "error": null
+    },
+    {
+      "name": "Remotive",
+      "status": "ok",
+      "found_count": 15,
+      "approved_count": 15,
+      "error": null
+    },
+    {
+      "name": "We Work Remotely",
+      "status": "ok",
+      "found_count": 25,
+      "approved_count": 25,
+      "error": null
+    },
+    {
+      "name": "CIEE",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "IEL",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Gupy",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "LinkedIn Jobs",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Bloqueia coleta automatizada por termos de uso."
+    },
+    {
+      "name": "Indeed",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Glassdoor",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Vagas.com.br",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Abler",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Wellfound",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Programathor",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Revelo",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Google Summer of Code",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Outreachy",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Erasmus+",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "DAAD",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "Mitacs Globalink",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "CERN Summer Student Programme",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "IAESTE",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "AIESEC",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UNESCO",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    },
+    {
+      "name": "UN Volunteers",
+      "status": "manual_only",
+      "found_count": 0,
+      "approved_count": 0,
+      "error": null,
+      "notes": "Sem API/RSS público; consulta manual."
+    }
+  ]
+}
