@@ -34,7 +34,7 @@ def fetch_devpost(source: dict) -> tuple[list[dict], int]:
                 modality=modality,
                 location=loc_text,
                 deadline=h.get("submission_period_dates"),
-                status="aberta",
+                status="OPEN",
             )
         )
     return items, len(raw)
@@ -73,7 +73,7 @@ def fetch_codeforces(source: dict) -> tuple[list[dict], int]:
                 modality="online",
                 location="Online",
                 deadline=start_str,
-                status="futura",
+                status="UPCOMING",
             )
         )
     return items, len(upcoming)
@@ -108,7 +108,7 @@ def fetch_remoteok(source: dict) -> tuple[list[dict], int]:
                 benefits="Remuneração (ver vaga)",
                 modality="online",
                 location=loc,
-                status="aberta",
+                status="OPEN",
             )
         )
     return items, len(raw)
@@ -142,7 +142,7 @@ def fetch_remotive(source: dict) -> tuple[list[dict], int]:
                 benefits=job.get("salary") or "Remuneração (ver vaga)",
                 modality="online",
                 location=loc,
-                status="aberta",
+                status="OPEN",
             )
         )
     return items, len(raw)

@@ -9,9 +9,42 @@ HEADERS = {
 }
 
 
+UI_ARTIFACT_WORDS = [
+    "arrow_forward_ios",
+    "chevron_right",
+    "open_in_new",
+    "article",
+    "download",
+]
+
+GENERIC_LISTING_TITLES = {
+    "chamadas públicas",
+    "chamadas publicas",
+    "editais",
+    "processos seletivos",
+    "acompanhe a seleção",
+    "acompanhe a selecao",
+    "ver mais",
+    "saiba mais",
+}
+
+
 def clean_html(text: str) -> str:
     clean = re.sub(r"<[^>]+>", " ", text or "")
+    for artifact in UI_ARTIFACT_WORDS:
+        clean = re.sub(rf"\b{re.escape(artifact)}\b", " ", clean, flags=re.IGNORECASE)
     return re.sub(r"\s+", " ", clean).strip()
+
+
+def is_generic_or_invalid_title(title: str) -> bool:
+    t = clean_html(title).lower()
+    if len(t) < 15:
+        return True
+    if t in GENERIC_LISTING_TITLES:
+        return True
+    if any(t.startswith(g) for g in ["acompanhe a seleção", "acompanhe a selecao", "chamadas públicas"]):
+        return True
+    return False
 
 
 def make_id(url: str) -> str:
@@ -21,13 +54,19 @@ def make_id(url: str) -> str:
 def detect_status(text: str) -> str:
     lowered = text.lower()
     if any(sig in lowered for sig in CLOSED_SIGNALS):
-        return "encerrada"
-    return "aberta"
+        return "CLOSED"
+    if any(sig in lowered for sig in ["em breve", "inscrições a partir de", "upcoming"]):
+        return "UPCOMING"
+    if any(sig in lowered for sig in ACTION_SIGNALS):
+        return "OPEN"
+    return "UNKNOWN"
 
 
 def is_actionable_opportunity(text: str) -> bool:
     lowered = text.lower()
-    if detect_status(lowered) == "encerrada":
+    if is_generic_or_invalid_title(text):
+        return False
+    if detect_status(lowered) == "CLOSED":
         return False
     if any(reject in lowered for reject in NEWS_REJECT_SIGNALS):
         return False
