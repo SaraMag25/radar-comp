@@ -1,0 +1,72 @@
+name: Deploy PWA (GitHub Pages)
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "mobile/**"
+      - ".github/workflows/deploy-web.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: mobile/package-lock.json
+
+      - name: Instalar dependências
+        working-directory: mobile
+        run: npm ci
+
+      - name: Exportar Web/PWA
+        working-directory: mobile
+        run: npx expo export --platform web
+
+      - name: Adicionar manifest.json PWA
+        working-directory: mobile/dist
+        run: |
+          cat << 'EOF' > manifest.json
+          {
+            "name": "Radar Comp",
+            "short_name": "Radar Comp",
+            "start_url": "/radar-comp/",
+            "scope": "/radar-comp/",
+            "display": "standalone",
+            "background_color": "#f8fafc",
+            "theme_color": "#2563eb"
+          }
+          EOF
+          sed -i 's|</head>|<link rel="manifest" href="/radar-comp/manifest.json" /></head>|' index.html
+
+      - name: Upload artifact Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: mobile/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

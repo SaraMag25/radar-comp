@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Radar Comp",
+    "slug": "radar-comp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "experiments": {
+      "baseUrl": "/radar-comp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Radar Comp",
+      "shortName": "Radar Comp",
+      "description": "Agregador de oportunidades acadêmicas, tecnológicas e profissionais",
+      "themeColor": "#2563eb",
+      "backgroundColor": "#f8fafc"
+    }
+  }
+}
