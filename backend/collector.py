@@ -6,7 +6,7 @@ from pathlib import Path
 import feedparser
 import requests
 
-from config import ACTION_SIGNALS, NEWS_REJECT_SIGNALS, NTFY_TOPIC, SOURCES
+from config import ACTION_SIGNALS, CLOSED_SIGNALS, NEWS_REJECT_SIGNALS, NTFY_TOPIC, SOURCES
 
 DATA_DIR = Path(__file__).parent / "data"
 SEEN_FILE = DATA_DIR / "seen.json"
@@ -38,8 +38,17 @@ def make_id(url: str) -> str:
     return hashlib.sha256(url.encode("utf-8")).hexdigest()[:12]
 
 
+def detect_status(text: str) -> str:
+    lowered = text.lower()
+    if any(sig in lowered for sig in CLOSED_SIGNALS):
+        return "encerrada"
+    return "aberta"
+
+
 def is_actionable_opportunity(text: str) -> bool:
     lowered = text.lower()
+    if detect_status(lowered) == "encerrada":
+        return False
     if any(reject in lowered for reject in NEWS_REJECT_SIGNALS):
         return False
     return any(sig in lowered for sig in ACTION_SIGNALS)
@@ -57,10 +66,10 @@ def classify_opportunity(title: str, summary: str, default_category: str) -> str
         return "capacitacoes"
     if any(k in text for k in ["congresso", "simpósio", "simposio", "workshop", "call for papers", "cfp", "submissão"]):
         return "congressos"
-    if any(k in text for k in ["edital", "chamada pública", "chamada publica"]):
-        return "editais"
     if any(k in text for k in ["bolsa", "pibic", "pibiti", "scholarship", "fellowship"]):
         return "bolsas"
+    if any(k in text for k in ["edital", "chamada pública", "chamada publica"]):
+        return "editais"
     if any(k in text for k in ["inovação aberta", "open innovation", "programa de talentos", "aceleração"]):
         return "empresas"
     if any(k in text for k in ["extensão", "extensao", "iniciação científica", "pesquisa"]):

@@ -2,51 +2,49 @@
 
 NTFY_TOPIC = "radar-comp-2026"
 
-# Sinais que indicam oportunidade concreta de participação/inscrição/submissão
+# Sinais explícitos de ação (inscrição, candidatura, submissão, edital aberto)
+# Não usar substantivos isolados como "maratona", "competição" ou "bolsa"
 ACTION_SIGNALS = [
     "inscrições abertas",
     "inscricoes abertas",
     "inscreva-se",
-    "inscrição",
-    "inscricao",
-    "edital",
+    "inscrição até",
+    "inscricao ate",
+    "prazo de inscrição",
+    "prazo de inscricao",
+    "edital de seleção",
+    "edital de selecao",
+    "edital nº",
+    "edital n°",
+    "edital aberto",
     "chamada pública",
     "chamada publica",
     "chamada de trabalhos",
+    "chamada para artigos",
     "call for papers",
     "processo seletivo",
-    "seleção de",
-    "selecao de",
+    "seleção de bolsistas",
+    "selecao de bolsistas",
     "candidatura",
-    "submissão",
-    "submissao",
-    "submeta",
-    "vaga de",
-    "vagas para",
-    "bolsa de",
-    "bolsas de",
-    "estágio",
-    "estagio",
-    "trainee",
-    "hackathon",
-    "competição",
-    "competicao",
-    "desafio",
-    "maratona",
-    "capacitação",
-    "capacitacao",
-    "curso gratuito",
-    "bootcamp",
-    "programa de",
-    "residência",
-    "residencia",
-    "apply",
-    "register",
-    "submission",
+    "submissão de",
+    "submissao de",
+    "submeta seu",
+    "vagas abertas",
+    "open for registration",
+    "apply now",
+    "register now",
+    "submit your",
 ]
 
-# Sinais fortes de notícia/retrospectiva (não são oportunidades acionáveis)
+# Sinais de notícia, retrospectiva ou conteúdo informativo (rejeitar)
 NEWS_REJECT_SIGNALS = [
+    "reúne ",
+    "reuniu ",
+    "consagra ",
+    "campeões",
+    "campeoes",
+    "é possível usar",
+    "descobrir quem será",
     "celebra aliança",
     "celebrou",
     "integra o ",
@@ -61,11 +59,23 @@ NEWS_REJECT_SIGNALS = [
     "recebeu visita",
     "foi destaque",
     "marca presença",
-    "inscrições encerradas",
-    "inscricoes encerradas",
+    "divulgou o resultado",
+    "resultado final",
+    "retrospectiva",
+    "entrevista",
 ]
 
-# Fontes reais e verificáveis
+# Sinais de oportunidade já encerrada
+CLOSED_SIGNALS = [
+    "inscrições encerradas",
+    "inscricoes encerradas",
+    "prazo encerrado",
+    "chamada encerrada",
+    "edital encerrado",
+    "closed for submissions",
+    "registration closed",
+]
+
 SOURCES = [
     {
         "name": "Devpost",
