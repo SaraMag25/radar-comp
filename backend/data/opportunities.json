@@ -1,197 +1,15 @@
 [
   {
-    "id": "82c07ffdec07",
-    "title": "Bolsas para Estudantes",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "bolsas",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
-    "url": "https://ifce.edu.br/processos-seletivos/buscar/?tipo=1",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
-      "any_university": null,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "aberta",
-    "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.268935+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.268935+00:00"
-  },
-  {
-    "id": "dd3124417b3a",
-    "title": "Chamadas Públicas",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
-    "url": "https://ifce.edu.br/processos-seletivos/buscar/?tipo=11",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "aberta",
-    "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269003+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269003+00:00"
-  },
-  {
-    "id": "6757dd16eab4",
-    "title": "Acompanhe a seleção arrow_forward_ios",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
-    "url": "https://ifce.edu.br/processos-seletivos-20271/",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "aberta",
-    "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269147+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269147+00:00"
-  },
-  {
-    "id": "3efaf92953dc",
-    "title": "Seleção de Notório Saber do IFCE reúne mais de 60 candidaturas",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
-    "url": "https://ifce.edu.br/noticias/selecao-de-notorio-saber-do-ifce-reune-mais-de-60-candidaturas/",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "aberta",
-    "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269193+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269193+00:00"
-  },
-  {
-    "id": "adb0b044ab0b",
-    "title": "Projetos de Extensão [Aracati] Seleção de participantes do curso FIC Empreendedorismo artesanal - Renda de labirinto - edital 27/2026 article Edital: 27/2026 - GAB-ARA/DG-ARA/ARACATI domain Seleção para: Aracati",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "capacitacoes",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
-    "url": "https://ifce.edu.br/campus/aracati/estude-no-ifce/aracati-selecao-de-participantes-do-curso-fic-empreendedorismo-artesanal-renda-de-labirinto-edital-272026/",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "aberta",
-    "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269334+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269334+00:00"
-  },
-  {
-    "id": "53b937f6a392",
-    "title": "Transferidos, Diplomados e Graduados [Baturité] Edital Graduados e Transferidos 2027.1 article Edital: 6/2026 - DE-BAT domain Seleção para: Baturité",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
-    "url": "https://ifce.edu.br/campus/baturite/estude-no-ifce/baturite-edital-graduados-e-transferidos/",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "aberta",
-    "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269370+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269370+00:00"
-  },
-  {
-    "id": "24215af981fa",
-    "title": "Programas de Assistência Estudantil Auxílio Óculos 2026.2 article Edital: 1/2026 - DG/CAN domain Seleção para: Canindé",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
-    "url": "https://ifce.edu.br/campus/caninde/bolsas-para-estudantes/auxilio-oculos-20262/",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "aberta",
-    "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269400+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269400+00:00"
-  },
-  {
     "id": "e95f9cb9faf8",
-    "title": "Cursos Técnicos Processo Seletivo 2027.1 - Cursos Técnicos Integrados - Caucaia article Edital: 24/2026 - DI/PROEN/REITORIA domain Seleção para: Caucaia",
+    "title": "Cursos Técnicos Processo Seletivo 2027.1 - Cursos Técnicos Integrados - Caucaia Edital: 24/2026 - DI/PROEN/REITORIA domain Seleção para: Caucaia",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "capacitacoes",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/caucaia/estude-no-ifce/processo-seletivo-20271-cursos-tecnicos-integrados-caucaia/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -202,22 +20,22 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269436+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269436+00:00"
+    "collected_at": "2026-11-21T00:53:46.932197+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.932197+00:00"
   },
   {
     "id": "16542760171e",
-    "title": "Professor Substituto [Crato] Processo seletivo simplificado para professor(a) substituto(a) de Língua Espanhola article Edital: 56/2026 - DG-CTO domain Seleção para: Crato",
+    "title": "Professor Substituto [Crato] Processo seletivo simplificado para professor(a) substituto(a) de Língua Espanhola Edital: 56/2026 - DG-CTO domain Seleção para: Crato",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/crato/trabalhe-no-ifce/crato-processo-seletivo-simplificado-para-professora-substitutoa-de-lingua-espanhola/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -228,22 +46,22 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269474+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269474+00:00"
+    "collected_at": "2026-11-21T00:53:46.932497+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.932497+00:00"
   },
   {
     "id": "da2346baee53",
-    "title": "Programas de Assistência Estudantil [Fortaleza] Seleção para auxílio-formação e permanência acadêmica 2026.2 - Edital nº 34/2026 article Edital: 34/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "title": "Programas de Assistência Estudantil [Fortaleza] Seleção para auxílio-formação e permanência acadêmica 2026.2 - Edital nº 34/2026 Edital: 34/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "capacitacoes",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/fortaleza/bolsas-para-estudantes/fortaleza-selecao-para-auxilio-formacao-e-permanencia-academica-20262/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -254,22 +72,22 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269509+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269509+00:00"
+    "collected_at": "2026-11-21T00:53:46.932769+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.932769+00:00"
   },
   {
     "id": "531bb439fc34",
-    "title": "Seleção Interna [Fortaleza] Credenciamento para compor o quadro docente do Programa de Doutorado em Ensino – RENOEN - Edital nº 02/2026 article Edital: 2/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "title": "Seleção Interna [Fortaleza] Credenciamento para compor o quadro docente do Programa de Doutorado em Ensino – RENOEN - Edital nº 02/2026 Edital: 2/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/fortaleza/servidores/credenciamento-docente-doutorado-em-ensino-renoen-edital2026/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -280,22 +98,22 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269556+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269556+00:00"
+    "collected_at": "2026-11-21T00:53:46.933059+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.933059+00:00"
   },
   {
     "id": "452b7275a7a3",
-    "title": "Cursos Técnicos [Fortaleza] Processo seletivo 2027.1 - Cursos técnicos presenciais integrados - Edital nº 17/2026 DI/PROEN/Reitoria article Edital: 17/2026 - DI/PROEN/REITORIA domain Seleção para: Fortaleza",
+    "title": "Cursos Técnicos [Fortaleza] Processo seletivo 2027.1 - Cursos técnicos presenciais integrados - Edital nº 17/2026 DI/PROEN/Reitoria Edital: 17/2026 - DI/PROEN/REITORIA domain Seleção para: Fortaleza",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "capacitacoes",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao20271-cursostecnicospresenciaisintegrados-edital172026/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -306,22 +124,22 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269587+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269587+00:00"
+    "collected_at": "2026-11-21T00:53:46.933292+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.933292+00:00"
   },
   {
     "id": "c8d4274b813f",
-    "title": "Cursos Técnicos [Fortaleza] Processo seletivo 2027.1 - Cursos técnicos presenciais subsequentes - Edital nº 18/2026 DI/PROEN/Reitoria article Edital: 18/2026 - DI/PROEN/REITORIA domain Seleção para: Fortaleza",
+    "title": "Cursos Técnicos [Fortaleza] Processo seletivo 2027.1 - Cursos técnicos presenciais subsequentes - Edital nº 18/2026 DI/PROEN/Reitoria Edital: 18/2026 - DI/PROEN/REITORIA domain Seleção para: Fortaleza",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "capacitacoes",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao20271-cursostecnicospresenciaissubsequentes-edital182026/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -332,22 +150,22 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269637+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269637+00:00"
+    "collected_at": "2026-11-21T00:53:46.933564+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.933564+00:00"
   },
   {
     "id": "d28fe3b6fd39",
-    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado Profissional em Artes (PPGARTES) - Turma 2027 - Edital nº 37/2026 article Edital: 37/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado Profissional em Artes (PPGARTES) - Turma 2027 - Edital nº 37/2026 Edital: 37/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao-mestrado-profissional-em-artes-ppgartes-turma-2027/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -358,22 +176,22 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269677+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269677+00:00"
+    "collected_at": "2026-11-21T00:53:46.933852+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.933852+00:00"
   },
   {
     "id": "2e2ce310aecf",
-    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado em Engenharia de Telecomunicações (PPGET) - Turma 2027.1 - Edital nº 39/2026 article Edital: 39/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado em Engenharia de Telecomunicações (PPGET) - Turma 2027.1 - Edital nº 39/2026 Edital: 39/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
     "organization": "Instituto Federal do Ceará (IFCE)",
     "category": "editais",
-    "summary": "Edital/chamada publicada no portal oficial do IFCE.",
+    "summary": "",
     "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao-mestrado-engenharia-telecomunicacoes-ppget-turma20271/",
     "source": "IFCE — Portal de Editais",
     "action_label": "Ver edital",
     "eligibility": {
-      "summary": "Verifique o edital oficial do IFCE.",
+      "summary": "Consulte o edital oficial.",
       "any_university": null,
       "free": true,
       "remuneration": null,
@@ -384,10 +202,62 @@
     "scope": "brasil",
     "area": "Educação, Pesquisa e Extensão",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:40.269711+00:00",
-    "last_verified_at": "2026-11-21T00:40:40.269711+00:00"
+    "collected_at": "2026-11-21T00:53:46.934082+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.934082+00:00"
+  },
+  {
+    "id": "8fd5488f101e",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para Mestrado em Ensino de Ciências e Matemática (PGECM) turma 2027.1 - Edital nº 36/2026 Edital: 36/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/fortaleza-selecao-para-mestrado-em-ensino-de-ciencias-e-matematica-pgecm-turma-20271/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-21T00:53:46.934526+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.934526+00:00"
+  },
+  {
+    "id": "bbc40f662e09",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado Acadêmico em Ciência da Computação (PPGCC) - Turma 2027 - Edital nº 43/2026 Edital: 43/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao-mestrado-ciencia-da-computacao-ppgcc-turma2027/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-21T00:53:46.934754+00:00",
+    "last_verified_at": "2026-11-21T00:53:46.934754+00:00"
   },
   {
     "id": "3f86935f37a2",
@@ -410,10 +280,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Oct 30 - Dec 04, 2026",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.078969+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.078969+00:00"
+    "collected_at": "2026-11-21T00:53:53.410985+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.410985+00:00"
   },
   {
     "id": "e9a14855afdb",
@@ -436,10 +306,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Oct 27 - Dec 22, 2026",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079008+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079008+00:00"
+    "collected_at": "2026-11-21T00:53:53.411041+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411041+00:00"
   },
   {
     "id": "5ac5a3136af2",
@@ -462,10 +332,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Nov 11 - 30, 2026",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079017+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079017+00:00"
+    "collected_at": "2026-11-21T00:53:53.411070+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411070+00:00"
   },
   {
     "id": "1cf9ceb17d79",
@@ -488,10 +358,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Nov 02 - Dec 15, 2026",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079025+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079025+00:00"
+    "collected_at": "2026-11-21T00:53:53.411097+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411097+00:00"
   },
   {
     "id": "86cec2aeb206",
@@ -514,10 +384,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Nov 11 - Dec 08, 2026",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079035+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079035+00:00"
+    "collected_at": "2026-11-21T00:53:53.411149+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411149+00:00"
   },
   {
     "id": "eb978b30c33f",
@@ -540,10 +410,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Nov 10 - Dec 07, 2026",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079042+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079042+00:00"
+    "collected_at": "2026-11-21T00:53:53.411176+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411176+00:00"
   },
   {
     "id": "4b113a63db84",
@@ -566,10 +436,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Nov 11, 2026 - Jan 11, 2027",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079049+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079049+00:00"
+    "collected_at": "2026-11-21T00:53:53.411203+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411203+00:00"
   },
   {
     "id": "dc4a7a9f8460",
@@ -592,10 +462,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Oct 20 - Dec 21, 2026",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079059+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079059+00:00"
+    "collected_at": "2026-11-21T00:53:53.411233+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411233+00:00"
   },
   {
     "id": "074a65c6a224",
@@ -618,10 +488,10 @@
     "scope": "internacional",
     "area": "Tecnologia e Inovação",
     "deadline": "Nov 17, 2026 - Jan 12, 2027",
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.079068+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.079068+00:00"
+    "collected_at": "2026-11-21T00:53:53.411264+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.411264+00:00"
   },
   {
     "id": "1fea5bfed971",
@@ -644,10 +514,10 @@
     "scope": "internacional",
     "area": "Programação Competitiva",
     "deadline": "08/12/2026 14:35 UTC",
-    "status": "futura",
+    "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.405937+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.405937+00:00"
+    "collected_at": "2026-11-21T00:53:53.781172+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.781172+00:00"
   },
   {
     "id": "7ee9a05fec1e",
@@ -670,10 +540,10 @@
     "scope": "internacional",
     "area": "Programação Competitiva",
     "deadline": "01/12/2026 14:30 UTC",
-    "status": "futura",
+    "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.405975+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.405975+00:00"
+    "collected_at": "2026-11-21T00:53:53.781218+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.781218+00:00"
   },
   {
     "id": "3dd5af867c81",
@@ -696,10 +566,10 @@
     "scope": "internacional",
     "area": "Programação Competitiva",
     "deadline": "22/11/2026 09:05 UTC",
-    "status": "futura",
+    "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.405985+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.405985+00:00"
+    "collected_at": "2026-11-21T00:53:53.781244+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.781244+00:00"
   },
   {
     "id": "6064a0fa92f9",
@@ -722,10 +592,10 @@
     "scope": "internacional",
     "area": "Programação Competitiva",
     "deadline": "21/11/2026 14:35 UTC",
-    "status": "futura",
+    "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.405993+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.405993+00:00"
+    "collected_at": "2026-11-21T00:53:53.781265+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.781265+00:00"
   },
   {
     "id": "a632d2f08ddc",
@@ -748,10 +618,10 @@
     "scope": "internacional",
     "area": "Programação Competitiva",
     "deadline": "21/11/2026 14:35 UTC",
-    "status": "futura",
+    "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:50.405999+00:00",
-    "last_verified_at": "2026-11-21T00:40:50.405999+00:00"
+    "collected_at": "2026-11-21T00:53:53.781288+00:00",
+    "last_verified_at": "2026-11-21T00:53:53.781288+00:00"
   },
   {
     "id": "c44f54057f0c",
@@ -774,10 +644,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.884953+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.884953+00:00"
+    "collected_at": "2026-11-21T00:53:54.094061+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094061+00:00"
   },
   {
     "id": "3462cba5027c",
@@ -800,10 +670,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885009+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885009+00:00"
+    "collected_at": "2026-11-21T00:53:54.094185+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094185+00:00"
   },
   {
     "id": "6d79e2e11c14",
@@ -826,10 +696,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885037+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885037+00:00"
+    "collected_at": "2026-11-21T00:53:54.094280+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094280+00:00"
   },
   {
     "id": "85699fdbe08f",
@@ -852,10 +722,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885069+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885069+00:00"
+    "collected_at": "2026-11-21T00:53:54.094389+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094389+00:00"
   },
   {
     "id": "fa2fa876aad3",
@@ -878,10 +748,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885093+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885093+00:00"
+    "collected_at": "2026-11-21T00:53:54.094466+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094466+00:00"
   },
   {
     "id": "b26a3010d429",
@@ -904,10 +774,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885119+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885119+00:00"
+    "collected_at": "2026-11-21T00:53:54.094550+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094550+00:00"
   },
   {
     "id": "ec87bb40db5f",
@@ -930,10 +800,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885144+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885144+00:00"
+    "collected_at": "2026-11-21T00:53:54.094630+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094630+00:00"
   },
   {
     "id": "f54a955fc58a",
@@ -956,10 +826,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885173+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885173+00:00"
+    "collected_at": "2026-11-21T00:53:54.094725+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094725+00:00"
   },
   {
     "id": "8b62ebb4ed35",
@@ -982,10 +852,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885194+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885194+00:00"
+    "collected_at": "2026-11-21T00:53:54.094806+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094806+00:00"
   },
   {
     "id": "0247a13a964b",
@@ -1008,10 +878,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885211+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885211+00:00"
+    "collected_at": "2026-11-21T00:53:54.094882+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094882+00:00"
   },
   {
     "id": "ce76c1448604",
@@ -1034,10 +904,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885243+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885243+00:00"
+    "collected_at": "2026-11-21T00:53:54.094975+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.094975+00:00"
   },
   {
     "id": "dcba4d0cb540",
@@ -1060,10 +930,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885270+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885270+00:00"
+    "collected_at": "2026-11-21T00:53:54.095066+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.095066+00:00"
   },
   {
     "id": "8f8e44c9da6d",
@@ -1086,10 +956,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885294+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885294+00:00"
+    "collected_at": "2026-11-21T00:53:54.095160+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.095160+00:00"
   },
   {
     "id": "753315ab070e",
@@ -1112,10 +982,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885320+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885320+00:00"
+    "collected_at": "2026-11-21T00:53:54.095247+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.095247+00:00"
   },
   {
     "id": "632d93c386b1",
@@ -1138,10 +1008,10 @@
     "scope": "internacional",
     "area": "Computação e Pesquisa",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:51.885340+00:00",
-    "last_verified_at": "2026-11-21T00:40:51.885340+00:00"
+    "collected_at": "2026-11-21T00:53:54.095319+00:00",
+    "last_verified_at": "2026-11-21T00:53:54.095319+00:00"
   },
   {
     "id": "85b6192db757",
@@ -1164,10 +1034,36 @@
     "scope": "brasil",
     "area": "Computação",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-21T00:40:53.821901+00:00",
-    "last_verified_at": "2026-11-21T00:40:53.821901+00:00"
+    "collected_at": "2026-11-21T00:53:56.051221+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.051221+00:00"
+  },
+  {
+    "id": "7ed56c9e5ef8",
+    "title": "Regional MSP Partner Manager, EMEA South (Paris)",
+    "organization": "Everpure",
+    "category": "estagios",
+    "summary": "Everpure — sales. Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic...",
+    "url": "https://remoteOK.com/remote-jobs/remote-regional-msp-partner-manager-emea-south-paris-everpure-1137868",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Europe",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-21T00:53:56.709214+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.709214+00:00"
   },
   {
     "id": "994b08f7953b",
@@ -1190,10 +1086,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.341528+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.341528+00:00"
+    "collected_at": "2026-11-21T00:53:56.710346+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.710346+00:00"
   },
   {
     "id": "731c9932257f",
@@ -1216,10 +1112,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.341838+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.341838+00:00"
+    "collected_at": "2026-11-21T00:53:56.711673+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.711673+00:00"
   },
   {
     "id": "becd0def5f56",
@@ -1242,10 +1138,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.342006+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.342006+00:00"
+    "collected_at": "2026-11-21T00:53:56.712643+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.712643+00:00"
   },
   {
     "id": "6b056e58eae2",
@@ -1268,10 +1164,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.342171+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.342171+00:00"
+    "collected_at": "2026-11-21T00:53:56.713706+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.713706+00:00"
   },
   {
     "id": "2444723e1bae",
@@ -1294,10 +1190,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.342286+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.342286+00:00"
+    "collected_at": "2026-11-21T00:53:56.714254+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.714254+00:00"
   },
   {
     "id": "b2da124a8b63",
@@ -1320,10 +1216,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.342393+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.342393+00:00"
+    "collected_at": "2026-11-21T00:53:56.714773+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.714773+00:00"
   },
   {
     "id": "270285d6e908",
@@ -1346,10 +1242,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.342629+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.342629+00:00"
+    "collected_at": "2026-11-21T00:53:56.715922+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.715922+00:00"
   },
   {
     "id": "4ec754c272d9",
@@ -1372,10 +1268,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.342771+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.342771+00:00"
+    "collected_at": "2026-11-21T00:53:56.716617+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.716617+00:00"
   },
   {
     "id": "d391854d8a62",
@@ -1398,10 +1294,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.342980+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.342980+00:00"
+    "collected_at": "2026-11-21T00:53:56.717679+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.717679+00:00"
   },
   {
     "id": "a566aaa3fb49",
@@ -1424,10 +1320,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.343111+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.343111+00:00"
+    "collected_at": "2026-11-21T00:53:56.718345+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.718345+00:00"
   },
   {
     "id": "9e0c81adc8ce",
@@ -1450,10 +1346,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.343203+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.343203+00:00"
+    "collected_at": "2026-11-21T00:53:56.718795+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.718795+00:00"
   },
   {
     "id": "369042691817",
@@ -1476,10 +1372,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.343385+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.343385+00:00"
+    "collected_at": "2026-11-21T00:53:56.719697+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.719697+00:00"
   },
   {
     "id": "ae50f71f5b77",
@@ -1502,10 +1398,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.343529+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.343529+00:00"
+    "collected_at": "2026-11-21T00:53:56.720436+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.720436+00:00"
   },
   {
     "id": "dcd0d7c36a04",
@@ -1528,36 +1424,10 @@
     "scope": "internacional",
     "area": "Desenvolvimento e Tech",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:54.343691+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.343691+00:00"
-  },
-  {
-    "id": "b2b839c9619f",
-    "title": "Engineering Lead, Growth",
-    "organization": "Clover Health",
-    "category": "estagios",
-    "summary": "Clover Health — programming. At Clover, the Business Enablement team leads our technological advancement while ensuring robust security and compliance. We deliver user-friendly corporate applications, manage complex data...",
-    "url": "https://remoteOK.com/remote-jobs/remote-engineering-lead-growth-clover-health-1137853",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "aberta",
-    "language": "en",
-    "collected_at": "2026-11-21T00:40:54.343893+00:00",
-    "last_verified_at": "2026-11-21T00:40:54.343893+00:00"
+    "collected_at": "2026-11-21T00:53:56.721210+00:00",
+    "last_verified_at": "2026-11-21T00:53:56.721210+00:00"
   },
   {
     "id": "c7d42e998feb",
@@ -1580,10 +1450,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.428265+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.428265+00:00"
+    "collected_at": "2026-11-21T00:53:58.131685+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.131685+00:00"
   },
   {
     "id": "891c880e7a4f",
@@ -1606,10 +1476,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.429311+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.429311+00:00"
+    "collected_at": "2026-11-21T00:53:58.134516+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.134516+00:00"
   },
   {
     "id": "53765d24cd85",
@@ -1632,10 +1502,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.429655+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.429655+00:00"
+    "collected_at": "2026-11-21T00:53:58.135500+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.135500+00:00"
   },
   {
     "id": "4319de8776ae",
@@ -1658,10 +1528,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.429925+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.429925+00:00"
+    "collected_at": "2026-11-21T00:53:58.136350+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.136350+00:00"
   },
   {
     "id": "7b7a2e202b02",
@@ -1684,10 +1554,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.430838+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.430838+00:00"
+    "collected_at": "2026-11-21T00:53:58.138923+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.138923+00:00"
   },
   {
     "id": "125b17d4c91c",
@@ -1710,10 +1580,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.431191+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.431191+00:00"
+    "collected_at": "2026-11-21T00:53:58.140017+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.140017+00:00"
   },
   {
     "id": "a448679cb9e3",
@@ -1736,10 +1606,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.431836+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.431836+00:00"
+    "collected_at": "2026-11-21T00:53:58.141932+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.141932+00:00"
   },
   {
     "id": "885b4273d451",
@@ -1762,10 +1632,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.432143+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.432143+00:00"
+    "collected_at": "2026-11-21T00:53:58.142897+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.142897+00:00"
   },
   {
     "id": "a8927dfebe75",
@@ -1788,10 +1658,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.434776+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.434776+00:00"
+    "collected_at": "2026-11-21T00:53:58.149903+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.149903+00:00"
   },
   {
     "id": "122b2744fdbf",
@@ -1814,10 +1684,10 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.435528+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.435528+00:00"
+    "collected_at": "2026-11-21T00:53:58.152227+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.152227+00:00"
   },
   {
     "id": "522053510449",
@@ -1840,9 +1710,9 @@
     "scope": "internacional",
     "area": "Tecnologia",
     "deadline": null,
-    "status": "aberta",
+    "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-21T00:40:55.436488+00:00",
-    "last_verified_at": "2026-11-21T00:40:55.436488+00:00"
+    "collected_at": "2026-11-21T00:53:58.155193+00:00",
+    "last_verified_at": "2026-11-21T00:53:58.155193+00:00"
   }
 ]
