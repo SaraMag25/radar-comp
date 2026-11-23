@@ -22,8 +22,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.771079+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.771079+00:00"
+    "collected_at": "2026-11-23T05:55:45.291267+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.291267+00:00"
   },
   {
     "id": "da2346baee53",
@@ -48,8 +48,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.771383+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.771383+00:00"
+    "collected_at": "2026-11-23T05:55:45.291633+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.291633+00:00"
   },
   {
     "id": "531bb439fc34",
@@ -74,8 +74,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.771690+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.771690+00:00"
+    "collected_at": "2026-11-23T05:55:45.291951+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.291951+00:00"
   },
   {
     "id": "452b7275a7a3",
@@ -100,8 +100,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.771932+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.771932+00:00"
+    "collected_at": "2026-11-23T05:55:45.292169+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.292169+00:00"
   },
   {
     "id": "c8d4274b813f",
@@ -126,8 +126,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.772210+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.772210+00:00"
+    "collected_at": "2026-11-23T05:55:45.292460+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.292460+00:00"
   },
   {
     "id": "d28fe3b6fd39",
@@ -152,8 +152,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.772494+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.772494+00:00"
+    "collected_at": "2026-11-23T05:55:45.292751+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.292751+00:00"
   },
   {
     "id": "2e2ce310aecf",
@@ -178,8 +178,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.772734+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.772734+00:00"
+    "collected_at": "2026-11-23T05:55:45.292984+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.292984+00:00"
   },
   {
     "id": "8fd5488f101e",
@@ -204,8 +204,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.773165+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.773165+00:00"
+    "collected_at": "2026-11-23T05:55:45.293408+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.293408+00:00"
   },
   {
     "id": "bbc40f662e09",
@@ -230,8 +230,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.773392+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.773392+00:00"
+    "collected_at": "2026-11-23T05:55:45.293664+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.293664+00:00"
   },
   {
     "id": "59516e8f7f5b",
@@ -256,8 +256,34 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:25.773966+00:00",
-    "last_verified_at": "2026-11-22T23:16:25.773966+00:00"
+    "collected_at": "2026-11-23T05:55:45.294226+00:00",
+    "last_verified_at": "2026-11-23T05:55:45.294226+00:00"
+  },
+  {
+    "id": "cd4d7c43705d",
+    "title": "Chamada FAPESP Jovem Pesquisador voltada a estrangeiros prorroga prazo de inscrição",
+    "organization": "FAPESP",
+    "category": "congressos",
+    "summary": "Submissão de propostas pode ser feita até 3 de dezembro. Iniciativa vai selecionar até 20 cientistas com destacada atuação internacional para desenvolver pesquisas em instituições paulistas",
+    "url": "https://agencia.fapesp.br/chamada-fapesp-jovem-pesquisador-voltada-a-estrangeiros-prorroga-prazo-de-inscricao/59661",
+    "source": "FAPESP",
+    "action_label": "Ver oportunidade",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": null,
+      "remuneration": null,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "não informada",
+    "location": "São Paulo, SP",
+    "scope": "brasil",
+    "area": "Pesquisa Científica",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-23T05:55:51.475363+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.475363+00:00"
   },
   {
     "id": "3f86935f37a2",
@@ -282,8 +308,8 @@
     "deadline": "Oct 30 - Dec 04, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024438+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024438+00:00"
+    "collected_at": "2026-11-23T05:55:51.746451+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746451+00:00"
   },
   {
     "id": "5ac5a3136af2",
@@ -308,8 +334,8 @@
     "deadline": "Nov 11 - 30, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024488+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024488+00:00"
+    "collected_at": "2026-11-23T05:55:51.746511+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746511+00:00"
   },
   {
     "id": "e9a14855afdb",
@@ -334,8 +360,8 @@
     "deadline": "Oct 27 - Dec 22, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024524+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024524+00:00"
+    "collected_at": "2026-11-23T05:55:51.746556+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746556+00:00"
   },
   {
     "id": "1cf9ceb17d79",
@@ -360,8 +386,8 @@
     "deadline": "Nov 02 - Dec 15, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024552+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024552+00:00"
+    "collected_at": "2026-11-23T05:55:51.746590+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746590+00:00"
   },
   {
     "id": "86cec2aeb206",
@@ -386,8 +412,8 @@
     "deadline": "Nov 11 - Dec 08, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024583+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024583+00:00"
+    "collected_at": "2026-11-23T05:55:51.746629+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746629+00:00"
   },
   {
     "id": "eb978b30c33f",
@@ -412,8 +438,8 @@
     "deadline": "Nov 10 - Dec 07, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024609+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024609+00:00"
+    "collected_at": "2026-11-23T05:55:51.746662+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746662+00:00"
   },
   {
     "id": "4b113a63db84",
@@ -438,8 +464,8 @@
     "deadline": "Nov 11, 2026 - Jan 11, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024636+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024636+00:00"
+    "collected_at": "2026-11-23T05:55:51.746696+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746696+00:00"
   },
   {
     "id": "074a65c6a224",
@@ -464,8 +490,8 @@
     "deadline": "Nov 17, 2026 - Jan 12, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024672+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024672+00:00"
+    "collected_at": "2026-11-23T05:55:51.746737+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746737+00:00"
   },
   {
     "id": "dc4a7a9f8460",
@@ -490,8 +516,8 @@
     "deadline": "Oct 20 - Dec 21, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.024700+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.024700+00:00"
+    "collected_at": "2026-11-23T05:55:51.746777+00:00",
+    "last_verified_at": "2026-11-23T05:55:51.746777+00:00"
   },
   {
     "id": "1fea5bfed971",
@@ -516,8 +542,8 @@
     "deadline": "08/12/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.308487+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.308487+00:00"
+    "collected_at": "2026-11-23T05:55:52.077296+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.077296+00:00"
   },
   {
     "id": "040f72854f08",
@@ -542,8 +568,8 @@
     "deadline": "08/12/2026 11:00 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.308537+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.308537+00:00"
+    "collected_at": "2026-11-23T05:55:52.077349+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.077349+00:00"
   },
   {
     "id": "7ee9a05fec1e",
@@ -568,8 +594,8 @@
     "deadline": "01/12/2026 14:30 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.308565+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.308565+00:00"
+    "collected_at": "2026-11-23T05:55:52.077374+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.077374+00:00"
   },
   {
     "id": "c44f54057f0c",
@@ -594,8 +620,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.428949+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.428949+00:00"
+    "collected_at": "2026-11-23T05:55:52.355528+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.355528+00:00"
   },
   {
     "id": "3462cba5027c",
@@ -620,8 +646,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429053+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429053+00:00"
+    "collected_at": "2026-11-23T05:55:52.355631+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.355631+00:00"
   },
   {
     "id": "6d79e2e11c14",
@@ -646,8 +672,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429146+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429146+00:00"
+    "collected_at": "2026-11-23T05:55:52.355720+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.355720+00:00"
   },
   {
     "id": "85699fdbe08f",
@@ -672,8 +698,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429253+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429253+00:00"
+    "collected_at": "2026-11-23T05:55:52.355827+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.355827+00:00"
   },
   {
     "id": "fa2fa876aad3",
@@ -698,8 +724,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429329+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429329+00:00"
+    "collected_at": "2026-11-23T05:55:52.355902+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.355902+00:00"
   },
   {
     "id": "b26a3010d429",
@@ -724,8 +750,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429412+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429412+00:00"
+    "collected_at": "2026-11-23T05:55:52.355984+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.355984+00:00"
   },
   {
     "id": "ec87bb40db5f",
@@ -750,8 +776,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429492+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429492+00:00"
+    "collected_at": "2026-11-23T05:55:52.356065+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356065+00:00"
   },
   {
     "id": "f54a955fc58a",
@@ -776,8 +802,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429585+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429585+00:00"
+    "collected_at": "2026-11-23T05:55:52.356156+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356156+00:00"
   },
   {
     "id": "8b62ebb4ed35",
@@ -802,8 +828,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429667+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429667+00:00"
+    "collected_at": "2026-11-23T05:55:52.356236+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356236+00:00"
   },
   {
     "id": "0247a13a964b",
@@ -828,8 +854,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429760+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429760+00:00"
+    "collected_at": "2026-11-23T05:55:52.356312+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356312+00:00"
   },
   {
     "id": "ce76c1448604",
@@ -854,8 +880,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429855+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429855+00:00"
+    "collected_at": "2026-11-23T05:55:52.356405+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356405+00:00"
   },
   {
     "id": "dcba4d0cb540",
@@ -880,8 +906,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.429946+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.429946+00:00"
+    "collected_at": "2026-11-23T05:55:52.356509+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356509+00:00"
   },
   {
     "id": "8f8e44c9da6d",
@@ -906,8 +932,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.430026+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.430026+00:00"
+    "collected_at": "2026-11-23T05:55:52.356592+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356592+00:00"
   },
   {
     "id": "753315ab070e",
@@ -932,34 +958,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:32.430111+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.430111+00:00"
-  },
-  {
-    "id": "632d93c386b1",
-    "title": "IEICE-SCIS 2028 : IEICE Special Section on Cryptography and Information Security",
-    "organization": "WikiCFP / Conferências",
-    "category": "congressos",
-    "summary": "IEICE Special Section on Cryptography and Information Security",
-    "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203583&copyownerid=191020",
-    "source": "WikiCFP",
-    "action_label": "Submeter trabalho",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "não informada",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Computação e Pesquisa",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:32.430181+00:00",
-    "last_verified_at": "2026-11-22T23:16:32.430181+00:00"
+    "collected_at": "2026-11-23T05:55:52.356676+00:00",
+    "last_verified_at": "2026-11-23T05:55:52.356676+00:00"
   },
   {
     "id": "85b6192db757",
@@ -984,8 +984,372 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-22T23:16:34.189204+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.189204+00:00"
+    "collected_at": "2026-11-23T05:55:54.165761+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.165761+00:00"
+  },
+  {
+    "id": "c67e27e0946e",
+    "title": "Product Manager, Developer Ecosystem",
+    "organization": "Reddit",
+    "category": "estagios",
+    "summary": "Reddit — product. Reddit is a community of communities. Itâs built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote...",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-manager-developer-ecosystem-reddit-1137977",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.819232+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.819232+00:00"
+  },
+  {
+    "id": "4ba0cce40878",
+    "title": "Manager, Technical Accounting and Equity Reporting",
+    "organization": "ÅURA",
+    "category": "estagios",
+    "summary": "ÅURA — finance. Our mission at ÅURA is to empower every person to own their inner potential. Our award-winning products help our global community gain a deeper knowledge of their readiness, activity, and sleep quality ...",
+    "url": "https://remoteOK.com/remote-jobs/remote-manager-technical-accounting-and-equity-reporting-oura-1137976",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.820356+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.820356+00:00"
+  },
+  {
+    "id": "8d6b04a485af",
+    "title": "Senior SRE, Site Experience",
+    "organization": "Reddit",
+    "category": "estagios",
+    "summary": "Reddit — devops. Reddit is a community of communities. Itâs built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote,...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-sre-site-experience-reddit-1137975",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.821351+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.821351+00:00"
+  },
+  {
+    "id": "6845d8de44e0",
+    "title": "Senior Staff SRE, Site Experience",
+    "organization": "Reddit",
+    "category": "estagios",
+    "summary": "Reddit — devops. Reddit is a community of communities. Itâs built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote,...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-staff-sre-site-experience-reddit-1137974",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.822373+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.822373+00:00"
+  },
+  {
+    "id": "8674f6522b60",
+    "title": "DRG Inpatient Coding Validator",
+    "organization": "Clover Health",
+    "category": "estagios",
+    "summary": "Clover Health — other. The Payment Integrity team is a group of innovative thinkers sitting at the intersection of Clover's provider Network, Claims, and Tech teams. The Payment Integrity team ensures that Clover pays cl...",
+    "url": "https://remoteOK.com/remote-jobs/remote-drg-inpatient-coding-validator-clover-health-1137973",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.823193+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.823193+00:00"
+  },
+  {
+    "id": "6fe30d370dc9",
+    "title": "DRG Validation Auditor",
+    "organization": "Clover Health",
+    "category": "estagios",
+    "summary": "Clover Health — other. The Payment Integrity team is a group of innovative thinkers sitting at the intersection of Clover's provider Network, Claims, and Tech teams. The Payment Integrity team ensures that Clover pays cl...",
+    "url": "https://remoteOK.com/remote-jobs/remote-drg-validation-auditor-clover-health-1137972",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.824008+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.824008+00:00"
+  },
+  {
+    "id": "17084b79911e",
+    "title": "Sr. Forward Deployed Data Engineer",
+    "organization": "Natera",
+    "category": "estagios",
+    "summary": "Natera — devops. POSITION SUMMARY: Natera is a global leader in cell-free DNA testing, serving patients across oncology, womenâs health, and organ health. Our Data &amp; AI organization builds the enterprise data platf...",
+    "url": "https://remoteOK.com/remote-jobs/remote-sr-forward-deployed-data-engineer-natera-1137970",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.825383+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.825383+00:00"
+  },
+  {
+    "id": "bf6af7cd6eb3",
+    "title": "1099 Bilingual NP/PA - Virtual Urgent Care",
+    "organization": "Oscar Health",
+    "category": "estagios",
+    "summary": "Oscar Health — other. Hi, we're Oscar Medical Group. We're hiring a 1099 Bilingual Nurse Practitioner or Physician Assistant to join our Virtual Urgent Care team. At Oscar Medical Group, we are refactoring healthcare. We...",
+    "url": "https://remoteOK.com/remote-jobs/remote-1099-bilingual-np-pa-virtual-urgent-care-oscar-health-1137969",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Worldwide",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.826053+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.826053+00:00"
+  },
+  {
+    "id": "0846cf311b0b",
+    "title": "Advanced Practice Provider - Virtual Urgent Care",
+    "organization": "Oscar Health",
+    "category": "estagios",
+    "summary": "Oscar Health — other. Hi, we're Oscar Medical Group. We're hiring a Nurse Practitioner or Physician Assistant to join our Virtual Urgent Care team. At Oscar Medical Group, we are refactoring healthcare. We want to help e...",
+    "url": "https://remoteOK.com/remote-jobs/remote-advanced-practice-provider-virtual-urgent-care-oscar-health-1137968",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Worldwide",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.826714+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.826714+00:00"
+  },
+  {
+    "id": "4d9167a48948",
+    "title": "Senior Clinical Trials Systems Manager",
+    "organization": "Natera",
+    "category": "estagios",
+    "summary": "Natera — product. Â POSITION SUMMARY: Job Function: Clinical Operations Title: Senior Clinical Trial Systems Lead The Senior Clinical Trials Systems Lead serves as the business owner representative for Clinical Operation...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-clinical-trials-systems-manager-natera-1137967",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.827645+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.827645+00:00"
+  },
+  {
+    "id": "106175e4686c",
+    "title": "Supv, Prior Authorization",
+    "organization": "Natera",
+    "category": "estagios",
+    "summary": "Natera — other. Position Summary: The Supervisor of Billing Prior Authorization works interactively with internal departments, patients and their healthcare providers regarding current billing practice for Natera, Inc. a...",
+    "url": "https://remoteOK.com/remote-jobs/remote-supv-prior-authorization-natera-1137966",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.828348+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.828348+00:00"
+  },
+  {
+    "id": "241593e1c79f",
+    "title": "Business Development Representative, SLED - West",
+    "organization": "GitLab",
+    "category": "estagios",
+    "summary": "GitLab — sales. GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and ac...",
+    "url": "https://remoteOK.com/remote-jobs/remote-business-development-representative-sled-west-gitlab-1137965",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.829441+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.829441+00:00"
+  },
+  {
+    "id": "1cd96bc11c82",
+    "title": "Regional Sales Director, Canada",
+    "organization": "GitLab",
+    "category": "estagios",
+    "summary": "GitLab — sales. GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and ac...",
+    "url": "https://remoteOK.com/remote-jobs/remote-regional-sales-director-canada-gitlab-1137964",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Canada Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.830400+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.830400+00:00"
+  },
+  {
+    "id": "edae386946fe",
+    "title": "Strategic Account Executive - Spain",
+    "organization": "GitLab",
+    "category": "estagios",
+    "summary": "GitLab — sales. GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and ac...",
+    "url": "https://remoteOK.com/remote-jobs/remote-strategic-account-executive-spain-gitlab-1137963",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Europe",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-23T05:55:54.831835+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.831835+00:00"
   },
   {
     "id": "388b6fa0abe7",
@@ -1010,372 +1374,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:34.618079+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.618079+00:00"
-  },
-  {
-    "id": "7274af0909c8",
-    "title": "Deal Desk Analyst (Eastern Time Zone Preferred)",
-    "organization": "Mixpanel",
-    "category": "estagios",
-    "summary": "Mixpanel — other. About Mixpanel Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful...",
-    "url": "https://remoteOK.com/remote-jobs/remote-deal-desk-analyst-eastern-time-zone-preferred-mixpanel-1137961",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.619068+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.619068+00:00"
-  },
-  {
-    "id": "283821575465",
-    "title": "Director, Revenue Accounting",
-    "organization": "6sense",
-    "category": "estagios",
-    "summary": "6sense — finance. Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.Â We envision a future where companies, teams and people reach their full potential. Our People: People are t...",
-    "url": "https://remoteOK.com/remote-jobs/remote-director-revenue-accounting-6sense-1137960",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.620392+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.620392+00:00"
-  },
-  {
-    "id": "f6fea4d04004",
-    "title": "Corporate Counsel, Commercial",
-    "organization": "Carrot",
-    "category": "estagios",
-    "summary": "Carrot — other. About Carrot: Carrot is the leading global fertility and family care platform, built on intelligent care orchestration: the right clinical guidance, at the right moment, in the context of each memberâs ...",
-    "url": "https://remoteOK.com/remote-jobs/remote-corporate-counsel-commercial-carrot-1137959",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "Worldwide",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.621712+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.621712+00:00"
-  },
-  {
-    "id": "957c5bd7aefd",
-    "title": "Release Strategist, Professional Services",
-    "organization": "LaunchDarkly",
-    "category": "estagios",
-    "summary": "LaunchDarkly — product. About the Job: Most companies donât have a ârelease problemâ so much as a way-of-working problem. Shipping live functionality to their customers takes too long, depends on a few heroes, or h...",
-    "url": "https://remoteOK.com/remote-jobs/remote-release-strategist-professional-services-launchdarkly-1137958",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.623248+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.623248+00:00"
-  },
-  {
-    "id": "b86277a5ed92",
-    "title": "Senior Database Engineer",
-    "organization": "Bitwarden",
-    "category": "estagios",
-    "summary": "Bitwarden — programming. Â Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share sensitive information anywher...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-database-engineer-bitwarden-1137957",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.624032+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.624032+00:00"
-  },
-  {
-    "id": "2c5305fb1c0c",
-    "title": "Staff Data Scientist - Martech Platform (ML/Algos)",
-    "organization": "Airbnb",
-    "category": "estagios",
-    "summary": "Airbnb — programming. Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every ...",
-    "url": "https://remoteOK.com/remote-jobs/remote-staff-data-scientist-martech-platform-ml-algos-airbnb-1137956",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.625106+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.625106+00:00"
-  },
-  {
-    "id": "5438e00ca8ff",
-    "title": "Staff Software Engineer, Agentic Tools",
-    "organization": "Cribl",
-    "category": "estagios",
-    "summary": "Cribl — programming. Join the company thatâs building the telemetry infrastructure for the AI era. At Cribl, we partner with IT and Security teams at many of the worldâs biggest enterprises, including half of the For...",
-    "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-agentic-tools-cribl-1137955",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.626141+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.626141+00:00"
-  },
-  {
-    "id": "c6c9b39bcb69",
-    "title": "Senior Software Engineer, Partner Integrations",
-    "organization": "Airbnb",
-    "category": "estagios",
-    "summary": "Airbnb — programming. Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every ...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-partner-integrations-airbnb-1137954",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.627049+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.627049+00:00"
-  },
-  {
-    "id": "46c0f9ba108a",
-    "title": "Vice President, Storytelling & Communications",
-    "organization": "6sense",
-    "category": "estagios",
-    "summary": "6sense — marketing. Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.Â We envision a future where companies, teams and people reach their full potential. Our People: People are...",
-    "url": "https://remoteOK.com/remote-jobs/remote-vice-president-storytelling-communications-6sense-1137953",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.628598+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.628598+00:00"
-  },
-  {
-    "id": "e57721b4e7cc",
-    "title": "Private Practice Enablement Specialist (PST)",
-    "organization": "Healthie",
-    "category": "estagios",
-    "summary": "Healthie — customer support. Our Mission Healthie is an AI-Native, ONC Certified EHR for modern outpatient healthcare.Â Healthie is proud to power clinically excellent healthcare for over 40,000 providers who deliver cli...",
-    "url": "https://remoteOK.com/remote-jobs/remote-private-practice-enablement-specialist-pst-healthie-1137952",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "Worldwide",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.629857+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.629857+00:00"
-  },
-  {
-    "id": "ef0f20175532",
-    "title": "Revenue Operations Leader, Strategy & Planning",
-    "organization": "Contentstack",
-    "category": "estagios",
-    "summary": "Contentstack — exec. What is Contentstack? Contentstack is redefining how modern digital experiences are built and managed. As the pioneer of the Agentic Experience Platform (AXP), Contentstack brings together structured...",
-    "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-leader-strategy-planning-contentstack-1137951",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.630904+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.630904+00:00"
-  },
-  {
-    "id": "9ea9df189714",
-    "title": "VP, Customer Experience Operations",
-    "organization": "Ping Identity",
-    "category": "estagios",
-    "summary": "Ping Identity — devops. About Ping Identity:Â At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just somethi...",
-    "url": "https://remoteOK.com/remote-jobs/remote-vp-customer-experience-operations-ping-identity-1137949",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.631665+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.631665+00:00"
-  },
-  {
-    "id": "4770ff889f8b",
-    "title": "Senior Software Engineer - Behavioral Security Products",
-    "organization": "Abnormal",
-    "category": "estagios",
-    "summary": "Abnormal — devops. At Abnormal AI, we protect our customers against nefarious adversaries who are constantly evolving their techniques and tactics to outwit and undermine the traditional approaches to Security.Â Abnormal...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-behavioral-security-products-abnormal-1137948",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "UK Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.632376+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.632376+00:00"
-  },
-  {
-    "id": "9c531f111084",
-    "title": "Senior Manager, Financial Reporting",
-    "organization": "ÅURA",
-    "category": "estagios",
-    "summary": "ÅURA — finance. Our mission at ÅURA is to empower every person to own their inner potential. Our award-winning products help our global community gain a deeper knowledge of their readiness, activity, and sleep quality ...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-financial-reporting-oura-1137947",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-22T23:16:34.633615+00:00",
-    "last_verified_at": "2026-11-22T23:16:34.633615+00:00"
+    "collected_at": "2026-11-23T05:55:54.832357+00:00",
+    "last_verified_at": "2026-11-23T05:55:54.832357+00:00"
   },
   {
     "id": "69689309f6db",
@@ -1400,8 +1400,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.515586+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.515586+00:00"
+    "collected_at": "2026-11-23T05:55:57.402843+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.402843+00:00"
   },
   {
     "id": "a8a9b23a64a3",
@@ -1426,8 +1426,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.516773+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.516773+00:00"
+    "collected_at": "2026-11-23T05:55:57.403977+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.403977+00:00"
   },
   {
     "id": "382b8ca7b035",
@@ -1452,8 +1452,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.518887+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.518887+00:00"
+    "collected_at": "2026-11-23T05:55:57.406052+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.406052+00:00"
   },
   {
     "id": "16dab8edbfa2",
@@ -1478,8 +1478,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.528710+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.528710+00:00"
+    "collected_at": "2026-11-23T05:55:57.415687+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.415687+00:00"
   },
   {
     "id": "7d502bc3c5d3",
@@ -1504,8 +1504,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.529743+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.529743+00:00"
+    "collected_at": "2026-11-23T05:55:57.416675+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.416675+00:00"
   },
   {
     "id": "c7d97491dc27",
@@ -1530,8 +1530,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.530665+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.530665+00:00"
+    "collected_at": "2026-11-23T05:55:57.417578+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.417578+00:00"
   },
   {
     "id": "00abf15bda95",
@@ -1556,8 +1556,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.534057+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.534057+00:00"
+    "collected_at": "2026-11-23T05:55:57.420759+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.420759+00:00"
   },
   {
     "id": "5379bd192581",
@@ -1582,8 +1582,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.535434+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.535434+00:00"
+    "collected_at": "2026-11-23T05:55:57.422133+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.422133+00:00"
   },
   {
     "id": "28e02dd14d0e",
@@ -1608,8 +1608,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.536442+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.536442+00:00"
+    "collected_at": "2026-11-23T05:55:57.423154+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.423154+00:00"
   },
   {
     "id": "0f1e09126087",
@@ -1634,7 +1634,7 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-22T23:16:35.538005+00:00",
-    "last_verified_at": "2026-11-22T23:16:35.538005+00:00"
+    "collected_at": "2026-11-23T05:55:57.424723+00:00",
+    "last_verified_at": "2026-11-23T05:55:57.424723+00:00"
   }
 ]
