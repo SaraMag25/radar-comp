@@ -1,5 +1,265 @@
 [
   {
+    "id": "aedd03a41612",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) Chamada Pública para Seleção de Pós-Gradução - Mestrado Profissional em Educação Física em Rede Edital: 30/2026 - GAB-CAU/DG-CAU/CAUCAIA domain Seleção para: Caucaia",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/caucaia/estude-no-ifce/chamada-pblica-para-seleo-de-ps-graduo---mestrado-profissional-em-educao-fsica-em-rede/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.095399+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.095399+00:00"
+  },
+  {
+    "id": "da2346baee53",
+    "title": "Programas de Assistência Estudantil [Fortaleza] Seleção para auxílio-formação e permanência acadêmica 2026.2 - Edital nº 34/2026 Edital: 34/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "capacitacoes",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/bolsas-para-estudantes/fortaleza-selecao-para-auxilio-formacao-e-permanencia-academica-20262/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.095712+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.095712+00:00"
+  },
+  {
+    "id": "a14123b1e9c9",
+    "title": "Projetos de Extensão [Fortaleza] Seleção de Projetos de Extensão para concessão de bolsas para discentes no exercício de 2027 - Edital nº 45/2026 Edital: 45/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "bolsas",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/bolsas-para-estudantes/selecao-bolsistas-discentes-para-projetos-extensao-exercicio-2027/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.095922+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.095922+00:00"
+  },
+  {
+    "id": "531bb439fc34",
+    "title": "Seleção Interna [Fortaleza] Credenciamento para compor o quadro docente do Programa de Doutorado em Ensino – RENOEN - Edital nº 02/2026 Edital: 2/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/servidores/credenciamento-docente-doutorado-em-ensino-renoen-edital2026/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.096087+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.096087+00:00"
+  },
+  {
+    "id": "452b7275a7a3",
+    "title": "Cursos Técnicos [Fortaleza] Processo seletivo 2027.1 - Cursos técnicos presenciais integrados - Edital nº 17/2026 DI/PROEN/Reitoria Edital: 17/2026 - DI/PROEN/REITORIA domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "capacitacoes",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao20271-cursostecnicospresenciaisintegrados-edital172026/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.096231+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.096231+00:00"
+  },
+  {
+    "id": "c8d4274b813f",
+    "title": "Cursos Técnicos [Fortaleza] Processo seletivo 2027.1 - Cursos técnicos presenciais subsequentes - Edital nº 18/2026 DI/PROEN/Reitoria Edital: 18/2026 - DI/PROEN/REITORIA domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "capacitacoes",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao20271-cursostecnicospresenciaissubsequentes-edital182026/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.096410+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.096410+00:00"
+  },
+  {
+    "id": "d28fe3b6fd39",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado Profissional em Artes (PPGARTES) - Turma 2027 - Edital nº 37/2026 Edital: 37/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao-mestrado-profissional-em-artes-ppgartes-turma-2027/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.096603+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.096603+00:00"
+  },
+  {
+    "id": "2e2ce310aecf",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado em Engenharia de Telecomunicações (PPGET) - Turma 2027.1 - Edital nº 39/2026 Edital: 39/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao-mestrado-engenharia-telecomunicacoes-ppget-turma20271/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.096760+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.096760+00:00"
+  },
+  {
+    "id": "8fd5488f101e",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para Mestrado em Ensino de Ciências e Matemática (PGECM) turma 2027.1 - Edital nº 36/2026 Edital: 36/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/fortaleza-selecao-para-mestrado-em-ensino-de-ciencias-e-matematica-pgecm-turma-20271/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.097063+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.097063+00:00"
+  },
+  {
+    "id": "bbc40f662e09",
+    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado Acadêmico em Ciência da Computação (PPGCC) - Turma 2027 - Edital nº 43/2026 Edital: 43/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao-mestrado-ciencia-da-computacao-ppgcc-turma2027/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-25T01:56:30.097220+00:00",
+    "last_verified_at": "2026-11-25T01:56:30.097220+00:00"
+  },
+  {
     "id": "3f86935f37a2",
     "title": "Kiroween 2026",
     "organization": "Kiro",
@@ -22,8 +282,8 @@
     "deadline": "Oct 30 - Dec 04, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133489+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133489+00:00"
+    "collected_at": "2026-11-25T01:56:36.248672+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248672+00:00"
   },
   {
     "id": "e9a14855afdb",
@@ -48,8 +308,8 @@
     "deadline": "Oct 27 - Dec 22, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133549+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133549+00:00"
+    "collected_at": "2026-11-25T01:56:36.248714+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248714+00:00"
   },
   {
     "id": "5ac5a3136af2",
@@ -74,8 +334,8 @@
     "deadline": "Nov 11 - 30, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133573+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133573+00:00"
+    "collected_at": "2026-11-25T01:56:36.248733+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248733+00:00"
   },
   {
     "id": "86cec2aeb206",
@@ -100,8 +360,8 @@
     "deadline": "Nov 11 - Dec 08, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133600+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133600+00:00"
+    "collected_at": "2026-11-25T01:56:36.248753+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248753+00:00"
   },
   {
     "id": "4b113a63db84",
@@ -126,8 +386,8 @@
     "deadline": "Nov 11, 2026 - Jan 11, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133622+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133622+00:00"
+    "collected_at": "2026-11-25T01:56:36.248770+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248770+00:00"
   },
   {
     "id": "1cf9ceb17d79",
@@ -152,8 +412,8 @@
     "deadline": "Nov 02 - Dec 15, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133644+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133644+00:00"
+    "collected_at": "2026-11-25T01:56:36.248787+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248787+00:00"
   },
   {
     "id": "eb978b30c33f",
@@ -178,8 +438,8 @@
     "deadline": "Nov 10 - Dec 07, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133665+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133665+00:00"
+    "collected_at": "2026-11-25T01:56:36.248828+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248828+00:00"
   },
   {
     "id": "074a65c6a224",
@@ -204,8 +464,8 @@
     "deadline": "Nov 17, 2026 - Jan 12, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133697+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133697+00:00"
+    "collected_at": "2026-11-25T01:56:36.248851+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248851+00:00"
   },
   {
     "id": "0bc2edb4a70c",
@@ -230,8 +490,8 @@
     "deadline": "Nov 02 - Dec 11, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.133723+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.133723+00:00"
+    "collected_at": "2026-11-25T01:56:36.248868+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.248868+00:00"
   },
   {
     "id": "c891c19933a6",
@@ -256,8 +516,8 @@
     "deadline": "14/12/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.472670+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.472670+00:00"
+    "collected_at": "2026-11-25T01:56:36.591304+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.591304+00:00"
   },
   {
     "id": "1fea5bfed971",
@@ -282,8 +542,8 @@
     "deadline": "08/12/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.472716+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.472716+00:00"
+    "collected_at": "2026-11-25T01:56:36.591336+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.591336+00:00"
   },
   {
     "id": "040f72854f08",
@@ -308,8 +568,8 @@
     "deadline": "08/12/2026 11:00 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.472740+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.472740+00:00"
+    "collected_at": "2026-11-25T01:56:36.591353+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.591353+00:00"
   },
   {
     "id": "7ee9a05fec1e",
@@ -334,8 +594,8 @@
     "deadline": "01/12/2026 14:30 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.472757+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.472757+00:00"
+    "collected_at": "2026-11-25T01:56:36.591367+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.591367+00:00"
   },
   {
     "id": "053715c35584",
@@ -360,8 +620,8 @@
     "deadline": "27/11/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.472776+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.472776+00:00"
+    "collected_at": "2026-11-25T01:56:36.591380+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.591380+00:00"
   },
   {
     "id": "c44f54057f0c",
@@ -386,8 +646,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.682931+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.682931+00:00"
+    "collected_at": "2026-11-25T01:56:36.838499+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838499+00:00"
   },
   {
     "id": "3462cba5027c",
@@ -412,8 +672,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683034+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683034+00:00"
+    "collected_at": "2026-11-25T01:56:36.838567+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838567+00:00"
   },
   {
     "id": "6d79e2e11c14",
@@ -438,8 +698,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683119+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683119+00:00"
+    "collected_at": "2026-11-25T01:56:36.838629+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838629+00:00"
   },
   {
     "id": "85699fdbe08f",
@@ -464,8 +724,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683221+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683221+00:00"
+    "collected_at": "2026-11-25T01:56:36.838706+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838706+00:00"
   },
   {
     "id": "fa2fa876aad3",
@@ -490,8 +750,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683289+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683289+00:00"
+    "collected_at": "2026-11-25T01:56:36.838758+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838758+00:00"
   },
   {
     "id": "b26a3010d429",
@@ -516,8 +776,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683382+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683382+00:00"
+    "collected_at": "2026-11-25T01:56:36.838828+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838828+00:00"
   },
   {
     "id": "ec87bb40db5f",
@@ -542,8 +802,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683460+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683460+00:00"
+    "collected_at": "2026-11-25T01:56:36.838887+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838887+00:00"
   },
   {
     "id": "f54a955fc58a",
@@ -568,8 +828,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683547+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683547+00:00"
+    "collected_at": "2026-11-25T01:56:36.838953+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.838953+00:00"
   },
   {
     "id": "8b62ebb4ed35",
@@ -594,8 +854,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683621+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683621+00:00"
+    "collected_at": "2026-11-25T01:56:36.839011+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.839011+00:00"
   },
   {
     "id": "0247a13a964b",
@@ -620,8 +880,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683688+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683688+00:00"
+    "collected_at": "2026-11-25T01:56:36.839063+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.839063+00:00"
   },
   {
     "id": "ce76c1448604",
@@ -646,8 +906,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683772+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683772+00:00"
+    "collected_at": "2026-11-25T01:56:36.839128+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.839128+00:00"
   },
   {
     "id": "dcba4d0cb540",
@@ -672,8 +932,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683854+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683854+00:00"
+    "collected_at": "2026-11-25T01:56:36.839191+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.839191+00:00"
   },
   {
     "id": "8f8e44c9da6d",
@@ -698,8 +958,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.683926+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.683926+00:00"
+    "collected_at": "2026-11-25T01:56:36.839248+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.839248+00:00"
   },
   {
     "id": "753315ab070e",
@@ -724,8 +984,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.684004+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.684004+00:00"
+    "collected_at": "2026-11-25T01:56:36.839308+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.839308+00:00"
   },
   {
     "id": "632d93c386b1",
@@ -750,8 +1010,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:16.684066+00:00",
-    "last_verified_at": "2026-11-24T17:00:16.684066+00:00"
+    "collected_at": "2026-11-25T01:56:36.839356+00:00",
+    "last_verified_at": "2026-11-25T01:56:36.839356+00:00"
   },
   {
     "id": "85b6192db757",
@@ -776,8 +1036,138 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-24T17:00:18.187742+00:00",
-    "last_verified_at": "2026-11-24T17:00:18.187742+00:00"
+    "collected_at": "2026-11-25T01:56:38.560863+00:00",
+    "last_verified_at": "2026-11-25T01:56:38.560863+00:00"
+  },
+  {
+    "id": "46a27157b9c5",
+    "title": "Senior Manager, Enterprise Application Development Engineering",
+    "organization": "GitLab",
+    "category": "estagios",
+    "summary": "GitLab — devops. GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and a...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-enterprise-application-development-engineering-gitlab-1138079",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-25T01:56:39.070048+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.070048+00:00"
+  },
+  {
+    "id": "b201371a425e",
+    "title": "Real Estate Executive Assistant 21370",
+    "organization": "Wing Assistant",
+    "category": "estagios",
+    "summary": "Wing Assistant — virtual assistant, sys admin, infosec, education. Please whitelist the domains \"lever.co\" and \"hire.lever.co\" with your email provider to make sure you get our emails. Disclaimer: This is a generic job d...",
+    "url": "https://remoteOK.com/remote-jobs/remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Philippines",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-25T01:56:39.070490+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.070490+00:00"
+  },
+  {
+    "id": "69b810811040",
+    "title": "Senior Tax Associate",
+    "organization": "Real REMAX Group",
+    "category": "estagios",
+    "summary": "Real REMAX Group — design, technical, customer support, accounting. Real REMAX Group (Nasdaq: REAX) is a global real estate company bringing together two trusted brands and a shared belief: when real estate professionals...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-tax-associate-real-remax-group-1138077",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Newark",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-25T01:56:39.071120+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.071120+00:00"
+  },
+  {
+    "id": "d7b9ce3e1943",
+    "title": "Revenue Operations Manager",
+    "organization": "GitLab",
+    "category": "estagios",
+    "summary": "GitLab — exec. GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and acc...",
+    "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-manager-gitlab-1138076",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-25T01:56:39.071892+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.071892+00:00"
+  },
+  {
+    "id": "f45a2050fa17",
+    "title": "Senior CX Platform Engineer",
+    "organization": "GitLab",
+    "category": "estagios",
+    "summary": "GitLab — devops. GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and a...",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-cx-platform-engineer-gitlab-1138075",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "Canada Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-25T01:56:39.072689+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.072689+00:00"
   },
   {
     "id": "655445556ba4",
@@ -802,8 +1192,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.016067+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.016067+00:00"
+    "collected_at": "2026-11-25T01:56:39.073126+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.073126+00:00"
   },
   {
     "id": "e3b5ca4d4d9a",
@@ -828,8 +1218,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.017032+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.017032+00:00"
+    "collected_at": "2026-11-25T01:56:39.073825+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.073825+00:00"
   },
   {
     "id": "ce96f1e9b93f",
@@ -854,8 +1244,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.017913+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.017913+00:00"
+    "collected_at": "2026-11-25T01:56:39.074478+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.074478+00:00"
   },
   {
     "id": "93ee375f6ab9",
@@ -880,8 +1270,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.018816+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.018816+00:00"
+    "collected_at": "2026-11-25T01:56:39.075155+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.075155+00:00"
   },
   {
     "id": "205225b67dc1",
@@ -906,8 +1296,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.019797+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.019797+00:00"
+    "collected_at": "2026-11-25T01:56:39.075890+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.075890+00:00"
   },
   {
     "id": "dd4ce4369ba4",
@@ -932,8 +1322,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.020767+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.020767+00:00"
+    "collected_at": "2026-11-25T01:56:39.076609+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.076609+00:00"
   },
   {
     "id": "c67e27e0946e",
@@ -958,8 +1348,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.021937+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.021937+00:00"
+    "collected_at": "2026-11-25T01:56:39.077481+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.077481+00:00"
   },
   {
     "id": "4ba0cce40878",
@@ -984,8 +1374,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.022936+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.022936+00:00"
+    "collected_at": "2026-11-25T01:56:39.078237+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.078237+00:00"
   },
   {
     "id": "8d6b04a485af",
@@ -1010,8 +1400,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.023834+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.023834+00:00"
+    "collected_at": "2026-11-25T01:56:39.078909+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.078909+00:00"
   },
   {
     "id": "6845d8de44e0",
@@ -1036,146 +1426,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:19.024754+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.024754+00:00"
+    "collected_at": "2026-11-25T01:56:39.079595+00:00",
+    "last_verified_at": "2026-11-25T01:56:39.079595+00:00"
   },
   {
-    "id": "8674f6522b60",
-    "title": "DRG Inpatient Coding Validator",
-    "organization": "Clover Health",
-    "category": "estagios",
-    "summary": "Clover Health — other. The Payment Integrity team is a group of innovative thinkers sitting at the intersection of Clover's provider Network, Claims, and Tech teams. The Payment Integrity team ensures that Clover pays cl...",
-    "url": "https://remoteOK.com/remote-jobs/remote-drg-inpatient-coding-validator-clover-health-1137973",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-24T17:00:19.025489+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.025489+00:00"
-  },
-  {
-    "id": "6fe30d370dc9",
-    "title": "DRG Validation Auditor",
-    "organization": "Clover Health",
-    "category": "estagios",
-    "summary": "Clover Health — other. The Payment Integrity team is a group of innovative thinkers sitting at the intersection of Clover's provider Network, Claims, and Tech teams. The Payment Integrity team ensures that Clover pays cl...",
-    "url": "https://remoteOK.com/remote-jobs/remote-drg-validation-auditor-clover-health-1137972",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-24T17:00:19.026204+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.026204+00:00"
-  },
-  {
-    "id": "17084b79911e",
-    "title": "Sr. Forward Deployed Data Engineer",
-    "organization": "Natera",
-    "category": "estagios",
-    "summary": "Natera — devops. POSITION SUMMARY: Natera is a global leader in cell-free DNA testing, serving patients across oncology, womenâs health, and organ health. Our Data &amp; AI organization builds the enterprise data platf...",
-    "url": "https://remoteOK.com/remote-jobs/remote-sr-forward-deployed-data-engineer-natera-1137970",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-24T17:00:19.027456+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.027456+00:00"
-  },
-  {
-    "id": "4d9167a48948",
-    "title": "Senior Clinical Trials Systems Manager",
-    "organization": "Natera",
-    "category": "estagios",
-    "summary": "Natera — product. Â POSITION SUMMARY: Job Function: Clinical Operations Title: Senior Clinical Trial Systems Lead The Senior Clinical Trials Systems Lead serves as the business owner representative for Clinical Operation...",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-clinical-trials-systems-manager-natera-1137967",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-24T17:00:19.028295+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.028295+00:00"
-  },
-  {
-    "id": "106175e4686c",
-    "title": "Supv, Prior Authorization",
-    "organization": "Natera",
-    "category": "estagios",
-    "summary": "Natera — other. Position Summary: The Supervisor of Billing Prior Authorization works interactively with internal departments, patients and their healthcare providers regarding current billing practice for Natera, Inc. a...",
-    "url": "https://remoteOK.com/remote-jobs/remote-supv-prior-authorization-natera-1137966",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "US Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-24T17:00:19.028961+00:00",
-    "last_verified_at": "2026-11-24T17:00:19.028961+00:00"
-  },
-  {
-    "id": "07171f54f374",
-    "title": "Everpure: Account Executive, Enterprise (Columbus, Ohio)",
+    "id": "f4cdfaaebd00",
+    "title": "Collibra: VP, Product Marketing & Executive Thought Leadership",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Remote, Ohio Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our ...",
-    "url": "https://weworkremotely.com/remote-jobs/everpure-account-executive-enterprise-columbus-ohio",
+    "summary": "Headquarters: Remote, USA Joining Collibra's Marketing Team At Collibra, we believe the next decade of enterprise value will be decided by whether AI can be trusted to act. Agents are moving from demos to decisions, and ...",
+    "url": "https://weworkremotely.com/remote-jobs/collibra-vp-product-marketing-executive-thought-leadership",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1192,68 +1452,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:20.716303+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.716303+00:00"
+    "collected_at": "2026-11-25T01:56:41.189708+00:00",
+    "last_verified_at": "2026-11-25T01:56:41.189708+00:00"
   },
   {
-    "id": "4aba67e1677a",
-    "title": "LaunchDarkly: Senior Enterprise Account Executive - West",
+    "id": "7f1e98351702",
+    "title": "Ping Identity: Enterprise Account Executive",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Remote - US About the Job: As a Senior Enterprise Account Executive, you will play a pivotal role in nurturing and expanding relationships with large enterprise accounts within your designated territory. Yo...",
-    "url": "https://weworkremotely.com/remote-jobs/launchdarkly-senior-enterprise-account-executive-west",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": true,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-24T17:00:20.719191+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.719191+00:00"
-  },
-  {
-    "id": "18ba297976e5",
-    "title": "Storyblok: Senior Global Partner Specialist - USA",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote Storyblok is a headless CMS that enables marketers and developers to create with joy and publish with confidence. It empowers you to deliver structured and consistent content everywhere: websites, ap...",
-    "url": "https://weworkremotely.com/remote-jobs/storyblok-senior-global-partner-specialist-usa",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": true,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-24T17:00:20.720382+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.720382+00:00"
-  },
-  {
-    "id": "75f1c6515735",
-    "title": "Glean: Enterprise Account Executive, Sacramento",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote - US About Glean: &nbsp; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI eco...",
-    "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-sacramento",
+    "summary": "Headquarters: USA - Remote - EAST About Ping Identity:&nbsp; At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's n...",
+    "url": "https://weworkremotely.com/remote-jobs/ping-identity-enterprise-account-executive",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1270,16 +1478,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:20.721520+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.721520+00:00"
+    "collected_at": "2026-11-25T01:56:41.191268+00:00",
+    "last_verified_at": "2026-11-25T01:56:41.191268+00:00"
   },
   {
-    "id": "699c5aa78483",
-    "title": "LaunchDarkly: Senior Enterprise Account Executive - East",
+    "id": "10ed991996d0",
+    "title": "Pinterest: Principal Engineer, AI Platform",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Remote - US East About the Job: As a Senior Enterprise Account Executive, you will play a pivotal role in nurturing and expanding relationships with large enterprise accounts within your designated territor...",
-    "url": "https://weworkremotely.com/remote-jobs/launchdarkly-senior-enterprise-account-executive-east",
+    "summary": "Headquarters: San Francisco, CA, US; Remote, US About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifet...",
+    "url": "https://weworkremotely.com/remote-jobs/pinterest-principal-engineer-ai-platform",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1296,22 +1504,22 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:20.723966+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.723966+00:00"
+    "collected_at": "2026-11-25T01:56:41.191997+00:00",
+    "last_verified_at": "2026-11-25T01:56:41.191997+00:00"
   },
   {
-    "id": "37eaf20c6d36",
-    "title": "Glean: Enterprise Account Executive, Oregon",
+    "id": "05e3c530e785",
+    "title": "Abnormal: AI Security Sales Executive, TOLA",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Remote - US About Glean: &nbsp; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI eco...",
-    "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-oregon",
+    "summary": "Headquarters: Remote - USA *Ideal candidates will reside in the Dallas, Austin or Houston area.&nbsp; ABOUT THE ROLE AI is rewriting how every company works, and everyone is racing to figure out how to secure it. We have...",
+    "url": "https://weworkremotely.com/remote-jobs/abnormal-ai-security-sales-executive-tola",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
       "summary": "Verifique os critérios no link oficial.",
       "any_university": null,
-      "free": true,
+      "free": null,
       "remuneration": true,
       "benefits": "Ver chamada oficial"
     },
@@ -1322,23 +1530,23 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:20.726380+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.726380+00:00"
+    "collected_at": "2026-11-25T01:56:41.199947+00:00",
+    "last_verified_at": "2026-11-25T01:56:41.199947+00:00"
   },
   {
-    "id": "8180831dbbc5",
-    "title": "Upsun: General Accountant - Accounts Payable",
+    "id": "019f00283472",
+    "title": "Abnormal: AI Security Sales Executive, Southeast",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Remote • France, Spain, Canada About Upsun Upsun is the software factory for human-AI workflows. We give teams one unified platform to create, review, deploy, and run software, with AI agents and humans wor...",
-    "url": "https://weworkremotely.com/remote-jobs/upsun-general-accountant-accounts-payable",
+    "summary": "Headquarters: Remote - USA ABOUT THE ROLE AI is rewriting how every company works, and everyone is racing to figure out how to secure it. We have, and we need someone to take it to market. The AI Security Sales Executive...",
+    "url": "https://weworkremotely.com/remote-jobs/abnormal-ai-security-sales-executive-southeast",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
       "summary": "Verifique os critérios no link oficial.",
       "any_university": null,
-      "free": true,
-      "remuneration": null,
+      "free": null,
+      "remuneration": true,
       "benefits": "Ver chamada oficial"
     },
     "modality": "online",
@@ -1348,16 +1556,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:20.735069+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.735069+00:00"
+    "collected_at": "2026-11-25T01:56:41.202136+00:00",
+    "last_verified_at": "2026-11-25T01:56:41.202136+00:00"
   },
   {
-    "id": "0b8d63987fab",
-    "title": "Airbnb: Senior Mobile Software Engineer, Quality Engineering",
+    "id": "6053411b545b",
+    "title": "Twilio: DevOps Engineer (Observability)",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Brazil - Remote Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almos...",
-    "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-mobile-software-engineer-quality-engineering",
+    "summary": "Headquarters: Remote - Ireland Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp;...",
+    "url": "https://weworkremotely.com/remote-jobs/twilio-devops-engineer-observability",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1374,7 +1582,7 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-24T17:00:20.737108+00:00",
-    "last_verified_at": "2026-11-24T17:00:20.737108+00:00"
+    "collected_at": "2026-11-25T01:56:41.206955+00:00",
+    "last_verified_at": "2026-11-25T01:56:41.206955+00:00"
   }
 ]
