@@ -22,8 +22,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.798368+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.798368+00:00"
+    "collected_at": "2026-11-27T01:30:24.548269+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.548269+00:00"
   },
   {
     "id": "da2346baee53",
@@ -48,8 +48,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.798714+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.798714+00:00"
+    "collected_at": "2026-11-27T01:30:24.548699+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.548699+00:00"
   },
   {
     "id": "a14123b1e9c9",
@@ -74,8 +74,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.798932+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.798932+00:00"
+    "collected_at": "2026-11-27T01:30:24.548966+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.548966+00:00"
   },
   {
     "id": "531bb439fc34",
@@ -100,8 +100,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.799139+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.799139+00:00"
+    "collected_at": "2026-11-27T01:30:24.549183+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.549183+00:00"
   },
   {
     "id": "452b7275a7a3",
@@ -126,8 +126,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.799303+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.799303+00:00"
+    "collected_at": "2026-11-27T01:30:24.549607+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.549607+00:00"
   },
   {
     "id": "c8d4274b813f",
@@ -152,8 +152,34 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.799503+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.799503+00:00"
+    "collected_at": "2026-11-27T01:30:24.549853+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.549853+00:00"
+  },
+  {
+    "id": "316c6583a95b",
+    "title": "Pós-Técnico (Especialização Técnica) [Fortaleza] Processo seletivo 2027.1 - Especialização Técnica em Eficiência Energética em Edificações - Edital nº 19/2026 DI/PROEN/Reitoria Edital: 19/2026 - DI/PROEN/REITORIA domain Seleção para: Fortaleza",
+    "organization": "Instituto Federal do Ceará (IFCE)",
+    "category": "editais",
+    "summary": "",
+    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao20271-especializacao-tecnica-em-eficiencia-energetica-em-edificacoes-edital192026/",
+    "source": "IFCE — Portal de Editais",
+    "action_label": "Ver edital",
+    "eligibility": {
+      "summary": "Consulte o edital oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": null,
+      "benefits": "Ver edital oficial"
+    },
+    "modality": "não informada",
+    "location": "Ceará, Brasil",
+    "scope": "brasil",
+    "area": "Educação, Pesquisa e Extensão",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "pt",
+    "collected_at": "2026-11-27T01:30:24.550122+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.550122+00:00"
   },
   {
     "id": "d28fe3b6fd39",
@@ -178,8 +204,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.799717+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.799717+00:00"
+    "collected_at": "2026-11-27T01:30:24.550387+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.550387+00:00"
   },
   {
     "id": "2e2ce310aecf",
@@ -204,8 +230,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.799893+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.799893+00:00"
+    "collected_at": "2026-11-27T01:30:24.550615+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.550615+00:00"
   },
   {
     "id": "8fd5488f101e",
@@ -230,34 +256,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.800223+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.800223+00:00"
-  },
-  {
-    "id": "bbc40f662e09",
-    "title": "Pós-graduação (Especialização, Mestrado e Doutorado) [Fortaleza] Seleção para o Mestrado Acadêmico em Ciência da Computação (PPGCC) - Turma 2027 - Edital nº 43/2026 Edital: 43/2026 - IFCE/Fortaleza domain Seleção para: Fortaleza",
-    "organization": "Instituto Federal do Ceará (IFCE)",
-    "category": "editais",
-    "summary": "",
-    "url": "https://ifce.edu.br/campus/fortaleza/estude-no-ifce/selecao-mestrado-ciencia-da-computacao-ppgcc-turma2027/",
-    "source": "IFCE — Portal de Editais",
-    "action_label": "Ver edital",
-    "eligibility": {
-      "summary": "Consulte o edital oficial.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver edital oficial"
-    },
-    "modality": "não informada",
-    "location": "Ceará, Brasil",
-    "scope": "brasil",
-    "area": "Educação, Pesquisa e Extensão",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "pt",
-    "collected_at": "2026-11-26T16:27:53.800404+00:00",
-    "last_verified_at": "2026-11-26T16:27:53.800404+00:00"
+    "collected_at": "2026-11-27T01:30:24.551011+00:00",
+    "last_verified_at": "2026-11-27T01:30:24.551011+00:00"
   },
   {
     "id": "3f86935f37a2",
@@ -282,8 +282,8 @@
     "deadline": "Oct 30 - Dec 04, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709383+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709383+00:00"
+    "collected_at": "2026-11-27T01:30:30.634463+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634463+00:00"
   },
   {
     "id": "e9a14855afdb",
@@ -308,8 +308,8 @@
     "deadline": "Oct 27 - Dec 22, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709432+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709432+00:00"
+    "collected_at": "2026-11-27T01:30:30.634531+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634531+00:00"
   },
   {
     "id": "5ac5a3136af2",
@@ -334,8 +334,8 @@
     "deadline": "Nov 11 - 30, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709454+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709454+00:00"
+    "collected_at": "2026-11-27T01:30:30.634559+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634559+00:00"
   },
   {
     "id": "86cec2aeb206",
@@ -360,8 +360,8 @@
     "deadline": "Nov 11 - Dec 08, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709479+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709479+00:00"
+    "collected_at": "2026-11-27T01:30:30.634587+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634587+00:00"
   },
   {
     "id": "4b113a63db84",
@@ -386,8 +386,8 @@
     "deadline": "Nov 11, 2026 - Jan 11, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709499+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709499+00:00"
+    "collected_at": "2026-11-27T01:30:30.634611+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634611+00:00"
   },
   {
     "id": "1cf9ceb17d79",
@@ -412,8 +412,8 @@
     "deadline": "Nov 02 - Dec 15, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709518+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709518+00:00"
+    "collected_at": "2026-11-27T01:30:30.634633+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634633+00:00"
   },
   {
     "id": "eb978b30c33f",
@@ -438,8 +438,8 @@
     "deadline": "Nov 10 - Dec 07, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709538+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709538+00:00"
+    "collected_at": "2026-11-27T01:30:30.634654+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634654+00:00"
   },
   {
     "id": "074a65c6a224",
@@ -464,8 +464,8 @@
     "deadline": "Nov 17, 2026 - Jan 12, 2027",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709578+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709578+00:00"
+    "collected_at": "2026-11-27T01:30:30.634684+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634684+00:00"
   },
   {
     "id": "0bc2edb4a70c",
@@ -490,8 +490,8 @@
     "deadline": "Nov 02 - Dec 11, 2026",
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:00.709600+00:00",
-    "last_verified_at": "2026-11-26T16:28:00.709600+00:00"
+    "collected_at": "2026-11-27T01:30:30.634707+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.634707+00:00"
   },
   {
     "id": "c891c19933a6",
@@ -516,8 +516,8 @@
     "deadline": "14/12/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.113995+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.113995+00:00"
+    "collected_at": "2026-11-27T01:30:30.874631+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.874631+00:00"
   },
   {
     "id": "1fea5bfed971",
@@ -542,8 +542,8 @@
     "deadline": "08/12/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.114040+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.114040+00:00"
+    "collected_at": "2026-11-27T01:30:30.874678+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.874678+00:00"
   },
   {
     "id": "040f72854f08",
@@ -568,8 +568,8 @@
     "deadline": "08/12/2026 11:00 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.114061+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.114061+00:00"
+    "collected_at": "2026-11-27T01:30:30.874700+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.874700+00:00"
   },
   {
     "id": "7ee9a05fec1e",
@@ -594,8 +594,8 @@
     "deadline": "01/12/2026 14:30 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.114077+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.114077+00:00"
+    "collected_at": "2026-11-27T01:30:30.874719+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.874719+00:00"
   },
   {
     "id": "053715c35584",
@@ -620,8 +620,8 @@
     "deadline": "27/11/2026 14:35 UTC",
     "status": "UPCOMING",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.114092+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.114092+00:00"
+    "collected_at": "2026-11-27T01:30:30.874736+00:00",
+    "last_verified_at": "2026-11-27T01:30:30.874736+00:00"
   },
   {
     "id": "06052ef31ad2",
@@ -646,8 +646,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.401671+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.401671+00:00"
+    "collected_at": "2026-11-27T01:30:31.151081+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.151081+00:00"
   },
   {
     "id": "c44f54057f0c",
@@ -672,8 +672,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.401774+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.401774+00:00"
+    "collected_at": "2026-11-27T01:30:31.151218+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.151218+00:00"
   },
   {
     "id": "3462cba5027c",
@@ -698,8 +698,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.401837+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.401837+00:00"
+    "collected_at": "2026-11-27T01:30:31.151373+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.151373+00:00"
   },
   {
     "id": "6d79e2e11c14",
@@ -724,8 +724,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.401908+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.401908+00:00"
+    "collected_at": "2026-11-27T01:30:31.151495+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.151495+00:00"
   },
   {
     "id": "85699fdbe08f",
@@ -750,8 +750,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402005+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402005+00:00"
+    "collected_at": "2026-11-27T01:30:31.151689+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.151689+00:00"
   },
   {
     "id": "fa2fa876aad3",
@@ -776,8 +776,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402065+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402065+00:00"
+    "collected_at": "2026-11-27T01:30:31.151812+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.151812+00:00"
   },
   {
     "id": "b26a3010d429",
@@ -802,8 +802,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402131+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402131+00:00"
+    "collected_at": "2026-11-27T01:30:31.151892+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.151892+00:00"
   },
   {
     "id": "ec87bb40db5f",
@@ -828,8 +828,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402197+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402197+00:00"
+    "collected_at": "2026-11-27T01:30:31.152031+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152031+00:00"
   },
   {
     "id": "f54a955fc58a",
@@ -854,8 +854,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402271+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402271+00:00"
+    "collected_at": "2026-11-27T01:30:31.152177+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152177+00:00"
   },
   {
     "id": "8b62ebb4ed35",
@@ -880,8 +880,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402335+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402335+00:00"
+    "collected_at": "2026-11-27T01:30:31.152256+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152256+00:00"
   },
   {
     "id": "0247a13a964b",
@@ -906,8 +906,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402395+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402395+00:00"
+    "collected_at": "2026-11-27T01:30:31.152378+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152378+00:00"
   },
   {
     "id": "ce76c1448604",
@@ -932,8 +932,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402469+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402469+00:00"
+    "collected_at": "2026-11-27T01:30:31.152577+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152577+00:00"
   },
   {
     "id": "dcba4d0cb540",
@@ -958,8 +958,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402542+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402542+00:00"
+    "collected_at": "2026-11-27T01:30:31.152701+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152701+00:00"
   },
   {
     "id": "8f8e44c9da6d",
@@ -984,8 +984,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402607+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402607+00:00"
+    "collected_at": "2026-11-27T01:30:31.152860+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152860+00:00"
   },
   {
     "id": "753315ab070e",
@@ -1010,8 +1010,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:01.402676+00:00",
-    "last_verified_at": "2026-11-26T16:28:01.402676+00:00"
+    "collected_at": "2026-11-27T01:30:31.152964+00:00",
+    "last_verified_at": "2026-11-27T01:30:31.152964+00:00"
   },
   {
     "id": "85b6192db757",
@@ -1036,8 +1036,60 @@
     "deadline": null,
     "status": "OPEN",
     "language": "pt",
-    "collected_at": "2026-11-26T16:28:03.462263+00:00",
-    "last_verified_at": "2026-11-26T16:28:03.462263+00:00"
+    "collected_at": "2026-11-27T01:30:33.284497+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.284497+00:00"
+  },
+  {
+    "id": "fa8e7830b8b7",
+    "title": "Traveling Account Executive - Neurology/Rare Disease",
+    "organization": "Jobgether",
+    "category": "estagios",
+    "summary": "Jobgether — sales. This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Traveling Account Executive â Neurology/Rare Disease based in the Uni...",
+    "url": "https://remoteOK.com/remote-jobs/remote-traveling-account-executive-neurology-rare-disease-jobgether-1138154",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-27T01:30:33.782323+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.782323+00:00"
+  },
+  {
+    "id": "07e212ce95ad",
+    "title": "Product Marketing Manager - Ostro",
+    "organization": "Veeva Systems",
+    "category": "estagios",
+    "summary": "Veeva Systems — marketing. Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in...",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-ostro-veeva-systems-1138153",
+    "source": "RemoteOK",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Vaga remota; verifique requisitos no link oficial.",
+      "any_university": true,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Remuneração (ver vaga)"
+    },
+    "modality": "online",
+    "location": "US Only",
+    "scope": "internacional",
+    "area": "Desenvolvimento e Tech",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-27T01:30:33.783146+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.783146+00:00"
   },
   {
     "id": "b915f478a549",
@@ -1062,8 +1114,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.028057+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.028057+00:00"
+    "collected_at": "2026-11-27T01:30:33.784132+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.784132+00:00"
   },
   {
     "id": "5134ae0c5097",
@@ -1088,8 +1140,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.028927+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.028927+00:00"
+    "collected_at": "2026-11-27T01:30:33.785186+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.785186+00:00"
   },
   {
     "id": "2558890e8046",
@@ -1114,8 +1166,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.029894+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.029894+00:00"
+    "collected_at": "2026-11-27T01:30:33.786384+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.786384+00:00"
   },
   {
     "id": "933e508a5158",
@@ -1140,8 +1192,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.030540+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.030540+00:00"
+    "collected_at": "2026-11-27T01:30:33.787176+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.787176+00:00"
   },
   {
     "id": "06ee216d8c07",
@@ -1166,8 +1218,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.031174+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.031174+00:00"
+    "collected_at": "2026-11-27T01:30:33.787949+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.787949+00:00"
   },
   {
     "id": "95266ffba3e4",
@@ -1192,8 +1244,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.031801+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.031801+00:00"
+    "collected_at": "2026-11-27T01:30:33.788741+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.788741+00:00"
   },
   {
     "id": "d462998d6c64",
@@ -1218,8 +1270,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.032491+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.032491+00:00"
+    "collected_at": "2026-11-27T01:30:33.789586+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.789586+00:00"
   },
   {
     "id": "097636cf3be8",
@@ -1244,8 +1296,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.032982+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.032982+00:00"
+    "collected_at": "2026-11-27T01:30:33.790171+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.790171+00:00"
   },
   {
     "id": "571a05708388",
@@ -1270,8 +1322,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.033552+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.033552+00:00"
+    "collected_at": "2026-11-27T01:30:33.790889+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.790889+00:00"
   },
   {
     "id": "295b2f666c67",
@@ -1296,8 +1348,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.034245+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.034245+00:00"
+    "collected_at": "2026-11-27T01:30:33.791745+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.791745+00:00"
   },
   {
     "id": "e5c5ec921be4",
@@ -1322,8 +1374,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.034990+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.034990+00:00"
+    "collected_at": "2026-11-27T01:30:33.792647+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.792647+00:00"
   },
   {
     "id": "6da155effc7e",
@@ -1348,8 +1400,8 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.035762+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.035762+00:00"
+    "collected_at": "2026-11-27T01:30:33.793619+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.793619+00:00"
   },
   {
     "id": "f6f40cb4c43c",
@@ -1374,68 +1426,16 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:04.036432+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.036432+00:00"
+    "collected_at": "2026-11-27T01:30:33.794423+00:00",
+    "last_verified_at": "2026-11-27T01:30:33.794423+00:00"
   },
   {
-    "id": "fb92d96afd92",
-    "title": "Regional Account Manager - Canada (Technical/Cybersecurity)",
-    "organization": "zimperium",
-    "category": "estagios",
-    "summary": "zimperium — sales. Zimperium is seeking a high-energy, self-motivated Regional Account Manager, to drive revenue in assigned territory through new logo and upsell/cross sell opportunities with existing customers.Â Â Repo...",
-    "url": "https://remoteOK.com/remote-jobs/remote-regional-account-manager-canada-technical-cybersecurity-zimperium-1138136",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "Canada Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-26T16:28:04.036873+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.036873+00:00"
-  },
-  {
-    "id": "303a046a0cff",
-    "title": "Account Manager",
-    "organization": "Everbridge",
-    "category": "estagios",
-    "summary": "Everbridge — sales. At Everbridge , we're a fast-growing global provider of SaaS-based critical communications and enterprise safety solutions, helping organizations stay resilient in the face of critical events. As we c...",
-    "url": "https://remoteOK.com/remote-jobs/remote-account-manager-everbridge-1138135",
-    "source": "RemoteOK",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Vaga remota; verifique requisitos no link oficial.",
-      "any_university": true,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Remuneração (ver vaga)"
-    },
-    "modality": "online",
-    "location": "UK Only",
-    "scope": "internacional",
-    "area": "Desenvolvimento e Tech",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-26T16:28:04.037341+00:00",
-    "last_verified_at": "2026-11-26T16:28:04.037341+00:00"
-  },
-  {
-    "id": "8f10bf12c8b8",
-    "title": "Massive Rocket: Recruiter",
+    "id": "48ae1d83495e",
+    "title": "Snowflake: Enterprise Account Executive, Acquisition",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: Anywhere in UK &nbsp; Who Are Massive Rocket? Massive Rocket is a rapidly scaling Braze and Snowflake agency on a mission to transform how digital marketing, product, and engineering teams connect. In just ...",
-    "url": "https://weworkremotely.com/remote-jobs/massive-rocket-recruiter",
+    "summary": "Headquarters: MY-Malaysia-Remote At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinven...",
+    "url": "https://weworkremotely.com/remote-jobs/snowflake-enterprise-account-executive-acquisition",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1452,49 +1452,23 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:07.915112+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.915112+00:00"
+    "collected_at": "2026-11-27T01:30:35.593070+00:00",
+    "last_verified_at": "2026-11-27T01:30:35.593070+00:00"
   },
   {
-    "id": "e7ea87922ea2",
-    "title": "Saviynt: Commercial Legal Counsel",
+    "id": "b7c4e1fdc34e",
+    "title": "Fivetran : Principal Software Engineer, Data Lakes",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: London Saviynt's AI-powered identity platform manages and governs human and non-human access to all of an organization's applications, data, and business processes. Customers trust Saviynt to safeguard thei...",
-    "url": "https://weworkremotely.com/remote-jobs/saviynt-commercial-legal-counsel",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-26T16:28:07.915978+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.915978+00:00"
-  },
-  {
-    "id": "44876a505fa2",
-    "title": "Synapticure: Care Team Intake Specialist",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote About Synapticure Synapticure is the largest, most comprehensive specialty care and life sciences company in the country for those living with neurodegenerative diseases. Founded by patients and care...",
-    "url": "https://weworkremotely.com/remote-jobs/synapticure-care-team-intake-specialist",
+    "summary": "Headquarters: Remote, Germany, EMEA From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their wareh...",
+    "url": "https://weworkremotely.com/remote-jobs/fivetran-principal-software-engineer-data-lakes",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
       "summary": "Verifique os critérios no link oficial.",
       "any_university": null,
       "free": true,
-      "remuneration": null,
+      "remuneration": true,
       "benefits": "Ver chamada oficial"
     },
     "modality": "online",
@@ -1504,16 +1478,68 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:07.917022+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.917022+00:00"
+    "collected_at": "2026-11-27T01:30:35.607017+00:00",
+    "last_verified_at": "2026-11-27T01:30:35.607017+00:00"
   },
   {
-    "id": "572acde25956",
-    "title": "Kpler: Contract Analyst",
+    "id": "1a8b2fcf4be6",
+    "title": "Ping Identity: Principal Software Engineer",
     "organization": "We Work Remotely",
     "category": "competicoes",
-    "summary": "Headquarters: New York At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make infor...",
-    "url": "https://weworkremotely.com/remote-jobs/kpler-contract-analyst",
+    "summary": "Headquarters: USA - Remote About Ping Identity:&nbsp; At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just...",
+    "url": "https://weworkremotely.com/remote-jobs/ping-identity-principal-software-engineer",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": true,
+      "remuneration": true,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-27T01:30:35.609246+00:00",
+    "last_verified_at": "2026-11-27T01:30:35.609246+00:00"
+  },
+  {
+    "id": "b16d7c405dfd",
+    "title": "Bitwarden: Senior Customer Marketing Manager",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: Remote, U.S. Senior Customer Marketing Manager Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and s...",
+    "url": "https://weworkremotely.com/remote-jobs/bitwarden-senior-customer-marketing-manager",
+    "source": "We Work Remotely",
+    "action_label": "Candidatar-se",
+    "eligibility": {
+      "summary": "Verifique os critérios no link oficial.",
+      "any_university": null,
+      "free": null,
+      "remuneration": true,
+      "benefits": "Ver chamada oficial"
+    },
+    "modality": "online",
+    "location": "Internacional",
+    "scope": "internacional",
+    "area": "Tecnologia",
+    "deadline": null,
+    "status": "OPEN",
+    "language": "en",
+    "collected_at": "2026-11-27T01:30:35.623604+00:00",
+    "last_verified_at": "2026-11-27T01:30:35.623604+00:00"
+  },
+  {
+    "id": "cfe3ce7019c9",
+    "title": "Celonis: Senior Value Engineer - AI & Process Optimization",
+    "organization": "We Work Remotely",
+    "category": "competicoes",
+    "summary": "Headquarters: Remote, Portugal Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living di...",
+    "url": "https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-ai-process-optimization-1",
     "source": "We Work Remotely",
     "action_label": "Candidatar-se",
     "eligibility": {
@@ -1530,111 +1556,7 @@
     "deadline": null,
     "status": "OPEN",
     "language": "en",
-    "collected_at": "2026-11-26T16:28:07.920361+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.920361+00:00"
-  },
-  {
-    "id": "b9bd531f62ad",
-    "title": "Silverback Strategies: Senior Motion & Graphic Designer (Remote)",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: Remote Silverback Strategies is a performance marketing agency built to help marketers grow and capitalize on change. Ad Age, Inc Magazine, The Washington Post, The Washingtonian, and The Washington Busines...",
-    "url": "https://weworkremotely.com/remote-jobs/silverback-strategies-senior-motion-graphic-designer-remote",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": true,
-      "remuneration": true,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-26T16:28:07.923367+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.923367+00:00"
-  },
-  {
-    "id": "52fdf4937b04",
-    "title": "Ping Identity: Director, Sales Engineering (Southern Europe)",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: France - Remote About Ping Identity:&nbsp; At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not j...",
-    "url": "https://weworkremotely.com/remote-jobs/ping-identity-director-sales-engineering-southern-europe",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": true,
-      "remuneration": null,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-26T16:28:07.929417+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.929417+00:00"
-  },
-  {
-    "id": "558ad618ee0f",
-    "title": "Upstart: Principal Data Scientist",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: United States | Remote About Upstart At Upstart, we’re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimen...",
-    "url": "https://weworkremotely.com/remote-jobs/upstart-principal-data-scientist",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": true,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-26T16:28:07.930852+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.930852+00:00"
-  },
-  {
-    "id": "ae2379cd5c78",
-    "title": "6sense: Director, Revenue Accounting",
-    "organization": "We Work Remotely",
-    "category": "competicoes",
-    "summary": "Headquarters: United States, Remote Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.&nbsp; We envision a future where companies, teams and people reach their full potential. O...",
-    "url": "https://weworkremotely.com/remote-jobs/6sense-director-revenue-accounting",
-    "source": "We Work Remotely",
-    "action_label": "Candidatar-se",
-    "eligibility": {
-      "summary": "Verifique os critérios no link oficial.",
-      "any_university": null,
-      "free": null,
-      "remuneration": true,
-      "benefits": "Ver chamada oficial"
-    },
-    "modality": "online",
-    "location": "Internacional",
-    "scope": "internacional",
-    "area": "Tecnologia",
-    "deadline": null,
-    "status": "OPEN",
-    "language": "en",
-    "collected_at": "2026-11-26T16:28:07.935913+00:00",
-    "last_verified_at": "2026-11-26T16:28:07.935913+00:00"
+    "collected_at": "2026-11-27T01:30:35.624929+00:00",
+    "last_verified_at": "2026-11-27T01:30:35.624929+00:00"
   }
 ]
